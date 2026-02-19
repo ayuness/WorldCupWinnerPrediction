@@ -1,8 +1,3 @@
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
-![Data Science](https://img.shields.io/badge/Data%20Science-Project-0A66C2)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Classification-FF6F00)
-![Monte Carlo](https://img.shields.io/badge/Simulación-Monte%20Carlo-2E8B57)
-![Status](https://img.shields.io/badge/Estado-En%20desarrollo-yellow)
 
 # 🏆 Predicción del Campeón del Mundial FIFA
 
