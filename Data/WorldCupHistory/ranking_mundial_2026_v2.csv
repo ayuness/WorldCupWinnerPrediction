@@ -1,0 +1,2177 @@
+country_code,year,ranking,date_used,team_name,source,status,team_name_es
+ALB,1993,92.0,1993-08-08,Albania,country_page,playoff,Albania
+ALB,1994,100.0,1994-06-14,Albania,country_page,playoff,Albania
+ALB,1995,91.0,1995-06-13,Albania,country_page,playoff,Albania
+ALB,1996,116.0,1996-07-03,Albania,country_page,playoff,Albania
+ALB,1997,116.0,1997-06-18,Albania,country_page,playoff,Albania
+ALB,1998,106.0,1998-05-20,Albania,country_page,playoff,Albania
+ALB,1999,83.0,1999-06-16,Albania,country_page,playoff,Albania
+ALB,2000,72.0,2000-06-07,Albania,country_page,playoff,Albania
+ALB,2001,96.0,2001-06-20,Albania,country_page,playoff,Albania
+ALB,2002,93.0,2002-07-03,Albania,country_page,playoff,Albania
+ALB,2003,89.0,2003-06-25,Albania,country_page,playoff,Albania
+ALB,2004,86.0,2004-06-09,Albania,country_page,playoff,Albania
+ALB,2005,82.0,2005-06-15,Albania,country_page,playoff,Albania
+ALB,2006,87.0,2006-07-12,Albania,country_page,playoff,Albania
+ALB,2007,80.0,2007-06-13,Albania,country_page,playoff,Albania
+ALB,2008,81.0,2008-06-04,Albania,country_page,playoff,Albania
+ALB,2009,96.0,2009-06-03,Albania,country_page,playoff,Albania
+ALB,2010,65.0,2010-05-26,Albania,country_page,playoff,Albania
+ALB,2011,74.0,2011-06-29,Albania,country_page,playoff,Albania
+ALB,2012,63.0,2012-06-06,Albania,country_page,playoff,Albania
+ALB,2013,57.0,2013-06-06,Albania,country_page,playoff,Albania
+ALB,2014,58.0,2014-06-05,Albania,country_page,playoff,Albania
+ALB,2015,38.0,2015-06-04,Albania,country_page,playoff,Albania
+ALB,2016,49.0,2016-06-02,Albania,country_page,playoff,Albania
+ALB,2017,62.0,2017-06-01,Albania,country_page,playoff,Albania
+ALB,2018,60.0,2018-06-07,Albania,country_page,playoff,Albania
+ALB,2019,66.0,2019-06-14,Albania,country_page,playoff,Albania
+ALB,2020,66.0,2020-06-11,Albania,country_page,playoff,Albania
+ALB,2021,66.0,2021-05-27,Albania,country_page,playoff,Albania
+ALB,2022,66.0,2022-06-23,Albania,country_page,playoff,Albania
+ALB,2023,62.0,2023-06-29,Albania,country_page,playoff,Albania
+ALB,2024,65.0,2024-06-20,Albania,country_page,playoff,Albania
+ALB,2025,63.0,2025-07-10,Albania,country_page,playoff,Albania
+ALB,2026,63.0,2026-01-19,Albania,html_snapshot,playoff,Albania
+ALG,1993,35.0,1993-08-08,Algeria,country_page,confirmed,Argelia
+ALG,1994,57.0,1994-06-14,Algeria,country_page,confirmed,Argelia
+ALG,1995,48.0,1995-06-13,Algeria,country_page,confirmed,Argelia
+ALG,1996,49.0,1996-07-03,Algeria,country_page,confirmed,Argelia
+ALG,1997,59.0,1997-06-18,Algeria,country_page,confirmed,Argelia
+ALG,1998,71.0,1998-05-20,Algeria,country_page,confirmed,Argelia
+ALG,1999,86.0,1999-06-16,Algeria,country_page,confirmed,Argelia
+ALG,2000,82.0,2000-06-07,Algeria,country_page,confirmed,Argelia
+ALG,2001,75.0,2001-06-20,Algeria,country_page,confirmed,Argelia
+ALG,2002,68.0,2002-07-03,Algeria,country_page,confirmed,Argelia
+ALG,2003,62.0,2003-06-25,Algeria,country_page,confirmed,Argelia
+ALG,2004,73.0,2004-06-09,Algeria,country_page,confirmed,Argelia
+ALG,2005,80.0,2005-06-15,Algeria,country_page,confirmed,Argelia
+ALG,2006,80.0,2006-07-12,Algeria,country_page,confirmed,Argelia
+ALG,2007,79.0,2007-06-13,Algeria,country_page,confirmed,Argelia
+ALG,2008,64.0,2008-06-04,Algeria,country_page,confirmed,Argelia
+ALG,2009,26.0,2009-06-03,Algeria,country_page,confirmed,Argelia
+ALG,2010,35.0,2010-05-26,Algeria,country_page,confirmed,Argelia
+ALG,2011,30.0,2011-06-29,Algeria,country_page,confirmed,Argelia
+ALG,2012,19.0,2012-06-06,Algeria,country_page,confirmed,Argelia
+ALG,2013,26.0,2013-06-06,Algeria,country_page,confirmed,Argelia
+ALG,2014,18.0,2014-06-05,Algeria,country_page,confirmed,Argelia
+ALG,2015,28.0,2015-06-04,Algeria,country_page,confirmed,Argelia
+ALG,2016,38.0,2016-06-02,Algeria,country_page,confirmed,Argelia
+ALG,2017,58.0,2017-06-01,Algeria,country_page,confirmed,Argelia
+ALG,2018,67.0,2018-06-07,Algeria,country_page,confirmed,Argelia
+ALG,2019,35.0,2019-06-14,Algeria,country_page,confirmed,Argelia
+ALG,2020,31.0,2020-06-11,Algeria,country_page,confirmed,Argelia
+ALG,2021,29.0,2021-05-27,Algeria,country_page,confirmed,Argelia
+ALG,2022,40.0,2022-06-23,Algeria,country_page,confirmed,Argelia
+ALG,2023,30.0,2023-06-29,Algeria,country_page,confirmed,Argelia
+ALG,2024,37.0,2024-06-20,Algeria,country_page,confirmed,Argelia
+ALG,2025,34.0,2025-07-10,Algeria,country_page,confirmed,Argelia
+ALG,2026,28.0,2026-01-19,Algeria,html_snapshot,confirmed,Argelia
+ARG,1993,8.0,1993-08-08,Argentina,country_page,confirmed,Argentina
+ARG,1994,10.0,1994-06-14,Argentina,country_page,confirmed,Argentina
+ARG,1995,7.0,1995-06-13,Argentina,country_page,confirmed,Argentina
+ARG,1996,22.0,1996-07-03,Argentina,country_page,confirmed,Argentina
+ARG,1997,17.0,1997-06-18,Argentina,country_page,confirmed,Argentina
+ARG,1998,5.0,1998-05-20,Argentina,country_page,confirmed,Argentina
+ARG,1999,6.0,1999-06-16,Argentina,country_page,confirmed,Argentina
+ARG,2000,3.0,2000-06-07,Argentina,country_page,confirmed,Argentina
+ARG,2001,2.0,2001-06-20,Argentina,country_page,confirmed,Argentina
+ARG,2002,5.0,2002-07-03,Argentina,country_page,confirmed,Argentina
+ARG,2003,5.0,2003-06-25,Argentina,country_page,confirmed,Argentina
+ARG,2004,3.0,2004-06-09,Argentina,country_page,confirmed,Argentina
+ARG,2005,4.0,2005-06-15,Argentina,country_page,confirmed,Argentina
+ARG,2006,3.0,2006-07-12,Argentina,country_page,confirmed,Argentina
+ARG,2007,1.0,2007-06-13,Argentina,country_page,confirmed,Argentina
+ARG,2008,6.0,2008-06-04,Argentina,country_page,confirmed,Argentina
+ARG,2009,8.0,2009-06-03,Argentina,country_page,confirmed,Argentina
+ARG,2010,5.0,2010-05-26,Argentina,country_page,confirmed,Argentina
+ARG,2011,10.0,2011-06-29,Argentina,country_page,confirmed,Argentina
+ARG,2012,3.0,2012-06-06,Argentina,country_page,confirmed,Argentina
+ARG,2013,3.0,2013-06-06,Argentina,country_page,confirmed,Argentina
+ARG,2014,2.0,2014-06-05,Argentina,country_page,confirmed,Argentina
+ARG,2015,2.0,2015-06-04,Argentina,country_page,confirmed,Argentina
+ARG,2016,1.0,2016-06-02,Argentina,country_page,confirmed,Argentina
+ARG,2017,4.0,2017-06-01,Argentina,country_page,confirmed,Argentina
+ARG,2018,11.0,2018-06-07,Argentina,country_page,confirmed,Argentina
+ARG,2019,9.0,2019-06-14,Argentina,country_page,confirmed,Argentina
+ARG,2020,7.0,2020-06-11,Argentina,country_page,confirmed,Argentina
+ARG,2021,5.0,2021-05-27,Argentina,country_page,confirmed,Argentina
+ARG,2022,2.0,2022-06-23,Argentina,country_page,confirmed,Argentina
+ARG,2023,1.0,2023-06-29,Argentina,country_page,confirmed,Argentina
+ARG,2024,1.0,2024-06-20,Argentina,country_page,confirmed,Argentina
+ARG,2025,2.0,2025-07-10,Argentina,country_page,confirmed,Argentina
+ARG,2026,2.0,2026-01-19,Argentina,html_snapshot,confirmed,Argentina
+AUS,1993,49.0,1993-08-08,Australia,country_page,confirmed,Australia
+AUS,1994,58.0,1994-06-14,Australia,country_page,confirmed,Australia
+AUS,1995,51.0,1995-06-13,Australia,country_page,confirmed,Australia
+AUS,1996,50.0,1996-07-03,Australia,country_page,confirmed,Australia
+AUS,1997,35.0,1997-06-18,Australia,country_page,confirmed,Australia
+AUS,1998,39.0,1998-05-20,Australia,country_page,confirmed,Australia
+AUS,1999,89.0,1999-06-16,Australia,country_page,confirmed,Australia
+AUS,2000,73.0,2000-06-07,Australia,country_page,confirmed,Australia
+AUS,2001,48.0,2001-06-20,Australia,country_page,confirmed,Australia
+AUS,2002,50.0,2002-07-03,Australia,country_page,confirmed,Australia
+AUS,2003,82.0,2003-06-25,Australia,country_page,confirmed,Australia
+AUS,2004,58.0,2004-06-09,Australia,country_page,confirmed,Australia
+AUS,2005,48.0,2005-06-15,Australia,country_page,confirmed,Australia
+AUS,2006,39.0,2006-07-12,Australia,country_page,confirmed,Australia
+AUS,2007,48.0,2007-06-13,Australia,country_page,confirmed,Australia
+AUS,2008,28.0,2008-06-04,Australia,country_page,confirmed,Australia
+AUS,2009,21.0,2009-06-03,Australia,country_page,confirmed,Australia
+AUS,2010,26.0,2010-05-26,Australia,country_page,confirmed,Australia
+AUS,2011,23.0,2011-06-29,Australia,country_page,confirmed,Australia
+AUS,2012,36.0,2012-06-06,Australia,country_page,confirmed,Australia
+AUS,2013,58.0,2013-06-06,Australia,country_page,confirmed,Australia
+AUS,2014,100.0,2014-06-05,Australia,country_page,confirmed,Australia
+AUS,2015,57.0,2015-06-04,Australia,country_page,confirmed,Australia
+AUS,2016,47.0,2016-06-02,Australia,country_page,confirmed,Australia
+AUS,2017,38.0,2017-06-01,Australia,country_page,confirmed,Australia
+AUS,2018,41.0,2018-06-07,Australia,country_page,confirmed,Australia
+AUS,2019,42.0,2019-06-14,Australia,country_page,confirmed,Australia
+AUS,2020,41.0,2020-06-11,Australia,country_page,confirmed,Australia
+AUS,2021,35.0,2021-05-27,Australia,country_page,confirmed,Australia
+AUS,2022,27.0,2022-06-23,Australia,country_page,confirmed,Australia
+AUS,2023,25.0,2023-06-29,Australia,country_page,confirmed,Australia
+AUS,2024,26.0,2024-06-20,Australia,country_page,confirmed,Australia
+AUS,2025,26.0,2025-07-10,Australia,country_page,confirmed,Australia
+AUS,2026,27.0,2026-01-19,Australia,html_snapshot,confirmed,Australia
+AUT,1993,36.0,1993-08-08,Austria,country_page,confirmed,Austria
+AUT,1994,49.0,1994-06-14,Austria,country_page,confirmed,Austria
+AUT,1995,39.0,1995-06-13,Austria,country_page,confirmed,Austria
+AUT,1996,34.0,1996-07-03,Austria,country_page,confirmed,Austria
+AUT,1997,25.0,1997-06-18,Austria,country_page,confirmed,Austria
+AUT,1998,22.0,1998-05-20,Austria,country_page,confirmed,Austria
+AUT,1999,28.0,1999-06-16,Austria,country_page,confirmed,Austria
+AUT,2000,44.0,2000-06-07,Austria,country_page,confirmed,Austria
+AUT,2001,56.0,2001-06-20,Austria,country_page,confirmed,Austria
+AUT,2002,54.0,2002-07-03,Austria,country_page,confirmed,Austria
+AUT,2003,67.0,2003-06-25,Austria,country_page,confirmed,Austria
+AUT,2004,83.0,2004-06-09,Austria,country_page,confirmed,Austria
+AUT,2005,69.0,2005-06-15,Austria,country_page,confirmed,Austria
+AUT,2006,65.0,2006-07-12,Austria,country_page,confirmed,Austria
+AUT,2007,94.0,2007-06-13,Austria,country_page,confirmed,Austria
+AUT,2008,92.0,2008-06-04,Austria,country_page,confirmed,Austria
+AUT,2009,61.0,2009-06-03,Austria,country_page,confirmed,Austria
+AUT,2010,46.0,2010-05-26,Austria,country_page,confirmed,Austria
+AUT,2011,70.0,2011-06-29,Austria,country_page,confirmed,Austria
+AUT,2012,70.0,2012-06-06,Austria,country_page,confirmed,Austria
+AUT,2013,46.0,2013-06-06,Austria,country_page,confirmed,Austria
+AUT,2014,23.0,2014-06-05,Austria,country_page,confirmed,Austria
+AUT,2015,10.0,2015-06-04,Austria,country_page,confirmed,Austria
+AUT,2016,31.0,2016-06-02,Austria,country_page,confirmed,Austria
+AUT,2017,29.0,2017-06-01,Austria,country_page,confirmed,Austria
+AUT,2018,22.0,2018-06-07,Austria,country_page,confirmed,Austria
+AUT,2019,26.0,2019-06-14,Austria,country_page,confirmed,Austria
+AUT,2020,23.0,2020-06-11,Austria,country_page,confirmed,Austria
+AUT,2021,31.0,2021-05-27,Austria,country_page,confirmed,Austria
+AUT,2022,34.0,2022-06-23,Austria,country_page,confirmed,Austria
+AUT,2023,24.0,2023-06-29,Austria,country_page,confirmed,Austria
+AUT,2024,22.0,2024-06-20,Austria,country_page,confirmed,Austria
+AUT,2025,24.0,2025-07-10,Austria,country_page,confirmed,Austria
+AUT,2026,24.0,2026-01-19,Austria,html_snapshot,confirmed,Austria
+BEL,1993,25.0,1993-08-08,Belgium,country_page,confirmed,Bélgica
+BEL,1994,24.0,1994-06-14,Belgium,country_page,confirmed,Bélgica
+BEL,1995,24.0,1995-06-13,Belgium,country_page,confirmed,Bélgica
+BEL,1996,42.0,1996-07-03,Belgium,country_page,confirmed,Bélgica
+BEL,1997,41.0,1997-06-18,Belgium,country_page,confirmed,Bélgica
+BEL,1998,35.0,1998-05-20,Belgium,country_page,confirmed,Bélgica
+BEL,1999,33.0,1999-06-16,Belgium,country_page,confirmed,Bélgica
+BEL,2000,27.0,2000-06-07,Belgium,country_page,confirmed,Bélgica
+BEL,2001,20.0,2001-06-20,Belgium,country_page,confirmed,Bélgica
+BEL,2002,17.0,2002-07-03,Belgium,country_page,confirmed,Bélgica
+BEL,2003,16.0,2003-06-25,Belgium,country_page,confirmed,Bélgica
+BEL,2004,45.0,2004-06-09,Belgium,country_page,confirmed,Bélgica
+BEL,2005,55.0,2005-06-15,Belgium,country_page,confirmed,Bélgica
+BEL,2006,53.0,2006-07-12,Belgium,country_page,confirmed,Bélgica
+BEL,2007,49.0,2007-06-13,Belgium,country_page,confirmed,Bélgica
+BEL,2008,54.0,2008-06-04,Belgium,country_page,confirmed,Bélgica
+BEL,2009,66.0,2009-06-03,Belgium,country_page,confirmed,Bélgica
+BEL,2010,57.0,2010-05-26,Belgium,country_page,confirmed,Bélgica
+BEL,2011,41.0,2011-06-29,Belgium,country_page,confirmed,Bélgica
+BEL,2012,21.0,2012-06-06,Belgium,country_page,confirmed,Bélgica
+BEL,2013,11.0,2013-06-06,Belgium,country_page,confirmed,Bélgica
+BEL,2014,4.0,2014-06-05,Belgium,country_page,confirmed,Bélgica
+BEL,2015,1.0,2015-06-04,Belgium,country_page,confirmed,Bélgica
+BEL,2016,5.0,2016-06-02,Belgium,country_page,confirmed,Bélgica
+BEL,2017,5.0,2017-06-01,Belgium,country_page,confirmed,Bélgica
+BEL,2018,1.0,2018-06-07,Belgium,country_page,confirmed,Bélgica
+BEL,2019,1.0,2019-06-14,Belgium,country_page,confirmed,Bélgica
+BEL,2020,1.0,2020-06-11,Belgium,country_page,confirmed,Bélgica
+BEL,2021,1.0,2021-05-27,Belgium,country_page,confirmed,Bélgica
+BEL,2022,4.0,2022-06-23,Belgium,country_page,confirmed,Bélgica
+BEL,2023,4.0,2023-06-29,Belgium,country_page,confirmed,Bélgica
+BEL,2024,8.0,2024-06-20,Belgium,country_page,confirmed,Bélgica
+BEL,2025,8.0,2025-07-10,Belgium,country_page,confirmed,Bélgica
+BEL,2026,9.0,2026-01-19,Belgium,html_snapshot,confirmed,Bélgica
+BIH,1993,,1993-08-08,Bosnia and Herzegovina,missing,playoff,Bosnia y Herzegovina
+BIH,1994,,1994-06-14,Bosnia and Herzegovina,missing,playoff,Bosnia y Herzegovina
+BIH,1995,,1995-06-13,Bosnia and Herzegovina,missing,playoff,Bosnia y Herzegovina
+BIH,1996,152.0,1996-07-03,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,1997,99.0,1997-06-18,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,1998,96.0,1998-05-20,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,1999,75.0,1999-06-16,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2000,78.0,2000-06-07,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2001,69.0,2001-06-20,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2002,87.0,2002-07-03,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2003,59.0,2003-06-25,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2004,79.0,2004-06-09,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2005,65.0,2005-06-15,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2006,59.0,2006-07-12,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2007,51.0,2007-06-13,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2008,61.0,2008-06-04,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2009,51.0,2009-06-03,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2010,44.0,2010-05-26,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2011,20.0,2011-06-29,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2012,27.0,2012-06-06,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2013,19.0,2013-06-06,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2014,29.0,2014-06-05,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2015,22.0,2015-06-04,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2016,27.0,2016-06-02,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2017,37.0,2017-06-01,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2018,34.0,2018-06-07,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2019,49.0,2019-06-14,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2020,55.0,2020-06-11,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2021,61.0,2021-05-27,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2022,57.0,2022-06-23,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2023,69.0,2023-06-29,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2024,74.0,2024-06-20,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2025,71.0,2025-07-10,Bosnia and Herzegovina,country_page,playoff,Bosnia y Herzegovina
+BIH,2026,71.0,2026-01-19,Bosnia and Herzegovina,html_snapshot,playoff,Bosnia y Herzegovina
+BOL,1993,58.0,1993-08-08,Bolivia,country_page,playoff,Bolivia
+BOL,1994,44.0,1994-06-14,Bolivia,country_page,playoff,Bolivia
+BOL,1995,53.0,1995-06-13,Bolivia,country_page,playoff,Bolivia
+BOL,1996,39.0,1996-07-03,Bolivia,country_page,playoff,Bolivia
+BOL,1997,24.0,1997-06-18,Bolivia,country_page,playoff,Bolivia
+BOL,1998,61.0,1998-05-20,Bolivia,country_page,playoff,Bolivia
+BOL,1999,61.0,1999-06-16,Bolivia,country_page,playoff,Bolivia
+BOL,2000,65.0,2000-06-07,Bolivia,country_page,playoff,Bolivia
+BOL,2001,70.0,2001-06-20,Bolivia,country_page,playoff,Bolivia
+BOL,2002,92.0,2002-07-03,Bolivia,country_page,playoff,Bolivia
+BOL,2003,99.0,2003-06-25,Bolivia,country_page,playoff,Bolivia
+BOL,2004,94.0,2004-06-09,Bolivia,country_page,playoff,Bolivia
+BOL,2005,96.0,2005-06-15,Bolivia,country_page,playoff,Bolivia
+BOL,2006,101.0,2006-07-12,Bolivia,country_page,playoff,Bolivia
+BOL,2007,108.0,2007-06-13,Bolivia,country_page,playoff,Bolivia
+BOL,2008,58.0,2008-06-04,Bolivia,country_page,playoff,Bolivia
+BOL,2009,56.0,2009-06-03,Bolivia,country_page,playoff,Bolivia
+BOL,2010,97.0,2010-05-26,Bolivia,country_page,playoff,Bolivia
+BOL,2011,108.0,2011-06-29,Bolivia,country_page,playoff,Bolivia
+BOL,2012,42.0,2012-06-06,Bolivia,country_page,playoff,Bolivia
+BOL,2013,70.0,2013-06-06,Bolivia,country_page,playoff,Bolivia
+BOL,2014,85.0,2014-06-05,Bolivia,country_page,playoff,Bolivia
+BOL,2015,68.0,2015-06-04,Bolivia,country_page,playoff,Bolivia
+BOL,2016,95.0,2016-06-02,Bolivia,country_page,playoff,Bolivia
+BOL,2017,49.0,2017-06-01,Bolivia,country_page,playoff,Bolivia
+BOL,2018,59.0,2018-06-07,Bolivia,country_page,playoff,Bolivia
+BOL,2019,75.0,2019-06-14,Bolivia,country_page,playoff,Bolivia
+BOL,2020,79.0,2020-06-11,Bolivia,country_page,playoff,Bolivia
+BOL,2021,77.0,2021-05-27,Bolivia,country_page,playoff,Bolivia
+BOL,2022,82.0,2022-06-23,Bolivia,country_page,playoff,Bolivia
+BOL,2023,85.0,2023-06-29,Bolivia,country_page,playoff,Bolivia
+BOL,2024,79.0,2024-06-20,Bolivia,country_page,playoff,Bolivia
+BOL,2025,76.0,2025-07-10,Bolivia,country_page,playoff,Bolivia
+BOL,2026,76.0,2026-01-19,Bolivia,html_snapshot,playoff,Bolivia
+BRA,1993,3.0,1993-08-08,Brazil,country_page,confirmed,Brasil
+BRA,1994,1.0,1994-06-14,Brazil,country_page,confirmed,Brasil
+BRA,1995,1.0,1995-06-13,Brazil,country_page,confirmed,Brasil
+BRA,1996,1.0,1996-07-03,Brazil,country_page,confirmed,Brasil
+BRA,1997,1.0,1997-06-18,Brazil,country_page,confirmed,Brasil
+BRA,1998,1.0,1998-05-20,Brazil,country_page,confirmed,Brasil
+BRA,1999,1.0,1999-06-16,Brazil,country_page,confirmed,Brasil
+BRA,2000,1.0,2000-06-07,Brazil,country_page,confirmed,Brasil
+BRA,2001,3.0,2001-06-20,Brazil,country_page,confirmed,Brasil
+BRA,2002,1.0,2002-07-03,Brazil,country_page,confirmed,Brasil
+BRA,2003,1.0,2003-06-25,Brazil,country_page,confirmed,Brasil
+BRA,2004,1.0,2004-06-09,Brazil,country_page,confirmed,Brasil
+BRA,2005,1.0,2005-06-15,Brazil,country_page,confirmed,Brasil
+BRA,2006,1.0,2006-07-12,Brazil,country_page,confirmed,Brasil
+BRA,2007,2.0,2007-06-13,Brazil,country_page,confirmed,Brasil
+BRA,2008,5.0,2008-06-04,Brazil,country_page,confirmed,Brasil
+BRA,2009,2.0,2009-06-03,Brazil,country_page,confirmed,Brasil
+BRA,2010,4.0,2010-05-26,Brazil,country_page,confirmed,Brasil
+BRA,2011,6.0,2011-06-29,Brazil,country_page,confirmed,Brasil
+BRA,2012,18.0,2012-06-06,Brazil,country_page,confirmed,Brasil
+BRA,2013,10.0,2013-06-06,Brazil,country_page,confirmed,Brasil
+BRA,2014,6.0,2014-06-05,Brazil,country_page,confirmed,Brasil
+BRA,2015,6.0,2015-06-04,Brazil,country_page,confirmed,Brasil
+BRA,2016,2.0,2016-06-02,Brazil,country_page,confirmed,Brasil
+BRA,2017,2.0,2017-06-01,Brazil,country_page,confirmed,Brasil
+BRA,2018,3.0,2018-06-07,Brazil,country_page,confirmed,Brasil
+BRA,2019,3.0,2019-06-14,Brazil,country_page,confirmed,Brasil
+BRA,2020,3.0,2020-06-11,Brazil,country_page,confirmed,Brasil
+BRA,2021,2.0,2021-05-27,Brazil,country_page,confirmed,Brasil
+BRA,2022,1.0,2022-06-23,Brazil,country_page,confirmed,Brasil
+BRA,2023,5.0,2023-06-29,Brazil,country_page,confirmed,Brasil
+BRA,2024,5.0,2024-06-20,Brazil,country_page,confirmed,Brasil
+BRA,2025,5.0,2025-07-10,Brazil,country_page,confirmed,Brasil
+BRA,2026,5.0,2026-01-19,Brazil,html_snapshot,confirmed,Brasil
+CAN,1993,44.0,1993-08-08,Canada,country_page,confirmed,Canadá
+CAN,1994,63.0,1994-06-14,Canada,country_page,confirmed,Canadá
+CAN,1995,65.0,1995-06-13,Canada,country_page,confirmed,Canadá
+CAN,1996,40.0,1996-07-03,Canada,country_page,confirmed,Canadá
+CAN,1997,66.0,1997-06-18,Canada,country_page,confirmed,Canadá
+CAN,1998,101.0,1998-05-20,Canada,country_page,confirmed,Canadá
+CAN,1999,81.0,1999-06-16,Canada,country_page,confirmed,Canadá
+CAN,2000,63.0,2000-06-07,Canada,country_page,confirmed,Canadá
+CAN,2001,92.0,2001-06-20,Canada,country_page,confirmed,Canadá
+CAN,2002,70.0,2002-07-03,Canada,country_page,confirmed,Canadá
+CAN,2003,87.0,2003-06-25,Canada,country_page,confirmed,Canadá
+CAN,2004,90.0,2004-06-09,Canada,country_page,confirmed,Canadá
+CAN,2005,84.0,2005-06-15,Canada,country_page,confirmed,Canadá
+CAN,2006,82.0,2006-07-12,Canada,country_page,confirmed,Canadá
+CAN,2007,55.0,2007-06-13,Canada,country_page,confirmed,Canadá
+CAN,2008,90.0,2008-06-04,Canada,country_page,confirmed,Canadá
+CAN,2009,56.0,2009-06-03,Canada,country_page,confirmed,Canadá
+CAN,2010,84.0,2010-05-26,Canada,country_page,confirmed,Canadá
+CAN,2011,72.0,2011-06-29,Canada,country_page,confirmed,Canadá
+CAN,2012,64.0,2012-06-06,Canada,country_page,confirmed,Canadá
+CAN,2013,112.0,2013-06-06,Canada,country_page,confirmed,Canadá
+CAN,2014,112.0,2014-06-05,Canada,country_page,confirmed,Canadá
+CAN,2015,88.0,2015-06-04,Canada,country_page,confirmed,Canadá
+CAN,2016,117.0,2016-06-02,Canada,country_page,confirmed,Canadá
+CAN,2017,94.0,2017-06-01,Canada,country_page,confirmed,Canadá
+CAN,2018,78.0,2018-06-07,Canada,country_page,confirmed,Canadá
+CAN,2019,73.0,2019-06-14,Canada,country_page,confirmed,Canadá
+CAN,2020,72.0,2020-06-11,Canada,country_page,confirmed,Canadá
+CAN,2021,40.0,2021-05-27,Canada,country_page,confirmed,Canadá
+CAN,2022,53.0,2022-06-23,Canada,country_page,confirmed,Canadá
+CAN,2023,48.0,2023-06-29,Canada,country_page,confirmed,Canadá
+CAN,2024,31.0,2024-06-20,Canada,country_page,confirmed,Canadá
+CAN,2025,27.0,2025-07-10,Canada,country_page,confirmed,Canadá
+CAN,2026,29.0,2026-01-19,Canada,html_snapshot,confirmed,Canadá
+CGO,1993,103.0,1993-08-08,Congo,country_page,playoff,Rep. del Congo
+CGO,1994,114.0,1994-06-14,Congo,country_page,playoff,Rep. del Congo
+CGO,1995,119.0,1995-06-13,Congo,country_page,playoff,Rep. del Congo
+CGO,1996,100.0,1996-07-03,Congo,country_page,playoff,Rep. del Congo
+CGO,1997,101.0,1997-06-18,Congo,country_page,playoff,Rep. del Congo
+CGO,1998,112.0,1998-05-20,Congo,country_page,playoff,Rep. del Congo
+CGO,1999,94.0,1999-06-16,Congo,country_page,playoff,Rep. del Congo
+CGO,2000,86.0,2000-06-07,Congo,country_page,playoff,Rep. del Congo
+CGO,2001,94.0,2001-06-20,Congo,country_page,playoff,Rep. del Congo
+CGO,2002,97.0,2002-07-03,Congo,country_page,playoff,Rep. del Congo
+CGO,2003,108.0,2003-06-25,Congo,country_page,playoff,Rep. del Congo
+CGO,2004,117.0,2004-06-09,Congo,country_page,playoff,Rep. del Congo
+CGO,2005,110.0,2005-06-15,Congo,country_page,playoff,Rep. del Congo
+CGO,2006,89.0,2006-07-12,Congo,country_page,playoff,Rep. del Congo
+CGO,2007,91.0,2007-06-13,Congo,country_page,playoff,Rep. del Congo
+CGO,2008,68.0,2008-06-04,Congo,country_page,playoff,Rep. del Congo
+CGO,2009,101.0,2009-06-03,Congo,country_page,playoff,Rep. del Congo
+CGO,2010,121.0,2010-05-26,Congo,country_page,playoff,Rep. del Congo
+CGO,2011,133.0,2011-06-29,Congo,country_page,playoff,Rep. del Congo
+CGO,2012,109.0,2012-06-06,Congo,country_page,playoff,Rep. del Congo
+CGO,2013,84.0,2013-06-06,Congo,country_page,playoff,Rep. del Congo
+CGO,2014,61.0,2014-06-05,Congo,country_page,playoff,Rep. del Congo
+CGO,2015,48.0,2015-06-04,Congo,country_page,playoff,Rep. del Congo
+CGO,2016,70.0,2016-06-02,Congo,country_page,playoff,Rep. del Congo
+CGO,2017,96.0,2017-06-01,Congo,country_page,playoff,Rep. del Congo
+CGO,2018,84.0,2018-06-07,Congo,country_page,playoff,Rep. del Congo
+CGO,2019,89.0,2019-06-14,Congo,country_page,playoff,Rep. del Congo
+CGO,2020,91.0,2020-06-11,Congo,country_page,playoff,Rep. del Congo
+CGO,2021,97.0,2021-05-27,Congo,country_page,playoff,Rep. del Congo
+CGO,2022,99.0,2022-06-23,Congo,country_page,playoff,Rep. del Congo
+CGO,2023,112.0,2023-06-29,Congo,country_page,playoff,Rep. del Congo
+CGO,2024,128.0,2024-06-20,Congo,country_page,playoff,Rep. del Congo
+CGO,2025,134.0,2025-07-10,Congo,country_page,playoff,Rep. del Congo
+CGO,2026,134.0,2026-01-19,Congo,html_snapshot,playoff,Rep. del Congo
+CIV,1993,33.0,1993-08-08,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,1994,25.0,1994-06-14,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,1995,20.0,1995-06-13,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,1996,51.0,1996-07-03,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,1997,52.0,1997-06-18,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,1998,44.0,1998-05-20,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,1999,53.0,1999-06-16,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2000,51.0,2000-06-07,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2001,44.0,2001-06-20,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2002,64.0,2002-07-03,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2003,70.0,2003-06-25,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2004,40.0,2004-06-09,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2005,42.0,2005-06-15,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2006,18.0,2006-07-12,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2007,37.0,2007-06-13,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2008,29.0,2008-06-04,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2009,16.0,2009-06-03,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2010,21.0,2010-05-26,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2011,16.0,2011-06-29,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2012,14.0,2012-06-06,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2013,17.0,2013-06-06,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2014,28.0,2014-06-05,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2015,19.0,2015-06-04,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2016,34.0,2016-06-02,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2017,61.0,2017-06-01,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2018,65.0,2018-06-07,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2019,61.0,2019-06-14,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2020,61.0,2020-06-11,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2021,56.0,2021-05-27,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2022,47.0,2022-06-23,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2023,49.0,2023-06-29,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2024,46.0,2024-06-20,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2025,42.0,2025-07-10,Côte d'Ivoire,country_page,confirmed,Costa de Marfil
+CIV,2026,37.0,2026-01-19,Côte d'Ivoire,html_snapshot,confirmed,Costa de Marfil
+COL,1993,21.0,1993-08-08,Colombia,country_page,confirmed,Colombia
+COL,1994,17.0,1994-06-14,Colombia,country_page,confirmed,Colombia
+COL,1995,15.0,1995-06-13,Colombia,country_page,confirmed,Colombia
+COL,1996,4.0,1996-07-03,Colombia,country_page,confirmed,Colombia
+COL,1997,10.0,1997-06-18,Colombia,country_page,confirmed,Colombia
+COL,1998,34.0,1998-05-20,Colombia,country_page,confirmed,Colombia
+COL,1999,25.0,1999-06-16,Colombia,country_page,confirmed,Colombia
+COL,2000,15.0,2000-06-07,Colombia,country_page,confirmed,Colombia
+COL,2001,5.0,2001-06-20,Colombia,country_page,confirmed,Colombia
+COL,2002,37.0,2002-07-03,Colombia,country_page,confirmed,Colombia
+COL,2003,39.0,2003-06-25,Colombia,country_page,confirmed,Colombia
+COL,2004,26.0,2004-06-09,Colombia,country_page,confirmed,Colombia
+COL,2005,24.0,2005-06-15,Colombia,country_page,confirmed,Colombia
+COL,2006,34.0,2006-07-12,Colombia,country_page,confirmed,Colombia
+COL,2007,17.0,2007-06-13,Colombia,country_page,confirmed,Colombia
+COL,2008,49.0,2008-06-04,Colombia,country_page,confirmed,Colombia
+COL,2009,39.0,2009-06-03,Colombia,country_page,confirmed,Colombia
+COL,2010,48.0,2010-05-26,Colombia,country_page,confirmed,Colombia
+COL,2011,36.0,2011-06-29,Colombia,country_page,confirmed,Colombia
+COL,2012,5.0,2012-06-06,Colombia,country_page,confirmed,Colombia
+COL,2013,4.0,2013-06-06,Colombia,country_page,confirmed,Colombia
+COL,2014,3.0,2014-06-05,Colombia,country_page,confirmed,Colombia
+COL,2015,8.0,2015-06-04,Colombia,country_page,confirmed,Colombia
+COL,2016,6.0,2016-06-02,Colombia,country_page,confirmed,Colombia
+COL,2017,13.0,2017-06-01,Colombia,country_page,confirmed,Colombia
+COL,2018,12.0,2018-06-07,Colombia,country_page,confirmed,Colombia
+COL,2019,10.0,2019-06-14,Colombia,country_page,confirmed,Colombia
+COL,2020,15.0,2020-06-11,Colombia,country_page,confirmed,Colombia
+COL,2021,16.0,2021-05-27,Colombia,country_page,confirmed,Colombia
+COL,2022,17.0,2022-06-23,Colombia,country_page,confirmed,Colombia
+COL,2023,14.0,2023-06-29,Colombia,country_page,confirmed,Colombia
+COL,2024,12.0,2024-06-20,Colombia,country_page,confirmed,Colombia
+COL,2025,13.0,2025-07-10,Colombia,country_page,confirmed,Colombia
+COL,2026,14.0,2026-01-19,Colombia,html_snapshot,confirmed,Colombia
+CPV,1993,147.0,1993-08-08,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,1994,161.0,1994-06-14,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,1995,144.0,1995-06-13,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,1996,155.0,1996-07-03,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,1997,171.0,1997-06-18,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,1998,167.0,1998-05-20,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,1999,177.0,1999-06-16,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2000,156.0,2000-06-07,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2001,159.0,2001-06-20,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2002,154.0,2002-07-03,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2003,143.0,2003-06-25,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2004,129.0,2004-06-09,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2005,118.0,2005-06-15,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2006,78.0,2006-07-12,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2007,111.0,2007-06-13,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2008,107.0,2008-06-04,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2009,97.0,2009-06-03,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2010,75.0,2010-05-26,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2011,58.0,2011-06-29,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2012,69.0,2012-06-06,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2013,39.0,2013-06-06,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2014,40.0,2014-06-05,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2015,39.0,2015-06-04,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2016,80.0,2016-06-02,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2017,67.0,2017-06-01,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2018,72.0,2018-06-07,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2019,78.0,2019-06-14,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2020,81.0,2020-06-11,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2021,73.0,2021-05-27,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2022,72.0,2022-06-23,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2023,73.0,2023-06-29,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2024,72.0,2024-06-20,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2025,67.0,2025-07-10,Cabo Verde,country_page,confirmed,Cabo Verde
+CPV,2026,67.0,2026-01-19,Cabo Verde,html_snapshot,confirmed,Cabo Verde
+CRO,1993,122.0,1993-08-08,Croatia,country_page,confirmed,Croacia
+CRO,1994,62.0,1994-06-14,Croatia,country_page,confirmed,Croacia
+CRO,1995,41.0,1995-06-13,Croatia,country_page,confirmed,Croacia
+CRO,1996,24.0,1996-07-03,Croatia,country_page,confirmed,Croacia
+CRO,1997,19.0,1997-06-18,Croatia,country_page,confirmed,Croacia
+CRO,1998,4.0,1998-05-20,Croatia,country_page,confirmed,Croacia
+CRO,1999,9.0,1999-06-16,Croatia,country_page,confirmed,Croacia
+CRO,2000,18.0,2000-06-07,Croatia,country_page,confirmed,Croacia
+CRO,2001,19.0,2001-06-20,Croatia,country_page,confirmed,Croacia
+CRO,2002,32.0,2002-07-03,Croatia,country_page,confirmed,Croacia
+CRO,2003,20.0,2003-06-25,Croatia,country_page,confirmed,Croacia
+CRO,2004,23.0,2004-06-09,Croatia,country_page,confirmed,Croacia
+CRO,2005,20.0,2005-06-15,Croatia,country_page,confirmed,Croacia
+CRO,2006,15.0,2006-07-12,Croatia,country_page,confirmed,Croacia
+CRO,2007,10.0,2007-06-13,Croatia,country_page,confirmed,Croacia
+CRO,2008,7.0,2008-06-04,Croatia,country_page,confirmed,Croacia
+CRO,2009,10.0,2009-06-03,Croatia,country_page,confirmed,Croacia
+CRO,2010,10.0,2010-05-26,Croatia,country_page,confirmed,Croacia
+CRO,2011,8.0,2011-06-29,Croatia,country_page,confirmed,Croacia
+CRO,2012,10.0,2012-06-06,Croatia,country_page,confirmed,Croacia
+CRO,2013,16.0,2013-06-06,Croatia,country_page,confirmed,Croacia
+CRO,2014,19.0,2014-06-05,Croatia,country_page,confirmed,Croacia
+CRO,2015,18.0,2015-06-04,Croatia,country_page,confirmed,Croacia
+CRO,2016,14.0,2016-06-02,Croatia,country_page,confirmed,Croacia
+CRO,2017,17.0,2017-06-01,Croatia,country_page,confirmed,Croacia
+CRO,2018,4.0,2018-06-07,Croatia,country_page,confirmed,Croacia
+CRO,2019,6.0,2019-06-14,Croatia,country_page,confirmed,Croacia
+CRO,2020,11.0,2020-06-11,Croatia,country_page,confirmed,Croacia
+CRO,2021,15.0,2021-05-27,Croatia,country_page,confirmed,Croacia
+CRO,2022,7.0,2022-06-23,Croatia,country_page,confirmed,Croacia
+CRO,2023,10.0,2023-06-29,Croatia,country_page,confirmed,Croacia
+CRO,2024,13.0,2024-06-20,Croatia,country_page,confirmed,Croacia
+CRO,2025,10.0,2025-07-10,Croatia,country_page,confirmed,Croacia
+CRO,2026,11.0,2026-01-19,Croatia,html_snapshot,confirmed,Croacia
+CUW,1993,,1993-08-08,Curaçao,missing,confirmed,Curazao
+CUW,1994,,1994-06-14,Curaçao,missing,confirmed,Curazao
+CUW,1995,,1995-06-13,Curaçao,missing,confirmed,Curazao
+CUW,1996,,1996-07-03,Curaçao,missing,confirmed,Curazao
+CUW,1997,,1997-06-18,Curaçao,missing,confirmed,Curazao
+CUW,1998,,1998-05-20,Curaçao,missing,confirmed,Curazao
+CUW,1999,,1999-06-16,Curaçao,missing,confirmed,Curazao
+CUW,2000,,2000-06-07,Curaçao,missing,confirmed,Curazao
+CUW,2001,,2001-06-20,Curaçao,missing,confirmed,Curazao
+CUW,2002,,2002-07-03,Curaçao,missing,confirmed,Curazao
+CUW,2003,,2003-06-25,Curaçao,missing,confirmed,Curazao
+CUW,2004,,2004-06-09,Curaçao,missing,confirmed,Curazao
+CUW,2005,,2005-06-15,Curaçao,missing,confirmed,Curazao
+CUW,2006,,2006-07-12,Curaçao,missing,confirmed,Curazao
+CUW,2007,,2007-06-13,Curaçao,missing,confirmed,Curazao
+CUW,2008,,2008-06-04,Curaçao,missing,confirmed,Curazao
+CUW,2009,,2009-06-03,Curaçao,missing,confirmed,Curazao
+CUW,2010,,2010-05-26,Curaçao,missing,confirmed,Curazao
+CUW,2011,151.0,2011-06-29,Curaçao,country_page,confirmed,Curazao
+CUW,2012,177.0,2012-06-06,Curaçao,country_page,confirmed,Curazao
+CUW,2013,178.0,2013-06-06,Curaçao,country_page,confirmed,Curazao
+CUW,2014,158.0,2014-06-05,Curaçao,country_page,confirmed,Curazao
+CUW,2015,151.0,2015-06-04,Curaçao,country_page,confirmed,Curazao
+CUW,2016,75.0,2016-06-02,Curaçao,country_page,confirmed,Curazao
+CUW,2017,83.0,2017-06-01,Curaçao,country_page,confirmed,Curazao
+CUW,2018,80.0,2018-06-07,Curaçao,country_page,confirmed,Curazao
+CUW,2019,80.0,2019-06-14,Curaçao,country_page,confirmed,Curazao
+CUW,2020,76.0,2020-06-11,Curaçao,country_page,confirmed,Curazao
+CUW,2021,80.0,2021-05-27,Curaçao,country_page,confirmed,Curazao
+CUW,2022,86.0,2022-06-23,Curaçao,country_page,confirmed,Curazao
+CUW,2023,90.0,2023-06-29,Curaçao,country_page,confirmed,Curazao
+CUW,2024,91.0,2024-06-20,Curaçao,country_page,confirmed,Curazao
+CUW,2025,82.0,2025-07-10,Curaçao,country_page,confirmed,Curazao
+CUW,2026,81.0,2026-01-19,Curaçao,html_snapshot,confirmed,Curazao
+CZE,1993,,1993-08-08,Czechia,missing,playoff,Rep. Checa
+CZE,1994,34.0,1994-06-14,Czechia,country_page,playoff,Rep. Checa
+CZE,1995,14.0,1995-06-13,Czechia,country_page,playoff,Rep. Checa
+CZE,1996,5.0,1996-07-03,Czechia,country_page,playoff,Rep. Checa
+CZE,1997,3.0,1997-06-18,Czechia,country_page,playoff,Rep. Checa
+CZE,1998,8.0,1998-05-20,Czechia,country_page,playoff,Rep. Checa
+CZE,1999,2.0,1999-06-16,Czechia,country_page,playoff,Rep. Checa
+CZE,2000,5.0,2000-06-07,Czechia,country_page,playoff,Rep. Checa
+CZE,2001,14.0,2001-06-20,Czechia,country_page,playoff,Rep. Checa
+CZE,2002,15.0,2002-07-03,Czechia,country_page,playoff,Rep. Checa
+CZE,2003,6.0,2003-06-25,Czechia,country_page,playoff,Rep. Checa
+CZE,2004,4.0,2004-06-09,Czechia,country_page,playoff,Rep. Checa
+CZE,2005,2.0,2005-06-15,Czechia,country_page,playoff,Rep. Checa
+CZE,2006,10.0,2006-07-12,Czechia,country_page,playoff,Rep. Checa
+CZE,2007,6.0,2007-06-13,Czechia,country_page,playoff,Rep. Checa
+CZE,2008,11.0,2008-06-04,Czechia,country_page,playoff,Rep. Checa
+CZE,2009,25.0,2009-06-03,Czechia,country_page,playoff,Rep. Checa
+CZE,2010,30.0,2010-05-26,Czechia,country_page,playoff,Rep. Checa
+CZE,2011,33.0,2011-06-29,Czechia,country_page,playoff,Rep. Checa
+CZE,2012,29.0,2012-06-06,Czechia,country_page,playoff,Rep. Checa
+CZE,2013,28.0,2013-06-06,Czechia,country_page,playoff,Rep. Checa
+CZE,2014,17.0,2014-06-05,Czechia,country_page,playoff,Rep. Checa
+CZE,2015,26.0,2015-06-04,Czechia,country_page,playoff,Rep. Checa
+CZE,2016,43.0,2016-06-02,Czechia,country_page,playoff,Rep. Checa
+CZE,2017,48.0,2017-06-01,Czechia,country_page,playoff,Rep. Checa
+CZE,2018,42.0,2018-06-07,Czechia,country_page,playoff,Rep. Checa
+CZE,2019,45.0,2019-06-14,Czechia,country_page,playoff,Rep. Checa
+CZE,2020,42.0,2020-06-11,Czechia,country_page,playoff,Rep. Checa
+CZE,2021,32.0,2021-05-27,Czechia,country_page,playoff,Rep. Checa
+CZE,2022,38.0,2022-06-23,Czechia,country_page,playoff,Rep. Checa
+CZE,2023,39.0,2023-06-29,Czechia,country_page,playoff,Rep. Checa
+CZE,2024,42.0,2024-06-20,Czechia,country_page,playoff,Rep. Checa
+CZE,2025,44.0,2025-07-10,Czechia,country_page,playoff,Rep. Checa
+CZE,2026,43.0,2026-01-19,Czechia,html_snapshot,playoff,Rep. Checa
+DEN,1993,6.0,1993-08-08,Denmark,country_page,playoff,Dinamarca
+DEN,1994,14.0,1994-06-14,Denmark,country_page,playoff,Dinamarca
+DEN,1995,9.0,1995-06-13,Denmark,country_page,playoff,Dinamarca
+DEN,1996,6.0,1996-07-03,Denmark,country_page,playoff,Dinamarca
+DEN,1997,8.0,1997-06-18,Denmark,country_page,playoff,Dinamarca
+DEN,1998,19.0,1998-05-20,Denmark,country_page,playoff,Dinamarca
+DEN,1999,11.0,1999-06-16,Denmark,country_page,playoff,Dinamarca
+DEN,2000,22.0,2000-06-07,Denmark,country_page,playoff,Dinamarca
+DEN,2001,18.0,2001-06-20,Denmark,country_page,playoff,Dinamarca
+DEN,2002,12.0,2002-07-03,Denmark,country_page,playoff,Dinamarca
+DEN,2003,13.0,2003-06-25,Denmark,country_page,playoff,Dinamarca
+DEN,2004,14.0,2004-06-09,Denmark,country_page,playoff,Dinamarca
+DEN,2005,13.0,2005-06-15,Denmark,country_page,playoff,Dinamarca
+DEN,2006,21.0,2006-07-12,Denmark,country_page,playoff,Dinamarca
+DEN,2007,31.0,2007-06-13,Denmark,country_page,playoff,Dinamarca
+DEN,2008,37.0,2008-06-04,Denmark,country_page,playoff,Dinamarca
+DEN,2009,28.0,2009-06-03,Denmark,country_page,playoff,Dinamarca
+DEN,2010,28.0,2010-05-26,Denmark,country_page,playoff,Dinamarca
+DEN,2011,11.0,2011-06-29,Denmark,country_page,playoff,Dinamarca
+DEN,2012,23.0,2012-06-06,Denmark,country_page,playoff,Dinamarca
+DEN,2013,25.0,2013-06-06,Denmark,country_page,playoff,Dinamarca
+DEN,2014,30.0,2014-06-05,Denmark,country_page,playoff,Dinamarca
+DEN,2015,42.0,2015-06-04,Denmark,country_page,playoff,Dinamarca
+DEN,2016,46.0,2016-06-02,Denmark,country_page,playoff,Dinamarca
+DEN,2017,12.0,2017-06-01,Denmark,country_page,playoff,Dinamarca
+DEN,2018,10.0,2018-06-07,Denmark,country_page,playoff,Dinamarca
+DEN,2019,16.0,2019-06-14,Denmark,country_page,playoff,Dinamarca
+DEN,2020,12.0,2020-06-11,Denmark,country_page,playoff,Dinamarca
+DEN,2021,9.0,2021-05-27,Denmark,country_page,playoff,Dinamarca
+DEN,2022,18.0,2022-06-23,Denmark,country_page,playoff,Dinamarca
+DEN,2023,19.0,2023-06-29,Denmark,country_page,playoff,Dinamarca
+DEN,2024,21.0,2024-06-20,Denmark,country_page,playoff,Dinamarca
+DEN,2025,21.0,2025-07-10,Denmark,country_page,playoff,Dinamarca
+DEN,2026,21.0,2026-01-19,Denmark,html_snapshot,playoff,Dinamarca
+ECU,1993,48.0,1993-08-08,Ecuador,country_page,confirmed,Ecuador
+ECU,1994,55.0,1994-06-14,Ecuador,country_page,confirmed,Ecuador
+ECU,1995,55.0,1995-06-13,Ecuador,country_page,confirmed,Ecuador
+ECU,1996,33.0,1996-07-03,Ecuador,country_page,confirmed,Ecuador
+ECU,1997,28.0,1997-06-18,Ecuador,country_page,confirmed,Ecuador
+ECU,1998,63.0,1998-05-20,Ecuador,country_page,confirmed,Ecuador
+ECU,1999,65.0,1999-06-16,Ecuador,country_page,confirmed,Ecuador
+ECU,2000,54.0,2000-06-07,Ecuador,country_page,confirmed,Ecuador
+ECU,2001,37.0,2001-06-20,Ecuador,country_page,confirmed,Ecuador
+ECU,2002,31.0,2002-07-03,Ecuador,country_page,confirmed,Ecuador
+ECU,2003,37.0,2003-06-25,Ecuador,country_page,confirmed,Ecuador
+ECU,2004,39.0,2004-06-09,Ecuador,country_page,confirmed,Ecuador
+ECU,2005,37.0,2005-06-15,Ecuador,country_page,confirmed,Ecuador
+ECU,2006,30.0,2006-07-12,Ecuador,country_page,confirmed,Ecuador
+ECU,2007,56.0,2007-06-13,Ecuador,country_page,confirmed,Ecuador
+ECU,2008,36.0,2008-06-04,Ecuador,country_page,confirmed,Ecuador
+ECU,2009,37.0,2009-06-03,Ecuador,country_page,confirmed,Ecuador
+ECU,2010,53.0,2010-05-26,Ecuador,country_page,confirmed,Ecuador
+ECU,2011,42.0,2011-06-29,Ecuador,country_page,confirmed,Ecuador
+ECU,2012,13.0,2012-06-06,Ecuador,country_page,confirmed,Ecuador
+ECU,2013,23.0,2013-06-06,Ecuador,country_page,confirmed,Ecuador
+ECU,2014,26.0,2014-06-05,Ecuador,country_page,confirmed,Ecuador
+ECU,2015,13.0,2015-06-04,Ecuador,country_page,confirmed,Ecuador
+ECU,2016,20.0,2016-06-02,Ecuador,country_page,confirmed,Ecuador
+ECU,2017,70.0,2017-06-01,Ecuador,country_page,confirmed,Ecuador
+ECU,2018,57.0,2018-06-07,Ecuador,country_page,confirmed,Ecuador
+ECU,2019,63.0,2019-06-14,Ecuador,country_page,confirmed,Ecuador
+ECU,2020,56.0,2020-06-11,Ecuador,country_page,confirmed,Ecuador
+ECU,2021,46.0,2021-05-27,Ecuador,country_page,confirmed,Ecuador
+ECU,2022,41.0,2022-06-23,Ecuador,country_page,confirmed,Ecuador
+ECU,2023,32.0,2023-06-29,Ecuador,country_page,confirmed,Ecuador
+ECU,2024,24.0,2024-06-20,Ecuador,country_page,confirmed,Ecuador
+ECU,2025,23.0,2025-07-10,Ecuador,country_page,confirmed,Ecuador
+ECU,2026,23.0,2026-01-19,Ecuador,html_snapshot,confirmed,Ecuador
+EGY,1993,26.0,1993-08-08,Egypt,country_page,confirmed,Egipto
+EGY,1994,22.0,1994-06-14,Egypt,country_page,confirmed,Egipto
+EGY,1995,23.0,1995-06-13,Egypt,country_page,confirmed,Egipto
+EGY,1996,28.0,1996-07-03,Egypt,country_page,confirmed,Egipto
+EGY,1997,32.0,1997-06-18,Egypt,country_page,confirmed,Egipto
+EGY,1998,28.0,1998-05-20,Egypt,country_page,confirmed,Egipto
+EGY,1999,38.0,1999-06-16,Egypt,country_page,confirmed,Egipto
+EGY,2000,33.0,2000-06-07,Egypt,country_page,confirmed,Egipto
+EGY,2001,41.0,2001-06-20,Egypt,country_page,confirmed,Egipto
+EGY,2002,39.0,2002-07-03,Egypt,country_page,confirmed,Egipto
+EGY,2003,32.0,2003-06-25,Egypt,country_page,confirmed,Egipto
+EGY,2004,34.0,2004-06-09,Egypt,country_page,confirmed,Egipto
+EGY,2005,32.0,2005-06-15,Egypt,country_page,confirmed,Egipto
+EGY,2006,27.0,2006-07-12,Egypt,country_page,confirmed,Egipto
+EGY,2007,39.0,2007-06-13,Egypt,country_page,confirmed,Egipto
+EGY,2008,16.0,2008-06-04,Egypt,country_page,confirmed,Egipto
+EGY,2009,24.0,2009-06-03,Egypt,country_page,confirmed,Egipto
+EGY,2010,9.0,2010-05-26,Egypt,country_page,confirmed,Egipto
+EGY,2011,31.0,2011-06-29,Egypt,country_page,confirmed,Egipto
+EGY,2012,41.0,2012-06-06,Egypt,country_page,confirmed,Egipto
+EGY,2013,41.0,2013-06-06,Egypt,country_page,confirmed,Egipto
+EGY,2014,60.0,2014-06-05,Egypt,country_page,confirmed,Egipto
+EGY,2015,57.0,2015-06-04,Egypt,country_page,confirmed,Egipto
+EGY,2016,36.0,2016-06-02,Egypt,country_page,confirmed,Egipto
+EGY,2017,31.0,2017-06-01,Egypt,country_page,confirmed,Egipto
+EGY,2018,56.0,2018-06-07,Egypt,country_page,confirmed,Egipto
+EGY,2019,51.0,2019-06-14,Egypt,country_page,confirmed,Egipto
+EGY,2020,49.0,2020-06-11,Egypt,country_page,confirmed,Egipto
+EGY,2021,45.0,2021-05-27,Egypt,country_page,confirmed,Egipto
+EGY,2022,39.0,2022-06-23,Egypt,country_page,confirmed,Egipto
+EGY,2023,33.0,2023-06-29,Egypt,country_page,confirmed,Egipto
+EGY,2024,33.0,2024-06-20,Egypt,country_page,confirmed,Egipto
+EGY,2025,35.0,2025-07-10,Egypt,country_page,confirmed,Egipto
+EGY,2026,31.0,2026-01-19,Egypt,html_snapshot,confirmed,Egipto
+ENG,1993,11.0,1993-08-08,England,country_page,confirmed,Inglaterra
+ENG,1994,18.0,1994-06-14,England,country_page,confirmed,Inglaterra
+ENG,1995,21.0,1995-06-13,England,country_page,confirmed,Inglaterra
+ENG,1996,12.0,1996-07-03,England,country_page,confirmed,Inglaterra
+ENG,1997,4.0,1997-06-18,England,country_page,confirmed,Inglaterra
+ENG,1998,9.0,1998-05-20,England,country_page,confirmed,Inglaterra
+ENG,1999,12.0,1999-06-16,England,country_page,confirmed,Inglaterra
+ENG,2000,17.0,2000-06-07,England,country_page,confirmed,Inglaterra
+ENG,2001,10.0,2001-06-20,England,country_page,confirmed,Inglaterra
+ENG,2002,7.0,2002-07-03,England,country_page,confirmed,Inglaterra
+ENG,2003,8.0,2003-06-25,England,country_page,confirmed,Inglaterra
+ENG,2004,8.0,2004-06-09,England,country_page,confirmed,Inglaterra
+ENG,2005,9.0,2005-06-15,England,country_page,confirmed,Inglaterra
+ENG,2006,5.0,2006-07-12,England,country_page,confirmed,Inglaterra
+ENG,2007,12.0,2007-06-13,England,country_page,confirmed,Inglaterra
+ENG,2008,8.0,2008-06-04,England,country_page,confirmed,Inglaterra
+ENG,2009,9.0,2009-06-03,England,country_page,confirmed,Inglaterra
+ENG,2010,6.0,2010-05-26,England,country_page,confirmed,Inglaterra
+ENG,2011,5.0,2011-06-29,England,country_page,confirmed,Inglaterra
+ENG,2012,6.0,2012-06-06,England,country_page,confirmed,Inglaterra
+ENG,2013,13.0,2013-06-06,England,country_page,confirmed,Inglaterra
+ENG,2014,13.0,2014-06-05,England,country_page,confirmed,Inglaterra
+ENG,2015,9.0,2015-06-04,England,country_page,confirmed,Inglaterra
+ENG,2016,13.0,2016-06-02,England,country_page,confirmed,Inglaterra
+ENG,2017,15.0,2017-06-01,England,country_page,confirmed,Inglaterra
+ENG,2018,5.0,2018-06-07,England,country_page,confirmed,Inglaterra
+ENG,2019,4.0,2019-06-14,England,country_page,confirmed,Inglaterra
+ENG,2020,4.0,2020-06-11,England,country_page,confirmed,Inglaterra
+ENG,2021,4.0,2021-05-27,England,country_page,confirmed,Inglaterra
+ENG,2022,5.0,2022-06-23,England,country_page,confirmed,Inglaterra
+ENG,2023,3.0,2023-06-29,England,country_page,confirmed,Inglaterra
+ENG,2024,4.0,2024-06-20,England,country_page,confirmed,Inglaterra
+ENG,2025,4.0,2025-07-10,England,country_page,confirmed,Inglaterra
+ENG,2026,4.0,2026-01-19,England,html_snapshot,confirmed,Inglaterra
+ESP,1993,5.0,1993-08-08,Spain,country_page,confirmed,España
+ESP,1994,2.0,1994-06-14,Spain,country_page,confirmed,España
+ESP,1995,4.0,1995-06-13,Spain,country_page,confirmed,España
+ESP,1996,8.0,1996-07-03,Spain,country_page,confirmed,España
+ESP,1997,11.0,1997-06-18,Spain,country_page,confirmed,España
+ESP,1998,15.0,1998-05-20,Spain,country_page,confirmed,España
+ESP,1999,4.0,1999-06-16,Spain,country_page,confirmed,España
+ESP,2000,7.0,2000-06-07,Spain,country_page,confirmed,España
+ESP,2001,7.0,2001-06-20,Spain,country_page,confirmed,España
+ESP,2002,3.0,2002-07-03,Spain,country_page,confirmed,España
+ESP,2003,3.0,2003-06-25,Spain,country_page,confirmed,España
+ESP,2004,5.0,2004-06-09,Spain,country_page,confirmed,España
+ESP,2005,5.0,2005-06-15,Spain,country_page,confirmed,España
+ESP,2006,12.0,2006-07-12,Spain,country_page,confirmed,España
+ESP,2007,4.0,2007-06-13,Spain,country_page,confirmed,España
+ESP,2008,1.0,2008-06-04,Spain,country_page,confirmed,España
+ESP,2009,1.0,2009-06-03,Spain,country_page,confirmed,España
+ESP,2010,1.0,2010-05-26,Spain,country_page,confirmed,España
+ESP,2011,1.0,2011-06-29,Spain,country_page,confirmed,España
+ESP,2012,1.0,2012-06-06,Spain,country_page,confirmed,España
+ESP,2013,1.0,2013-06-06,Spain,country_page,confirmed,España
+ESP,2014,9.0,2014-06-05,Spain,country_page,confirmed,España
+ESP,2015,3.0,2015-06-04,Spain,country_page,confirmed,España
+ESP,2016,10.0,2016-06-02,Spain,country_page,confirmed,España
+ESP,2017,6.0,2017-06-01,Spain,country_page,confirmed,España
+ESP,2018,9.0,2018-06-07,Spain,country_page,confirmed,España
+ESP,2019,8.0,2019-06-14,Spain,country_page,confirmed,España
+ESP,2020,6.0,2020-06-11,Spain,country_page,confirmed,España
+ESP,2021,7.0,2021-05-27,Spain,country_page,confirmed,España
+ESP,2022,10.0,2022-06-23,Spain,country_page,confirmed,España
+ESP,2023,8.0,2023-06-29,Spain,country_page,confirmed,España
+ESP,2024,3.0,2024-06-20,Spain,country_page,confirmed,España
+ESP,2025,1.0,2025-07-10,Spain,country_page,confirmed,España
+ESP,2026,1.0,2026-01-19,Spain,html_snapshot,confirmed,España
+FRA,1993,15.0,1993-08-08,France,country_page,confirmed,Francia
+FRA,1994,19.0,1994-06-14,France,country_page,confirmed,Francia
+FRA,1995,8.0,1995-06-13,France,country_page,confirmed,Francia
+FRA,1996,3.0,1996-07-03,France,country_page,confirmed,Francia
+FRA,1997,6.0,1997-06-18,France,country_page,confirmed,Francia
+FRA,1998,2.0,1998-05-20,France,country_page,confirmed,Francia
+FRA,1999,3.0,1999-06-16,France,country_page,confirmed,Francia
+FRA,2000,2.0,2000-06-07,France,country_page,confirmed,Francia
+FRA,2001,1.0,2001-06-20,France,country_page,confirmed,Francia
+FRA,2002,2.0,2002-07-03,France,country_page,confirmed,Francia
+FRA,2003,2.0,2003-06-25,France,country_page,confirmed,Francia
+FRA,2004,2.0,2004-06-09,France,country_page,confirmed,Francia
+FRA,2005,5.0,2005-06-15,France,country_page,confirmed,Francia
+FRA,2006,4.0,2006-07-12,France,country_page,confirmed,Francia
+FRA,2007,7.0,2007-06-13,France,country_page,confirmed,Francia
+FRA,2008,11.0,2008-06-04,France,country_page,confirmed,Francia
+FRA,2009,7.0,2009-06-03,France,country_page,confirmed,Francia
+FRA,2010,18.0,2010-05-26,France,country_page,confirmed,Francia
+FRA,2011,15.0,2011-06-29,France,country_page,confirmed,Francia
+FRA,2012,17.0,2012-06-06,France,country_page,confirmed,Francia
+FRA,2013,20.0,2013-06-06,France,country_page,confirmed,Francia
+FRA,2014,7.0,2014-06-05,France,country_page,confirmed,Francia
+FRA,2015,25.0,2015-06-04,France,country_page,confirmed,Francia
+FRA,2016,7.0,2016-06-02,France,country_page,confirmed,Francia
+FRA,2017,9.0,2017-06-01,France,country_page,confirmed,Francia
+FRA,2018,2.0,2018-06-07,France,country_page,confirmed,Francia
+FRA,2019,2.0,2019-06-14,France,country_page,confirmed,Francia
+FRA,2020,2.0,2020-06-11,France,country_page,confirmed,Francia
+FRA,2021,3.0,2021-05-27,France,country_page,confirmed,Francia
+FRA,2022,3.0,2022-06-23,France,country_page,confirmed,Francia
+FRA,2023,2.0,2023-06-29,France,country_page,confirmed,Francia
+FRA,2024,2.0,2024-06-20,France,country_page,confirmed,Francia
+FRA,2025,3.0,2025-07-10,France,country_page,confirmed,Francia
+FRA,2026,3.0,2026-01-19,France,html_snapshot,confirmed,Francia
+GER,1993,1.0,1993-08-08,Germany,country_page,confirmed,Alemania
+GER,1994,5.0,1994-06-14,Germany,country_page,confirmed,Alemania
+GER,1995,2.0,1995-06-13,Germany,country_page,confirmed,Alemania
+GER,1996,2.0,1996-07-03,Germany,country_page,confirmed,Alemania
+GER,1997,2.0,1997-06-18,Germany,country_page,confirmed,Alemania
+GER,1998,3.0,1998-05-20,Germany,country_page,confirmed,Alemania
+GER,1999,5.0,1999-06-16,Germany,country_page,confirmed,Alemania
+GER,2000,11.0,2000-06-07,Germany,country_page,confirmed,Alemania
+GER,2001,12.0,2001-06-20,Germany,country_page,confirmed,Alemania
+GER,2002,4.0,2002-07-03,Germany,country_page,confirmed,Alemania
+GER,2003,12.0,2003-06-25,Germany,country_page,confirmed,Alemania
+GER,2004,19.0,2004-06-09,Germany,country_page,confirmed,Alemania
+GER,2005,16.0,2005-06-15,Germany,country_page,confirmed,Alemania
+GER,2006,6.0,2006-07-12,Germany,country_page,confirmed,Alemania
+GER,2007,5.0,2007-06-13,Germany,country_page,confirmed,Alemania
+GER,2008,2.0,2008-06-04,Germany,country_page,confirmed,Alemania
+GER,2009,6.0,2009-06-03,Germany,country_page,confirmed,Alemania
+GER,2010,3.0,2010-05-26,Germany,country_page,confirmed,Alemania
+GER,2011,3.0,2011-06-29,Germany,country_page,confirmed,Alemania
+GER,2012,2.0,2012-06-06,Germany,country_page,confirmed,Alemania
+GER,2013,2.0,2013-06-06,Germany,country_page,confirmed,Alemania
+GER,2014,1.0,2014-06-05,Germany,country_page,confirmed,Alemania
+GER,2015,4.0,2015-06-04,Germany,country_page,confirmed,Alemania
+GER,2016,3.0,2016-06-02,Germany,country_page,confirmed,Alemania
+GER,2017,1.0,2017-06-01,Germany,country_page,confirmed,Alemania
+GER,2018,16.0,2018-06-07,Germany,country_page,confirmed,Alemania
+GER,2019,15.0,2019-06-14,Germany,country_page,confirmed,Alemania
+GER,2020,13.0,2020-06-11,Germany,country_page,confirmed,Alemania
+GER,2021,12.0,2021-05-27,Germany,country_page,confirmed,Alemania
+GER,2022,14.0,2022-06-23,Germany,country_page,confirmed,Alemania
+GER,2023,16.0,2023-06-29,Germany,country_page,confirmed,Alemania
+GER,2024,10.0,2024-06-20,Germany,country_page,confirmed,Alemania
+GER,2025,9.0,2025-07-10,Germany,country_page,confirmed,Alemania
+GER,2026,10.0,2026-01-19,Germany,html_snapshot,confirmed,Alemania
+GHA,1993,37.0,1993-08-08,Ghana,country_page,confirmed,Ghana
+GHA,1994,26.0,1994-06-14,Ghana,country_page,confirmed,Ghana
+GHA,1995,29.0,1995-06-13,Ghana,country_page,confirmed,Ghana
+GHA,1996,25.0,1996-07-03,Ghana,country_page,confirmed,Ghana
+GHA,1997,57.0,1997-06-18,Ghana,country_page,confirmed,Ghana
+GHA,1998,48.0,1998-05-20,Ghana,country_page,confirmed,Ghana
+GHA,1999,48.0,1999-06-16,Ghana,country_page,confirmed,Ghana
+GHA,2000,57.0,2000-06-07,Ghana,country_page,confirmed,Ghana
+GHA,2001,59.0,2001-06-20,Ghana,country_page,confirmed,Ghana
+GHA,2002,61.0,2002-07-03,Ghana,country_page,confirmed,Ghana
+GHA,2003,78.0,2003-06-25,Ghana,country_page,confirmed,Ghana
+GHA,2004,77.0,2004-06-09,Ghana,country_page,confirmed,Ghana
+GHA,2005,50.0,2005-06-15,Ghana,country_page,confirmed,Ghana
+GHA,2006,28.0,2006-07-12,Ghana,country_page,confirmed,Ghana
+GHA,2007,43.0,2007-06-13,Ghana,country_page,confirmed,Ghana
+GHA,2008,25.0,2008-06-04,Ghana,country_page,confirmed,Ghana
+GHA,2009,34.0,2009-06-03,Ghana,country_page,confirmed,Ghana
+GHA,2010,16.0,2010-05-26,Ghana,country_page,confirmed,Ghana
+GHA,2011,29.0,2011-06-29,Ghana,country_page,confirmed,Ghana
+GHA,2012,30.0,2012-06-06,Ghana,country_page,confirmed,Ghana
+GHA,2013,24.0,2013-06-06,Ghana,country_page,confirmed,Ghana
+GHA,2014,37.0,2014-06-05,Ghana,country_page,confirmed,Ghana
+GHA,2015,33.0,2015-06-04,Ghana,country_page,confirmed,Ghana
+GHA,2016,53.0,2016-06-02,Ghana,country_page,confirmed,Ghana
+GHA,2017,50.0,2017-06-01,Ghana,country_page,confirmed,Ghana
+GHA,2018,51.0,2018-06-07,Ghana,country_page,confirmed,Ghana
+GHA,2019,47.0,2019-06-14,Ghana,country_page,confirmed,Ghana
+GHA,2020,52.0,2020-06-11,Ghana,country_page,confirmed,Ghana
+GHA,2021,52.0,2021-05-27,Ghana,country_page,confirmed,Ghana
+GHA,2022,58.0,2022-06-23,Ghana,country_page,confirmed,Ghana
+GHA,2023,61.0,2023-06-29,Ghana,country_page,confirmed,Ghana
+GHA,2024,77.0,2024-06-20,Ghana,country_page,confirmed,Ghana
+GHA,2025,72.0,2025-07-10,Ghana,country_page,confirmed,Ghana
+GHA,2026,72.0,2026-01-19,Ghana,html_snapshot,confirmed,Ghana
+HAI,1993,145.0,1993-08-08,Haiti,country_page,confirmed,Haití
+HAI,1994,132.0,1994-06-14,Haiti,country_page,confirmed,Haití
+HAI,1995,153.0,1995-06-13,Haiti,country_page,confirmed,Haití
+HAI,1996,114.0,1996-07-03,Haiti,country_page,confirmed,Haití
+HAI,1997,125.0,1997-06-18,Haiti,country_page,confirmed,Haití
+HAI,1998,109.0,1998-05-20,Haiti,country_page,confirmed,Haití
+HAI,1999,99.0,1999-06-16,Haiti,country_page,confirmed,Haití
+HAI,2000,84.0,2000-06-07,Haiti,country_page,confirmed,Haití
+HAI,2001,82.0,2001-06-20,Haiti,country_page,confirmed,Haití
+HAI,2002,72.0,2002-07-03,Haiti,country_page,confirmed,Haití
+HAI,2003,96.0,2003-06-25,Haiti,country_page,confirmed,Haití
+HAI,2004,95.0,2004-06-09,Haiti,country_page,confirmed,Haití
+HAI,2005,98.0,2005-06-15,Haiti,country_page,confirmed,Haití
+HAI,2006,102.0,2006-07-12,Haiti,country_page,confirmed,Haití
+HAI,2007,69.0,2007-06-13,Haiti,country_page,confirmed,Haití
+HAI,2008,102.0,2008-06-04,Haiti,country_page,confirmed,Haití
+HAI,2009,90.0,2009-06-03,Haiti,country_page,confirmed,Haití
+HAI,2010,90.0,2010-05-26,Haiti,country_page,confirmed,Haití
+HAI,2011,81.0,2011-06-29,Haiti,country_page,confirmed,Haití
+HAI,2012,39.0,2012-06-06,Haiti,country_page,confirmed,Haití
+HAI,2013,79.0,2013-06-06,Haiti,country_page,confirmed,Haití
+HAI,2014,72.0,2014-06-05,Haiti,country_page,confirmed,Haití
+HAI,2015,77.0,2015-06-04,Haiti,country_page,confirmed,Haití
+HAI,2016,73.0,2016-06-02,Haiti,country_page,confirmed,Haití
+HAI,2017,56.0,2017-06-01,Haiti,country_page,confirmed,Haití
+HAI,2018,103.0,2018-06-07,Haiti,country_page,confirmed,Haití
+HAI,2019,86.0,2019-06-14,Haiti,country_page,confirmed,Haití
+HAI,2020,84.0,2020-06-11,Haiti,country_page,confirmed,Haití
+HAI,2021,87.0,2021-05-27,Haiti,country_page,confirmed,Haití
+HAI,2022,87.0,2022-06-23,Haiti,country_page,confirmed,Haití
+HAI,2023,89.0,2023-06-29,Haiti,country_page,confirmed,Haití
+HAI,2024,86.0,2024-06-20,Haiti,country_page,confirmed,Haití
+HAI,2025,84.0,2025-07-10,Haiti,country_page,confirmed,Haití
+HAI,2026,83.0,2026-01-19,Haiti,html_snapshot,confirmed,Haití
+IRL,1993,10.0,1993-08-08,Republic of Ireland,country_page,playoff,Irlanda
+IRL,1994,9.0,1994-06-14,Republic of Ireland,country_page,playoff,Irlanda
+IRL,1995,28.0,1995-06-13,Republic of Ireland,country_page,playoff,Irlanda
+IRL,1996,36.0,1996-07-03,Republic of Ireland,country_page,playoff,Irlanda
+IRL,1997,47.0,1997-06-18,Republic of Ireland,country_page,playoff,Irlanda
+IRL,1998,56.0,1998-05-20,Republic of Ireland,country_page,playoff,Irlanda
+IRL,1999,35.0,1999-06-16,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2000,31.0,2000-06-07,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2001,17.0,2001-06-20,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2002,14.0,2002-07-03,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2003,14.0,2003-06-25,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2004,12.0,2004-06-09,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2005,24.0,2005-06-15,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2006,49.0,2006-07-12,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2007,35.0,2007-06-13,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2008,38.0,2008-06-04,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2009,35.0,2009-06-03,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2010,36.0,2010-05-26,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2011,22.0,2011-06-29,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2012,42.0,2012-06-06,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2013,67.0,2013-06-06,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2014,64.0,2014-06-05,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2015,31.0,2015-06-04,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2016,23.0,2016-06-02,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2017,32.0,2017-06-01,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2018,33.0,2018-06-07,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2019,34.0,2019-06-14,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2020,42.0,2020-06-11,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2021,47.0,2021-05-27,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2022,48.0,2022-06-23,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2023,60.0,2023-06-29,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2024,60.0,2024-06-20,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2025,59.0,2025-07-10,Republic of Ireland,country_page,playoff,Irlanda
+IRL,2026,59.0,2026-01-19,Republic of Ireland,html_snapshot,playoff,Irlanda
+IRN,1993,59.0,1993-08-08,IR Iran,country_page,confirmed,Irán
+IRN,1994,75.0,1994-06-14,IR Iran,country_page,confirmed,Irán
+IRN,1995,108.0,1995-06-13,IR Iran,country_page,confirmed,Irán
+IRN,1996,83.0,1996-07-03,IR Iran,country_page,confirmed,Irán
+IRN,1997,46.0,1997-06-18,IR Iran,country_page,confirmed,Irán
+IRN,1998,27.0,1998-05-20,IR Iran,country_page,confirmed,Irán
+IRN,1999,49.0,1999-06-16,IR Iran,country_page,confirmed,Irán
+IRN,2000,37.0,2000-06-07,IR Iran,country_page,confirmed,Irán
+IRN,2001,29.0,2001-06-20,IR Iran,country_page,confirmed,Irán
+IRN,2002,33.0,2002-07-03,IR Iran,country_page,confirmed,Irán
+IRN,2003,28.0,2003-06-25,IR Iran,country_page,confirmed,Irán
+IRN,2004,20.0,2004-06-09,IR Iran,country_page,confirmed,Irán
+IRN,2005,19.0,2005-06-15,IR Iran,country_page,confirmed,Irán
+IRN,2006,38.0,2006-07-12,IR Iran,country_page,confirmed,Irán
+IRN,2007,41.0,2007-06-13,IR Iran,country_page,confirmed,Irán
+IRN,2008,43.0,2008-06-04,IR Iran,country_page,confirmed,Irán
+IRN,2009,64.0,2009-06-03,IR Iran,country_page,confirmed,Irán
+IRN,2010,66.0,2010-05-26,IR Iran,country_page,confirmed,Irán
+IRN,2011,45.0,2011-06-29,IR Iran,country_page,confirmed,Irán
+IRN,2012,59.0,2012-06-06,IR Iran,country_page,confirmed,Irán
+IRN,2013,33.0,2013-06-06,IR Iran,country_page,confirmed,Irán
+IRN,2014,51.0,2014-06-05,IR Iran,country_page,confirmed,Irán
+IRN,2015,45.0,2015-06-04,IR Iran,country_page,confirmed,Irán
+IRN,2016,29.0,2016-06-02,IR Iran,country_page,confirmed,Irán
+IRN,2017,32.0,2017-06-01,IR Iran,country_page,confirmed,Irán
+IRN,2018,29.0,2018-06-07,IR Iran,country_page,confirmed,Irán
+IRN,2019,33.0,2019-06-14,IR Iran,country_page,confirmed,Irán
+IRN,2020,29.0,2020-06-11,IR Iran,country_page,confirmed,Irán
+IRN,2021,21.0,2021-05-27,IR Iran,country_page,confirmed,Irán
+IRN,2022,24.0,2022-06-23,IR Iran,country_page,confirmed,Irán
+IRN,2023,21.0,2023-06-29,IR Iran,country_page,confirmed,Irán
+IRN,2024,18.0,2024-06-20,IR Iran,country_page,confirmed,Irán
+IRN,2025,20.0,2025-07-10,IR Iran,country_page,confirmed,Irán
+IRN,2026,20.0,2026-01-19,IR Iran,html_snapshot,confirmed,Irán
+IRQ,1993,65.0,1993-08-08,Iraq,country_page,playoff,Irak
+IRQ,1994,88.0,1994-06-14,Iraq,country_page,playoff,Irak
+IRQ,1995,110.0,1995-06-13,Iraq,country_page,playoff,Irak
+IRQ,1996,98.0,1996-07-03,Iraq,country_page,playoff,Irak
+IRQ,1997,68.0,1997-06-18,Iraq,country_page,playoff,Irak
+IRQ,1998,94.0,1998-05-20,Iraq,country_page,playoff,Irak
+IRQ,1999,78.0,1999-06-16,Iraq,country_page,playoff,Irak
+IRQ,2000,79.0,2000-06-07,Iraq,country_page,playoff,Irak
+IRQ,2001,72.0,2001-06-20,Iraq,country_page,playoff,Irak
+IRQ,2002,53.0,2002-07-03,Iraq,country_page,playoff,Irak
+IRQ,2003,43.0,2003-06-25,Iraq,country_page,playoff,Irak
+IRQ,2004,44.0,2004-06-09,Iraq,country_page,playoff,Irak
+IRQ,2005,54.0,2005-06-15,Iraq,country_page,playoff,Irak
+IRQ,2006,83.0,2006-07-12,Iraq,country_page,playoff,Irak
+IRQ,2007,68.0,2007-06-13,Iraq,country_page,playoff,Irak
+IRQ,2008,72.0,2008-06-04,Iraq,country_page,playoff,Irak
+IRQ,2009,88.0,2009-06-03,Iraq,country_page,playoff,Irak
+IRQ,2010,100.0,2010-05-26,Iraq,country_page,playoff,Irak
+IRQ,2011,78.0,2011-06-29,Iraq,country_page,playoff,Irak
+IRQ,2012,92.0,2012-06-06,Iraq,country_page,playoff,Irak
+IRQ,2013,110.0,2013-06-06,Iraq,country_page,playoff,Irak
+IRQ,2014,103.0,2014-06-05,Iraq,country_page,playoff,Irak
+IRQ,2015,89.0,2015-06-04,Iraq,country_page,playoff,Irak
+IRQ,2016,119.0,2016-06-02,Iraq,country_page,playoff,Irak
+IRQ,2017,79.0,2017-06-01,Iraq,country_page,playoff,Irak
+IRQ,2018,88.0,2018-06-07,Iraq,country_page,playoff,Irak
+IRQ,2019,70.0,2019-06-14,Iraq,country_page,playoff,Irak
+IRQ,2020,69.0,2020-06-11,Iraq,country_page,playoff,Irak
+IRQ,2021,75.0,2021-05-27,Iraq,country_page,playoff,Irak
+IRQ,2022,68.0,2022-06-23,Iraq,country_page,playoff,Irak
+IRQ,2023,63.0,2023-06-29,Iraq,country_page,playoff,Irak
+IRQ,2024,56.0,2024-06-20,Iraq,country_page,playoff,Irak
+IRQ,2025,58.0,2025-07-10,Iraq,country_page,playoff,Irak
+IRQ,2026,58.0,2026-01-19,Iraq,html_snapshot,playoff,Irak
+ITA,1993,2.0,1993-08-08,Italy,country_page,playoff,Italia
+ITA,1994,4.0,1994-06-14,Italy,country_page,playoff,Italia
+ITA,1995,3.0,1995-06-13,Italy,country_page,playoff,Italia
+ITA,1996,10.0,1996-07-03,Italy,country_page,playoff,Italia
+ITA,1997,9.0,1997-06-18,Italy,country_page,playoff,Italia
+ITA,1998,7.0,1998-05-20,Italy,country_page,playoff,Italia
+ITA,1999,14.0,1999-06-16,Italy,country_page,playoff,Italia
+ITA,2000,4.0,2000-06-07,Italy,country_page,playoff,Italia
+ITA,2001,6.0,2001-06-20,Italy,country_page,playoff,Italia
+ITA,2002,13.0,2002-07-03,Italy,country_page,playoff,Italia
+ITA,2003,10.0,2003-06-25,Italy,country_page,playoff,Italia
+ITA,2004,10.0,2004-06-09,Italy,country_page,playoff,Italia
+ITA,2005,12.0,2005-06-15,Italy,country_page,playoff,Italia
+ITA,2006,2.0,2006-07-12,Italy,country_page,playoff,Italia
+ITA,2007,3.0,2007-06-13,Italy,country_page,playoff,Italia
+ITA,2008,4.0,2008-06-04,Italy,country_page,playoff,Italia
+ITA,2009,4.0,2009-06-03,Italy,country_page,playoff,Italia
+ITA,2010,14.0,2010-05-26,Italy,country_page,playoff,Italia
+ITA,2011,9.0,2011-06-29,Italy,country_page,playoff,Italia
+ITA,2012,4.0,2012-06-06,Italy,country_page,playoff,Italia
+ITA,2013,7.0,2013-06-06,Italy,country_page,playoff,Italia
+ITA,2014,11.0,2014-06-05,Italy,country_page,playoff,Italia
+ITA,2015,15.0,2015-06-04,Italy,country_page,playoff,Italia
+ITA,2016,16.0,2016-06-02,Italy,country_page,playoff,Italia
+ITA,2017,14.0,2017-06-01,Italy,country_page,playoff,Italia
+ITA,2018,18.0,2018-06-07,Italy,country_page,playoff,Italia
+ITA,2019,13.0,2019-06-14,Italy,country_page,playoff,Italia
+ITA,2020,10.0,2020-06-11,Italy,country_page,playoff,Italia
+ITA,2021,6.0,2021-05-27,Italy,country_page,playoff,Italia
+ITA,2022,8.0,2022-06-23,Italy,country_page,playoff,Italia
+ITA,2023,9.0,2023-06-29,Italy,country_page,playoff,Italia
+ITA,2024,9.0,2024-06-20,Italy,country_page,playoff,Italia
+ITA,2025,12.0,2025-07-10,Italy,country_page,playoff,Italia
+ITA,2026,13.0,2026-01-19,Italy,html_snapshot,playoff,Italia
+JAM,1993,80.0,1993-08-08,Jamaica,country_page,playoff,Jamaica
+JAM,1994,96.0,1994-06-14,Jamaica,country_page,playoff,Jamaica
+JAM,1995,56.0,1995-06-13,Jamaica,country_page,playoff,Jamaica
+JAM,1996,32.0,1996-07-03,Jamaica,country_page,playoff,Jamaica
+JAM,1997,39.0,1997-06-18,Jamaica,country_page,playoff,Jamaica
+JAM,1998,33.0,1998-05-20,Jamaica,country_page,playoff,Jamaica
+JAM,1999,41.0,1999-06-16,Jamaica,country_page,playoff,Jamaica
+JAM,2000,48.0,2000-06-07,Jamaica,country_page,playoff,Jamaica
+JAM,2001,53.0,2001-06-20,Jamaica,country_page,playoff,Jamaica
+JAM,2002,51.0,2002-07-03,Jamaica,country_page,playoff,Jamaica
+JAM,2003,46.0,2003-06-25,Jamaica,country_page,playoff,Jamaica
+JAM,2004,49.0,2004-06-09,Jamaica,country_page,playoff,Jamaica
+JAM,2005,42.0,2005-06-15,Jamaica,country_page,playoff,Jamaica
+JAM,2006,57.0,2006-07-12,Jamaica,country_page,playoff,Jamaica
+JAM,2007,97.0,2007-06-13,Jamaica,country_page,playoff,Jamaica
+JAM,2008,65.0,2008-06-04,Jamaica,country_page,playoff,Jamaica
+JAM,2009,81.0,2009-06-03,Jamaica,country_page,playoff,Jamaica
+JAM,2010,58.0,2010-05-26,Jamaica,country_page,playoff,Jamaica
+JAM,2011,54.0,2011-06-29,Jamaica,country_page,playoff,Jamaica
+JAM,2012,56.0,2012-06-06,Jamaica,country_page,playoff,Jamaica
+JAM,2013,80.0,2013-06-06,Jamaica,country_page,playoff,Jamaica
+JAM,2014,75.0,2014-06-05,Jamaica,country_page,playoff,Jamaica
+JAM,2015,54.0,2015-06-04,Jamaica,country_page,playoff,Jamaica
+JAM,2016,77.0,2016-06-02,Jamaica,country_page,playoff,Jamaica
+JAM,2017,54.0,2017-06-01,Jamaica,country_page,playoff,Jamaica
+JAM,2018,54.0,2018-06-07,Jamaica,country_page,playoff,Jamaica
+JAM,2019,48.0,2019-06-14,Jamaica,country_page,playoff,Jamaica
+JAM,2020,47.0,2020-06-11,Jamaica,country_page,playoff,Jamaica
+JAM,2021,57.0,2021-05-27,Jamaica,country_page,playoff,Jamaica
+JAM,2022,64.0,2022-06-23,Jamaica,country_page,playoff,Jamaica
+JAM,2023,55.0,2023-06-29,Jamaica,country_page,playoff,Jamaica
+JAM,2024,62.0,2024-06-20,Jamaica,country_page,playoff,Jamaica
+JAM,2025,70.0,2025-07-10,Jamaica,country_page,playoff,Jamaica
+JAM,2026,70.0,2026-01-19,Jamaica,html_snapshot,playoff,Jamaica
+JOR,1993,87.0,1993-08-08,Jordan,country_page,confirmed,Jordania
+JOR,1994,113.0,1994-06-14,Jordan,country_page,confirmed,Jordania
+JOR,1995,143.0,1995-06-13,Jordan,country_page,confirmed,Jordania
+JOR,1996,146.0,1996-07-03,Jordan,country_page,confirmed,Jordania
+JOR,1997,124.0,1997-06-18,Jordan,country_page,confirmed,Jordania
+JOR,1998,126.0,1998-05-20,Jordan,country_page,confirmed,Jordania
+JOR,1999,115.0,1999-06-16,Jordan,country_page,confirmed,Jordania
+JOR,2000,105.0,2000-06-07,Jordan,country_page,confirmed,Jordania
+JOR,2001,99.0,2001-06-20,Jordan,country_page,confirmed,Jordania
+JOR,2002,77.0,2002-07-03,Jordan,country_page,confirmed,Jordania
+JOR,2003,47.0,2003-06-25,Jordan,country_page,confirmed,Jordania
+JOR,2004,40.0,2004-06-09,Jordan,country_page,confirmed,Jordania
+JOR,2005,86.0,2005-06-15,Jordan,country_page,confirmed,Jordania
+JOR,2006,95.0,2006-07-12,Jordan,country_page,confirmed,Jordania
+JOR,2007,120.0,2007-06-13,Jordan,country_page,confirmed,Jordania
+JOR,2008,124.0,2008-06-04,Jordan,country_page,confirmed,Jordania
+JOR,2009,111.0,2009-06-03,Jordan,country_page,confirmed,Jordania
+JOR,2010,104.0,2010-05-26,Jordan,country_page,confirmed,Jordania
+JOR,2011,82.0,2011-06-29,Jordan,country_page,confirmed,Jordania
+JOR,2012,94.0,2012-06-06,Jordan,country_page,confirmed,Jordania
+JOR,2013,65.0,2013-06-06,Jordan,country_page,confirmed,Jordania
+JOR,2014,81.0,2014-06-05,Jordan,country_page,confirmed,Jordania
+JOR,2015,87.0,2015-06-04,Jordan,country_page,confirmed,Jordania
+JOR,2016,105.0,2016-06-02,Jordan,country_page,confirmed,Jordania
+JOR,2017,107.0,2017-06-01,Jordan,country_page,confirmed,Jordania
+JOR,2018,109.0,2018-06-07,Jordan,country_page,confirmed,Jordania
+JOR,2019,97.0,2019-06-14,Jordan,country_page,confirmed,Jordania
+JOR,2020,95.0,2020-06-11,Jordan,country_page,confirmed,Jordania
+JOR,2021,90.0,2021-05-27,Jordan,country_page,confirmed,Jordania
+JOR,2022,84.0,2022-06-23,Jordan,country_page,confirmed,Jordania
+JOR,2023,87.0,2023-06-29,Jordan,country_page,confirmed,Jordania
+JOR,2024,64.0,2024-06-20,Jordan,country_page,confirmed,Jordania
+JOR,2025,64.0,2025-07-10,Jordan,country_page,confirmed,Jordania
+JOR,2026,64.0,2026-01-19,Jordan,html_snapshot,confirmed,Jordania
+JPN,1993,43.0,1993-08-08,Japan,country_page,confirmed,Japón
+JPN,1994,36.0,1994-06-14,Japan,country_page,confirmed,Japón
+JPN,1995,31.0,1995-06-13,Japan,country_page,confirmed,Japón
+JPN,1996,21.0,1996-07-03,Japan,country_page,confirmed,Japón
+JPN,1997,14.0,1997-06-18,Japan,country_page,confirmed,Japón
+JPN,1998,20.0,1998-05-20,Japan,country_page,confirmed,Japón
+JPN,1999,57.0,1999-06-16,Japan,country_page,confirmed,Japón
+JPN,2000,38.0,2000-06-07,Japan,country_page,confirmed,Japón
+JPN,2001,34.0,2001-06-20,Japan,country_page,confirmed,Japón
+JPN,2002,22.0,2002-07-03,Japan,country_page,confirmed,Japón
+JPN,2003,29.0,2003-06-25,Japan,country_page,confirmed,Japón
+JPN,2004,17.0,2004-06-09,Japan,country_page,confirmed,Japón
+JPN,2005,15.0,2005-06-15,Japan,country_page,confirmed,Japón
+JPN,2006,47.0,2006-07-12,Japan,country_page,confirmed,Japón
+JPN,2007,34.0,2007-06-13,Japan,country_page,confirmed,Japón
+JPN,2008,35.0,2008-06-04,Japan,country_page,confirmed,Japón
+JPN,2009,43.0,2009-06-03,Japan,country_page,confirmed,Japón
+JPN,2010,29.0,2010-05-26,Japan,country_page,confirmed,Japón
+JPN,2011,19.0,2011-06-29,Japan,country_page,confirmed,Japón
+JPN,2012,22.0,2012-06-06,Japan,country_page,confirmed,Japón
+JPN,2013,47.0,2013-06-06,Japan,country_page,confirmed,Japón
+JPN,2014,54.0,2014-06-05,Japan,country_page,confirmed,Japón
+JPN,2015,53.0,2015-06-04,Japan,country_page,confirmed,Japón
+JPN,2016,45.0,2016-06-02,Japan,country_page,confirmed,Japón
+JPN,2017,57.0,2017-06-01,Japan,country_page,confirmed,Japón
+JPN,2018,50.0,2018-06-07,Japan,country_page,confirmed,Japón
+JPN,2019,28.0,2019-06-14,Japan,country_page,confirmed,Japón
+JPN,2020,27.0,2020-06-11,Japan,country_page,confirmed,Japón
+JPN,2021,26.0,2021-05-27,Japan,country_page,confirmed,Japón
+JPN,2022,20.0,2022-06-23,Japan,country_page,confirmed,Japón
+JPN,2023,17.0,2023-06-29,Japan,country_page,confirmed,Japón
+JPN,2024,15.0,2024-06-20,Japan,country_page,confirmed,Japón
+JPN,2025,18.0,2025-07-10,Japan,country_page,confirmed,Japón
+JPN,2026,19.0,2026-01-19,Japan,html_snapshot,confirmed,Japón
+KOR,1993,41.0,1993-08-08,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,1994,35.0,1994-06-14,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,1995,46.0,1995-06-13,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,1996,44.0,1996-07-03,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,1997,27.0,1997-06-18,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,1998,17.0,1998-05-20,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,1999,51.0,1999-06-16,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2000,40.0,2000-06-07,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2001,42.0,2001-06-20,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2002,20.0,2002-07-03,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2003,22.0,2003-06-25,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2004,22.0,2004-06-09,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2005,29.0,2005-06-15,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2006,51.0,2006-07-12,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2007,42.0,2007-06-13,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2008,42.0,2008-06-04,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2009,52.0,2009-06-03,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2010,40.0,2010-05-26,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2011,32.0,2011-06-29,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2012,35.0,2012-06-06,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2013,54.0,2013-06-06,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2014,69.0,2014-06-05,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2015,51.0,2015-06-04,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2016,37.0,2016-06-02,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2017,60.0,2017-06-01,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2018,53.0,2018-06-07,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2019,40.0,2019-06-14,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2020,38.0,2020-06-11,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2021,33.0,2021-05-27,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2022,25.0,2022-06-23,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2023,23.0,2023-06-29,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2024,23.0,2024-06-20,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2025,22.0,2025-07-10,Korea Republic,country_page,confirmed,Corea del Sur
+KOR,2026,22.0,2026-01-19,Korea Republic,html_snapshot,confirmed,Corea del Sur
+KSA,1993,38.0,1993-08-08,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,1994,27.0,1994-06-14,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,1995,54.0,1995-06-13,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,1996,37.0,1996-07-03,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,1997,33.0,1997-06-18,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,1998,30.0,1998-05-20,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,1999,39.0,1999-06-16,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2000,36.0,2000-06-07,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2001,31.0,2001-06-20,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2002,38.0,2002-07-03,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2003,26.0,2003-06-25,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2004,28.0,2004-06-09,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2005,33.0,2005-06-15,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2006,64.0,2006-07-12,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2007,61.0,2007-06-13,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2008,48.0,2008-06-04,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2009,63.0,2009-06-03,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2010,80.0,2010-05-26,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2011,96.0,2011-06-29,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2012,126.0,2012-06-06,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2013,87.0,2013-06-06,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2014,102.0,2014-06-05,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2015,80.0,2015-06-04,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2016,54.0,2016-06-02,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2017,63.0,2017-06-01,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2018,69.0,2018-06-07,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2019,67.0,2019-06-14,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2020,67.0,2020-06-11,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2021,51.0,2021-05-27,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2022,49.0,2022-06-23,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2023,56.0,2023-06-29,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2024,59.0,2024-06-20,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2025,60.0,2025-07-10,Saudi Arabia,country_page,confirmed,Arabia Saudita
+KSA,2026,61.0,2026-01-19,Saudi Arabia,html_snapshot,confirmed,Arabia Saudita
+KVX,1993,,1993-08-08,Kosovo,missing,playoff,Kosovo
+KVX,1994,,1994-06-14,Kosovo,missing,playoff,Kosovo
+KVX,1995,,1995-06-13,Kosovo,missing,playoff,Kosovo
+KVX,1996,,1996-07-03,Kosovo,missing,playoff,Kosovo
+KVX,1997,,1997-06-18,Kosovo,missing,playoff,Kosovo
+KVX,1998,,1998-05-20,Kosovo,missing,playoff,Kosovo
+KVX,1999,,1999-06-16,Kosovo,missing,playoff,Kosovo
+KVX,2000,,2000-06-07,Kosovo,missing,playoff,Kosovo
+KVX,2001,,2001-06-20,Kosovo,missing,playoff,Kosovo
+KVX,2002,,2002-07-03,Kosovo,missing,playoff,Kosovo
+KVX,2003,,2003-06-25,Kosovo,missing,playoff,Kosovo
+KVX,2004,,2004-06-09,Kosovo,missing,playoff,Kosovo
+KVX,2005,,2005-06-15,Kosovo,missing,playoff,Kosovo
+KVX,2006,,2006-07-12,Kosovo,missing,playoff,Kosovo
+KVX,2007,,2007-06-13,Kosovo,missing,playoff,Kosovo
+KVX,2008,,2008-06-04,Kosovo,missing,playoff,Kosovo
+KVX,2009,,2009-06-03,Kosovo,missing,playoff,Kosovo
+KVX,2010,,2010-05-26,Kosovo,missing,playoff,Kosovo
+KVX,2011,,2011-06-29,Kosovo,missing,playoff,Kosovo
+KVX,2012,,2012-06-06,Kosovo,missing,playoff,Kosovo
+KVX,2013,,2013-06-06,Kosovo,missing,playoff,Kosovo
+KVX,2014,,2014-06-05,Kosovo,missing,playoff,Kosovo
+KVX,2015,,2015-06-04,Kosovo,missing,playoff,Kosovo
+KVX,2016,165.0,2016-06-02,Kosovo,country_page_KOS,playoff,Kosovo
+KVX,2017,177.0,2017-06-01,Kosovo,country_page_KOS,playoff,Kosovo
+KVX,2018,131.0,2018-06-07,Kosovo,country_page_KOS,playoff,Kosovo
+KVX,2019,115.0,2019-06-14,Kosovo,country_page_KOS,playoff,Kosovo
+KVX,2020,117.0,2020-06-11,Kosovo,country_page_KOS,playoff,Kosovo
+KVX,2021,111.0,2021-05-27,Kosovo,country_page_KOS,playoff,Kosovo
+KVX,2022,107.0,2022-06-23,Kosovo,country_page_KOS,playoff,Kosovo
+KVX,2023,101.0,2023-06-29,Kosovo,country_page_KOS,playoff,Kosovo
+KVX,2024,99.0,2024-06-20,Kosovo,country_page_KOS,playoff,Kosovo
+KVX,2025,80.0,2025-07-10,Kosovo,country_page_KOS,playoff,Kosovo
+KVX,2026,79.0,2026-01-19,Kosovo,country_page_KOS,playoff,Kosovo
+MAR,1993,30.0,1993-08-08,Morocco,country_page,confirmed,Marruecos
+MAR,1994,33.0,1994-06-14,Morocco,country_page,confirmed,Marruecos
+MAR,1995,38.0,1995-06-13,Morocco,country_page,confirmed,Marruecos
+MAR,1996,27.0,1996-07-03,Morocco,country_page,confirmed,Marruecos
+MAR,1997,15.0,1997-06-18,Morocco,country_page,confirmed,Marruecos
+MAR,1998,13.0,1998-05-20,Morocco,country_page,confirmed,Marruecos
+MAR,1999,24.0,1999-06-16,Morocco,country_page,confirmed,Marruecos
+MAR,2000,28.0,2000-06-07,Morocco,country_page,confirmed,Marruecos
+MAR,2001,36.0,2001-06-20,Morocco,country_page,confirmed,Marruecos
+MAR,2002,35.0,2002-07-03,Morocco,country_page,confirmed,Marruecos
+MAR,2003,38.0,2003-06-25,Morocco,country_page,confirmed,Marruecos
+MAR,2004,33.0,2004-06-09,Morocco,country_page,confirmed,Marruecos
+MAR,2005,36.0,2005-06-15,Morocco,country_page,confirmed,Marruecos
+MAR,2006,39.0,2006-07-12,Morocco,country_page,confirmed,Marruecos
+MAR,2007,39.0,2007-06-13,Morocco,country_page,confirmed,Marruecos
+MAR,2008,41.0,2008-06-04,Morocco,country_page,confirmed,Marruecos
+MAR,2009,67.0,2009-06-03,Morocco,country_page,confirmed,Marruecos
+MAR,2010,79.0,2010-05-26,Morocco,country_page,confirmed,Marruecos
+MAR,2011,61.0,2011-06-29,Morocco,country_page,confirmed,Marruecos
+MAR,2012,74.0,2012-06-06,Morocco,country_page,confirmed,Marruecos
+MAR,2013,73.0,2013-06-06,Morocco,country_page,confirmed,Marruecos
+MAR,2014,81.0,2014-06-05,Morocco,country_page,confirmed,Marruecos
+MAR,2015,75.0,2015-06-04,Morocco,country_page,confirmed,Marruecos
+MAR,2016,57.0,2016-06-02,Morocco,country_page,confirmed,Marruecos
+MAR,2017,40.0,2017-06-01,Morocco,country_page,confirmed,Marruecos
+MAR,2018,40.0,2018-06-07,Morocco,country_page,confirmed,Marruecos
+MAR,2019,43.0,2019-06-14,Morocco,country_page,confirmed,Marruecos
+MAR,2020,35.0,2020-06-11,Morocco,country_page,confirmed,Marruecos
+MAR,2021,28.0,2021-05-27,Morocco,country_page,confirmed,Marruecos
+MAR,2022,11.0,2022-06-23,Morocco,country_page,confirmed,Marruecos
+MAR,2023,13.0,2023-06-29,Morocco,country_page,confirmed,Marruecos
+MAR,2024,14.0,2024-06-20,Morocco,country_page,confirmed,Marruecos
+MAR,2025,11.0,2025-07-10,Morocco,country_page,confirmed,Marruecos
+MAR,2026,8.0,2026-01-19,Morocco,html_snapshot,confirmed,Marruecos
+MEX,1993,16.0,1993-08-08,Mexico,country_page,confirmed,México
+MEX,1994,15.0,1994-06-14,Mexico,country_page,confirmed,México
+MEX,1995,12.0,1995-06-13,Mexico,country_page,confirmed,México
+MEX,1996,11.0,1996-07-03,Mexico,country_page,confirmed,México
+MEX,1997,5.0,1997-06-18,Mexico,country_page,confirmed,México
+MEX,1998,10.0,1998-05-20,Mexico,country_page,confirmed,México
+MEX,1999,10.0,1999-06-16,Mexico,country_page,confirmed,México
+MEX,2000,12.0,2000-06-07,Mexico,country_page,confirmed,México
+MEX,2001,9.0,2001-06-20,Mexico,country_page,confirmed,México
+MEX,2002,8.0,2002-07-03,Mexico,country_page,confirmed,México
+MEX,2003,7.0,2003-06-25,Mexico,country_page,confirmed,México
+MEX,2004,7.0,2004-06-09,Mexico,country_page,confirmed,México
+MEX,2005,5.0,2005-06-15,Mexico,country_page,confirmed,México
+MEX,2006,20.0,2006-07-12,Mexico,country_page,confirmed,México
+MEX,2007,15.0,2007-06-13,Mexico,country_page,confirmed,México
+MEX,2008,26.0,2008-06-04,Mexico,country_page,confirmed,México
+MEX,2009,17.0,2009-06-03,Mexico,country_page,confirmed,México
+MEX,2010,27.0,2010-05-26,Mexico,country_page,confirmed,México
+MEX,2011,21.0,2011-06-29,Mexico,country_page,confirmed,México
+MEX,2012,15.0,2012-06-06,Mexico,country_page,confirmed,México
+MEX,2013,21.0,2013-06-06,Mexico,country_page,confirmed,México
+MEX,2014,20.0,2014-06-05,Mexico,country_page,confirmed,México
+MEX,2015,22.0,2015-06-04,Mexico,country_page,confirmed,México
+MEX,2016,18.0,2016-06-02,Mexico,country_page,confirmed,México
+MEX,2017,16.0,2017-06-01,Mexico,country_page,confirmed,México
+MEX,2018,17.0,2018-06-07,Mexico,country_page,confirmed,México
+MEX,2019,11.0,2019-06-14,Mexico,country_page,confirmed,México
+MEX,2020,9.0,2020-06-11,Mexico,country_page,confirmed,México
+MEX,2021,14.0,2021-05-27,Mexico,country_page,confirmed,México
+MEX,2022,15.0,2022-06-23,Mexico,country_page,confirmed,México
+MEX,2023,15.0,2023-06-29,Mexico,country_page,confirmed,México
+MEX,2024,19.0,2024-06-20,Mexico,country_page,confirmed,México
+MEX,2025,15.0,2025-07-10,Mexico,country_page,confirmed,México
+MEX,2026,16.0,2026-01-19,Mexico,html_snapshot,confirmed,México
+MKD,1993,,1993-08-08,North Macedonia,missing,playoff,Macedonia del Norte
+MKD,1994,90.0,1994-06-14,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,1995,94.0,1995-06-13,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,1996,86.0,1996-07-03,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,1997,92.0,1997-06-18,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,1998,59.0,1998-05-20,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,1999,68.0,1999-06-16,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2000,76.0,2000-06-07,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2001,89.0,2001-06-20,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2002,85.0,2002-07-03,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2003,92.0,2003-06-25,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2004,92.0,2004-06-09,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2005,87.0,2005-06-15,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2006,54.0,2006-07-12,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2007,58.0,2007-06-13,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2008,56.0,2008-06-04,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2009,65.0,2009-06-03,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2010,76.0,2010-05-26,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2011,103.0,2011-06-29,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2012,81.0,2012-06-06,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2013,83.0,2013-06-06,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2014,100.0,2014-06-05,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2015,136.0,2015-06-04,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2016,162.0,2016-06-02,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2017,76.0,2017-06-01,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2018,68.0,2018-06-07,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2019,68.0,2019-06-14,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2020,65.0,2020-06-11,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2021,67.0,2021-05-27,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2022,65.0,2022-06-23,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2023,65.0,2023-06-29,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2024,67.0,2024-06-20,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2025,66.0,2025-07-10,North Macedonia,country_page,playoff,Macedonia del Norte
+MKD,2026,66.0,2026-01-19,North Macedonia,html_snapshot,playoff,Macedonia del Norte
+NCL,1993,,1993-08-08,New Caledonia,missing,playoff,Nueva Caledonia
+NCL,1994,,1994-06-14,New Caledonia,missing,playoff,Nueva Caledonia
+NCL,1995,,1995-06-13,New Caledonia,missing,playoff,Nueva Caledonia
+NCL,1996,,1996-07-03,New Caledonia,missing,playoff,Nueva Caledonia
+NCL,1997,,1997-06-18,New Caledonia,missing,playoff,Nueva Caledonia
+NCL,1998,,1998-05-20,New Caledonia,missing,playoff,Nueva Caledonia
+NCL,1999,,1999-06-16,New Caledonia,missing,playoff,Nueva Caledonia
+NCL,2000,,2000-06-07,New Caledonia,missing,playoff,Nueva Caledonia
+NCL,2001,,2001-06-20,New Caledonia,missing,playoff,Nueva Caledonia
+NCL,2002,,2002-07-03,New Caledonia,missing,playoff,Nueva Caledonia
+NCL,2003,,2003-06-25,New Caledonia,missing,playoff,Nueva Caledonia
+NCL,2004,186.0,2004-06-09,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2005,187.0,2005-06-15,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2006,176.0,2006-07-12,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2007,118.0,2007-06-13,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2008,130.0,2008-06-04,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2009,147.0,2009-06-03,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2010,156.0,2010-05-26,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2011,166.0,2011-06-29,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2012,108.0,2012-06-06,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2013,121.0,2013-06-06,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2014,153.0,2014-06-05,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2015,181.0,2015-06-04,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2016,168.0,2016-06-02,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2017,154.0,2017-06-01,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2018,154.0,2018-06-07,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2019,156.0,2019-06-14,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2020,156.0,2020-06-11,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2021,153.0,2021-05-27,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2022,161.0,2022-06-23,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2023,159.0,2023-06-29,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2024,152.0,2024-06-20,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2025,150.0,2025-07-10,New Caledonia,country_page,playoff,Nueva Caledonia
+NCL,2026,150.0,2026-01-19,New Caledonia,html_snapshot,playoff,Nueva Caledonia
+NED,1993,7.0,1993-08-08,Netherlands,country_page,confirmed,Países Bajos
+NED,1994,6.0,1994-06-14,Netherlands,country_page,confirmed,Países Bajos
+NED,1995,6.0,1995-06-13,Netherlands,country_page,confirmed,Países Bajos
+NED,1996,9.0,1996-07-03,Netherlands,country_page,confirmed,Países Bajos
+NED,1997,22.0,1997-06-18,Netherlands,country_page,confirmed,Países Bajos
+NED,1998,11.0,1998-05-20,Netherlands,country_page,confirmed,Países Bajos
+NED,1999,19.0,1999-06-16,Netherlands,country_page,confirmed,Países Bajos
+NED,2000,8.0,2000-06-07,Netherlands,country_page,confirmed,Países Bajos
+NED,2001,8.0,2001-06-20,Netherlands,country_page,confirmed,Países Bajos
+NED,2002,6.0,2002-07-03,Netherlands,country_page,confirmed,Países Bajos
+NED,2003,4.0,2003-06-25,Netherlands,country_page,confirmed,Países Bajos
+NED,2004,6.0,2004-06-09,Netherlands,country_page,confirmed,Países Bajos
+NED,2005,3.0,2005-06-15,Netherlands,country_page,confirmed,Países Bajos
+NED,2006,7.0,2006-07-12,Netherlands,country_page,confirmed,Países Bajos
+NED,2007,9.0,2007-06-13,Netherlands,country_page,confirmed,Países Bajos
+NED,2008,3.0,2008-06-04,Netherlands,country_page,confirmed,Países Bajos
+NED,2009,3.0,2009-06-03,Netherlands,country_page,confirmed,Países Bajos
+NED,2010,2.0,2010-05-26,Netherlands,country_page,confirmed,Países Bajos
+NED,2011,2.0,2011-06-29,Netherlands,country_page,confirmed,Países Bajos
+NED,2012,8.0,2012-06-06,Netherlands,country_page,confirmed,Países Bajos
+NED,2013,9.0,2013-06-06,Netherlands,country_page,confirmed,Países Bajos
+NED,2014,5.0,2014-06-05,Netherlands,country_page,confirmed,Países Bajos
+NED,2015,14.0,2015-06-04,Netherlands,country_page,confirmed,Países Bajos
+NED,2016,22.0,2016-06-02,Netherlands,country_page,confirmed,Países Bajos
+NED,2017,20.0,2017-06-01,Netherlands,country_page,confirmed,Países Bajos
+NED,2018,14.0,2018-06-07,Netherlands,country_page,confirmed,Países Bajos
+NED,2019,14.0,2019-06-14,Netherlands,country_page,confirmed,Países Bajos
+NED,2020,14.0,2020-06-11,Netherlands,country_page,confirmed,Países Bajos
+NED,2021,10.0,2021-05-27,Netherlands,country_page,confirmed,Países Bajos
+NED,2022,6.0,2022-06-23,Netherlands,country_page,confirmed,Países Bajos
+NED,2023,6.0,2023-06-29,Netherlands,country_page,confirmed,Países Bajos
+NED,2024,7.0,2024-06-20,Netherlands,country_page,confirmed,Países Bajos
+NED,2025,7.0,2025-07-10,Netherlands,country_page,confirmed,Países Bajos
+NED,2026,7.0,2026-01-19,Netherlands,html_snapshot,confirmed,Países Bajos
+NIR,1993,39.0,1993-08-08,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,1994,45.0,1994-06-14,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,1995,45.0,1995-06-13,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,1996,64.0,1996-07-03,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,1997,93.0,1997-06-18,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,1998,86.0,1998-05-20,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,1999,84.0,1999-06-16,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2000,93.0,2000-06-07,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2001,88.0,2001-06-20,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2002,103.0,2002-07-03,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2003,122.0,2003-06-25,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2004,107.0,2004-06-09,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2005,103.0,2005-06-15,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2006,48.0,2006-07-12,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2007,32.0,2007-06-13,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2008,52.0,2008-06-04,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2009,40.0,2009-06-03,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2010,43.0,2010-05-26,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2011,88.0,2011-06-29,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2012,96.0,2012-06-06,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2013,89.0,2013-06-06,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2014,48.0,2014-06-05,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2015,30.0,2015-06-04,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2016,32.0,2016-06-02,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2017,24.0,2017-06-01,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2018,35.0,2018-06-07,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2019,36.0,2019-06-14,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2020,45.0,2020-06-11,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2021,54.0,2021-05-27,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2022,59.0,2022-06-23,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2023,72.0,2023-06-29,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2024,71.0,2024-06-20,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2025,69.0,2025-07-10,Northern Ireland,country_page,playoff,Irlanda del Norte
+NIR,2026,69.0,2026-01-19,Northern Ireland,html_snapshot,playoff,Irlanda del Norte
+NOR,1993,4.0,1993-08-08,Norway,country_page,confirmed,Noruega
+NOR,1994,8.0,1994-06-14,Norway,country_page,confirmed,Noruega
+NOR,1995,10.0,1995-06-13,Norway,country_page,confirmed,Noruega
+NOR,1996,14.0,1996-07-03,Norway,country_page,confirmed,Noruega
+NOR,1997,13.0,1997-06-18,Norway,country_page,confirmed,Noruega
+NOR,1998,14.0,1998-05-20,Norway,country_page,confirmed,Noruega
+NOR,1999,7.0,1999-06-16,Norway,country_page,confirmed,Noruega
+NOR,2000,14.0,2000-06-07,Norway,country_page,confirmed,Noruega
+NOR,2001,26.0,2001-06-20,Norway,country_page,confirmed,Noruega
+NOR,2002,26.0,2002-07-03,Norway,country_page,confirmed,Noruega
+NOR,2003,42.0,2003-06-25,Norway,country_page,confirmed,Noruega
+NOR,2004,35.0,2004-06-09,Norway,country_page,confirmed,Noruega
+NOR,2005,38.0,2005-06-15,Norway,country_page,confirmed,Noruega
+NOR,2006,50.0,2006-07-12,Norway,country_page,confirmed,Noruega
+NOR,2007,29.0,2007-06-13,Norway,country_page,confirmed,Noruega
+NOR,2008,59.0,2008-06-04,Norway,country_page,confirmed,Noruega
+NOR,2009,32.0,2009-06-03,Norway,country_page,confirmed,Noruega
+NOR,2010,12.0,2010-05-26,Norway,country_page,confirmed,Noruega
+NOR,2011,25.0,2011-06-29,Norway,country_page,confirmed,Noruega
+NOR,2012,24.0,2012-06-06,Norway,country_page,confirmed,Noruega
+NOR,2013,54.0,2013-06-06,Norway,country_page,confirmed,Noruega
+NOR,2014,67.0,2014-06-05,Norway,country_page,confirmed,Noruega
+NOR,2015,54.0,2015-06-04,Norway,country_page,confirmed,Noruega
+NOR,2016,83.0,2016-06-02,Norway,country_page,confirmed,Noruega
+NOR,2017,59.0,2017-06-01,Norway,country_page,confirmed,Noruega
+NOR,2018,46.0,2018-06-07,Norway,country_page,confirmed,Noruega
+NOR,2019,44.0,2019-06-14,Norway,country_page,confirmed,Noruega
+NOR,2020,44.0,2020-06-11,Norway,country_page,confirmed,Noruega
+NOR,2021,41.0,2021-05-27,Norway,country_page,confirmed,Noruega
+NOR,2022,43.0,2022-06-23,Norway,country_page,confirmed,Noruega
+NOR,2023,44.0,2023-06-29,Norway,country_page,confirmed,Noruega
+NOR,2024,43.0,2024-06-20,Norway,country_page,confirmed,Noruega
+NOR,2025,29.0,2025-07-10,Norway,country_page,confirmed,Noruega
+NOR,2026,32.0,2026-01-19,Norway,html_snapshot,confirmed,Noruega
+NZL,1993,77.0,1993-08-08,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,1994,99.0,1994-06-14,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,1995,102.0,1995-06-13,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,1996,132.0,1996-07-03,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,1997,120.0,1997-06-18,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,1998,103.0,1998-05-20,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,1999,100.0,1999-06-16,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2000,91.0,2000-06-07,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2001,84.0,2001-06-20,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2002,49.0,2002-07-03,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2003,88.0,2003-06-25,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2004,95.0,2004-06-09,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2005,120.0,2005-06-15,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2006,131.0,2006-07-12,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2007,95.0,2007-06-13,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2008,86.0,2008-06-04,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2009,82.0,2009-06-03,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2010,63.0,2010-05-26,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2011,119.0,2011-06-29,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2012,91.0,2012-06-06,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2013,90.0,2013-06-06,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2014,134.0,2014-06-05,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2015,151.0,2015-06-04,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2016,109.0,2016-06-02,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2017,121.0,2017-06-01,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2018,122.0,2018-06-07,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2019,122.0,2019-06-14,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2020,118.0,2020-06-11,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2021,110.0,2021-05-27,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2022,105.0,2022-06-23,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2023,104.0,2023-06-29,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2024,89.0,2024-06-20,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2025,87.0,2025-07-10,New Zealand,country_page,confirmed,Nueva Zelanda
+NZL,2026,85.0,2026-01-19,New Zealand,html_snapshot,confirmed,Nueva Zelanda
+PAN,1993,132.0,1993-08-08,Panama,country_page,confirmed,Panamá
+PAN,1994,140.0,1994-06-14,Panama,country_page,confirmed,Panamá
+PAN,1995,126.0,1995-06-13,Panama,country_page,confirmed,Panamá
+PAN,1996,101.0,1996-07-03,Panama,country_page,confirmed,Panamá
+PAN,1997,119.0,1997-06-18,Panama,country_page,confirmed,Panamá
+PAN,1998,131.0,1998-05-20,Panama,country_page,confirmed,Panamá
+PAN,1999,138.0,1999-06-16,Panama,country_page,confirmed,Panamá
+PAN,2000,121.0,2000-06-07,Panama,country_page,confirmed,Panamá
+PAN,2001,109.0,2001-06-20,Panama,country_page,confirmed,Panamá
+PAN,2002,129.0,2002-07-03,Panama,country_page,confirmed,Panamá
+PAN,2003,125.0,2003-06-25,Panama,country_page,confirmed,Panamá
+PAN,2004,100.0,2004-06-09,Panama,country_page,confirmed,Panamá
+PAN,2005,78.0,2005-06-15,Panama,country_page,confirmed,Panamá
+PAN,2006,81.0,2006-07-12,Panama,country_page,confirmed,Panamá
+PAN,2007,67.0,2007-06-13,Panama,country_page,confirmed,Panamá
+PAN,2008,88.0,2008-06-04,Panama,country_page,confirmed,Panamá
+PAN,2009,70.0,2009-06-03,Panama,country_page,confirmed,Panamá
+PAN,2010,64.0,2010-05-26,Panama,country_page,confirmed,Panamá
+PAN,2011,49.0,2011-06-29,Panama,country_page,confirmed,Panamá
+PAN,2012,51.0,2012-06-06,Panama,country_page,confirmed,Panamá
+PAN,2013,38.0,2013-06-06,Panama,country_page,confirmed,Panamá
+PAN,2014,57.0,2014-06-05,Panama,country_page,confirmed,Panamá
+PAN,2015,64.0,2015-06-04,Panama,country_page,confirmed,Panamá
+PAN,2016,58.0,2016-06-02,Panama,country_page,confirmed,Panamá
+PAN,2017,55.0,2017-06-01,Panama,country_page,confirmed,Panamá
+PAN,2018,71.0,2018-06-07,Panama,country_page,confirmed,Panamá
+PAN,2019,81.0,2019-06-14,Panama,country_page,confirmed,Panamá
+PAN,2020,78.0,2020-06-11,Panama,country_page,confirmed,Panamá
+PAN,2021,63.0,2021-05-27,Panama,country_page,confirmed,Panamá
+PAN,2022,61.0,2022-06-23,Panama,country_page,confirmed,Panamá
+PAN,2023,41.0,2023-06-29,Panama,country_page,confirmed,Panamá
+PAN,2024,36.0,2024-06-20,Panama,country_page,confirmed,Panamá
+PAN,2025,30.0,2025-07-10,Panama,country_page,confirmed,Panamá
+PAN,2026,33.0,2026-01-19,Panama,html_snapshot,confirmed,Panamá
+PAR,1993,61.0,1993-08-08,Paraguay,country_page,confirmed,Paraguay
+PAR,1994,87.0,1994-06-14,Paraguay,country_page,confirmed,Paraguay
+PAR,1995,64.0,1995-06-13,Paraguay,country_page,confirmed,Paraguay
+PAR,1996,38.0,1996-07-03,Paraguay,country_page,confirmed,Paraguay
+PAR,1997,29.0,1997-06-18,Paraguay,country_page,confirmed,Paraguay
+PAR,1998,25.0,1998-05-20,Paraguay,country_page,confirmed,Paraguay
+PAR,1999,17.0,1999-06-16,Paraguay,country_page,confirmed,Paraguay
+PAR,2000,10.0,2000-06-07,Paraguay,country_page,confirmed,Paraguay
+PAR,2001,13.0,2001-06-20,Paraguay,country_page,confirmed,Paraguay
+PAR,2002,18.0,2002-07-03,Paraguay,country_page,confirmed,Paraguay
+PAR,2003,22.0,2003-06-25,Paraguay,country_page,confirmed,Paraguay
+PAR,2004,30.0,2004-06-09,Paraguay,country_page,confirmed,Paraguay
+PAR,2005,30.0,2005-06-15,Paraguay,country_page,confirmed,Paraguay
+PAR,2006,35.0,2006-07-12,Paraguay,country_page,confirmed,Paraguay
+PAR,2007,21.0,2007-06-13,Paraguay,country_page,confirmed,Paraguay
+PAR,2008,17.0,2008-06-04,Paraguay,country_page,confirmed,Paraguay
+PAR,2009,29.0,2009-06-03,Paraguay,country_page,confirmed,Paraguay
+PAR,2010,24.0,2010-05-26,Paraguay,country_page,confirmed,Paraguay
+PAR,2011,24.0,2011-06-29,Paraguay,country_page,confirmed,Paraguay
+PAR,2012,37.0,2012-06-06,Paraguay,country_page,confirmed,Paraguay
+PAR,2013,51.0,2013-06-06,Paraguay,country_page,confirmed,Paraguay
+PAR,2014,76.0,2014-06-05,Paraguay,country_page,confirmed,Paraguay
+PAR,2015,46.0,2015-06-04,Paraguay,country_page,confirmed,Paraguay
+PAR,2016,40.0,2016-06-02,Paraguay,country_page,confirmed,Paraguay
+PAR,2017,30.0,2017-06-01,Paraguay,country_page,confirmed,Paraguay
+PAR,2018,32.0,2018-06-07,Paraguay,country_page,confirmed,Paraguay
+PAR,2019,40.0,2019-06-14,Paraguay,country_page,confirmed,Paraguay
+PAR,2020,34.0,2020-06-11,Paraguay,country_page,confirmed,Paraguay
+PAR,2021,43.0,2021-05-27,Paraguay,country_page,confirmed,Paraguay
+PAR,2022,46.0,2022-06-23,Paraguay,country_page,confirmed,Paraguay
+PAR,2023,53.0,2023-06-29,Paraguay,country_page,confirmed,Paraguay
+PAR,2024,53.0,2024-06-20,Paraguay,country_page,confirmed,Paraguay
+PAR,2025,39.0,2025-07-10,Paraguay,country_page,confirmed,Paraguay
+PAR,2026,40.0,2026-01-19,Paraguay,html_snapshot,confirmed,Paraguay
+POL,1993,28.0,1993-08-08,Poland,country_page,playoff,Polonia
+POL,1994,29.0,1994-06-14,Poland,country_page,playoff,Polonia
+POL,1995,33.0,1995-06-13,Poland,country_page,playoff,Polonia
+POL,1996,53.0,1996-07-03,Poland,country_page,playoff,Polonia
+POL,1997,48.0,1997-06-18,Poland,country_page,playoff,Polonia
+POL,1998,31.0,1998-05-20,Poland,country_page,playoff,Polonia
+POL,1999,32.0,1999-06-16,Poland,country_page,playoff,Polonia
+POL,2000,43.0,2000-06-07,Poland,country_page,playoff,Polonia
+POL,2001,33.0,2001-06-20,Poland,country_page,playoff,Polonia
+POL,2002,34.0,2002-07-03,Poland,country_page,playoff,Polonia
+POL,2003,25.0,2003-06-25,Poland,country_page,playoff,Polonia
+POL,2004,25.0,2004-06-09,Poland,country_page,playoff,Polonia
+POL,2005,22.0,2005-06-15,Poland,country_page,playoff,Polonia
+POL,2006,24.0,2006-07-12,Poland,country_page,playoff,Polonia
+POL,2007,22.0,2007-06-13,Poland,country_page,playoff,Polonia
+POL,2008,34.0,2008-06-04,Poland,country_page,playoff,Polonia
+POL,2009,58.0,2009-06-03,Poland,country_page,playoff,Polonia
+POL,2010,73.0,2010-05-26,Poland,country_page,playoff,Polonia
+POL,2011,66.0,2011-06-29,Poland,country_page,playoff,Polonia
+POL,2012,55.0,2012-06-06,Poland,country_page,playoff,Polonia
+POL,2013,76.0,2013-06-06,Poland,country_page,playoff,Polonia
+POL,2014,41.0,2014-06-05,Poland,country_page,playoff,Polonia
+POL,2015,34.0,2015-06-04,Poland,country_page,playoff,Polonia
+POL,2016,15.0,2016-06-02,Poland,country_page,playoff,Polonia
+POL,2017,7.0,2017-06-01,Poland,country_page,playoff,Polonia
+POL,2018,20.0,2018-06-07,Poland,country_page,playoff,Polonia
+POL,2019,19.0,2019-06-14,Poland,country_page,playoff,Polonia
+POL,2020,19.0,2020-06-11,Poland,country_page,playoff,Polonia
+POL,2021,27.0,2021-05-27,Poland,country_page,playoff,Polonia
+POL,2022,22.0,2022-06-23,Poland,country_page,playoff,Polonia
+POL,2023,31.0,2023-06-29,Poland,country_page,playoff,Polonia
+POL,2024,35.0,2024-06-20,Poland,country_page,playoff,Polonia
+POL,2025,31.0,2025-07-10,Poland,country_page,playoff,Polonia
+POL,2026,34.0,2026-01-19,Poland,html_snapshot,playoff,Polonia
+POR,1993,20.0,1993-08-08,Portugal,country_page,confirmed,Portugal
+POR,1994,20.0,1994-06-14,Portugal,country_page,confirmed,Portugal
+POR,1995,16.0,1995-06-13,Portugal,country_page,confirmed,Portugal
+POR,1996,13.0,1996-07-03,Portugal,country_page,confirmed,Portugal
+POR,1997,30.0,1997-06-18,Portugal,country_page,confirmed,Portugal
+POR,1998,36.0,1998-05-20,Portugal,country_page,confirmed,Portugal
+POR,1999,15.0,1999-06-16,Portugal,country_page,confirmed,Portugal
+POR,2000,6.0,2000-06-07,Portugal,country_page,confirmed,Portugal
+POR,2001,4.0,2001-06-20,Portugal,country_page,confirmed,Portugal
+POR,2002,11.0,2002-07-03,Portugal,country_page,confirmed,Portugal
+POR,2003,17.0,2003-06-25,Portugal,country_page,confirmed,Portugal
+POR,2004,9.0,2004-06-09,Portugal,country_page,confirmed,Portugal
+POR,2005,10.0,2005-06-15,Portugal,country_page,confirmed,Portugal
+POR,2006,8.0,2006-07-12,Portugal,country_page,confirmed,Portugal
+POR,2007,8.0,2007-06-13,Portugal,country_page,confirmed,Portugal
+POR,2008,11.0,2008-06-04,Portugal,country_page,confirmed,Portugal
+POR,2009,5.0,2009-06-03,Portugal,country_page,confirmed,Portugal
+POR,2010,8.0,2010-05-26,Portugal,country_page,confirmed,Portugal
+POR,2011,7.0,2011-06-29,Portugal,country_page,confirmed,Portugal
+POR,2012,7.0,2012-06-06,Portugal,country_page,confirmed,Portugal
+POR,2013,5.0,2013-06-06,Portugal,country_page,confirmed,Portugal
+POR,2014,7.0,2014-06-05,Portugal,country_page,confirmed,Portugal
+POR,2015,7.0,2015-06-04,Portugal,country_page,confirmed,Portugal
+POR,2016,8.0,2016-06-02,Portugal,country_page,confirmed,Portugal
+POR,2017,3.0,2017-06-01,Portugal,country_page,confirmed,Portugal
+POR,2018,6.0,2018-06-07,Portugal,country_page,confirmed,Portugal
+POR,2019,7.0,2019-06-14,Portugal,country_page,confirmed,Portugal
+POR,2020,5.0,2020-06-11,Portugal,country_page,confirmed,Portugal
+POR,2021,8.0,2021-05-27,Portugal,country_page,confirmed,Portugal
+POR,2022,9.0,2022-06-23,Portugal,country_page,confirmed,Portugal
+POR,2023,7.0,2023-06-29,Portugal,country_page,confirmed,Portugal
+POR,2024,6.0,2024-06-20,Portugal,country_page,confirmed,Portugal
+POR,2025,6.0,2025-07-10,Portugal,country_page,confirmed,Portugal
+POR,2026,6.0,2026-01-19,Portugal,html_snapshot,confirmed,Portugal
+QAT,1993,54.0,1993-08-08,Qatar,country_page,confirmed,Catar
+QAT,1994,60.0,1994-06-14,Qatar,country_page,confirmed,Catar
+QAT,1995,83.0,1995-06-13,Qatar,country_page,confirmed,Catar
+QAT,1996,69.0,1996-07-03,Qatar,country_page,confirmed,Catar
+QAT,1997,70.0,1997-06-18,Qatar,country_page,confirmed,Catar
+QAT,1998,60.0,1998-05-20,Qatar,country_page,confirmed,Catar
+QAT,1999,107.0,1999-06-16,Qatar,country_page,confirmed,Catar
+QAT,2000,102.0,2000-06-07,Qatar,country_page,confirmed,Catar
+QAT,2001,80.0,2001-06-20,Qatar,country_page,confirmed,Catar
+QAT,2002,62.0,2002-07-03,Qatar,country_page,confirmed,Catar
+QAT,2003,65.0,2003-06-25,Qatar,country_page,confirmed,Catar
+QAT,2004,66.0,2004-06-09,Qatar,country_page,confirmed,Catar
+QAT,2005,95.0,2005-06-15,Qatar,country_page,confirmed,Catar
+QAT,2006,58.0,2006-07-12,Qatar,country_page,confirmed,Catar
+QAT,2007,87.0,2007-06-13,Qatar,country_page,confirmed,Catar
+QAT,2008,84.0,2008-06-04,Qatar,country_page,confirmed,Catar
+QAT,2009,86.0,2009-06-03,Qatar,country_page,confirmed,Catar
+QAT,2010,112.0,2010-05-26,Qatar,country_page,confirmed,Catar
+QAT,2011,93.0,2011-06-29,Qatar,country_page,confirmed,Catar
+QAT,2012,98.0,2012-06-06,Qatar,country_page,confirmed,Catar
+QAT,2013,103.0,2013-06-06,Qatar,country_page,confirmed,Catar
+QAT,2014,95.0,2014-06-05,Qatar,country_page,confirmed,Catar
+QAT,2015,86.0,2015-06-04,Qatar,country_page,confirmed,Catar
+QAT,2016,87.0,2016-06-02,Qatar,country_page,confirmed,Catar
+QAT,2017,102.0,2017-06-01,Qatar,country_page,confirmed,Catar
+QAT,2018,93.0,2018-06-07,Qatar,country_page,confirmed,Catar
+QAT,2019,55.0,2019-06-14,Qatar,country_page,confirmed,Catar
+QAT,2020,58.0,2020-06-11,Qatar,country_page,confirmed,Catar
+QAT,2021,48.0,2021-05-27,Qatar,country_page,confirmed,Catar
+QAT,2022,60.0,2022-06-23,Qatar,country_page,confirmed,Catar
+QAT,2023,58.0,2023-06-29,Qatar,country_page,confirmed,Catar
+QAT,2024,48.0,2024-06-20,Qatar,country_page,confirmed,Catar
+QAT,2025,54.0,2025-07-10,Qatar,country_page,confirmed,Catar
+QAT,2026,56.0,2026-01-19,Qatar,html_snapshot,confirmed,Catar
+ROU,1993,13.0,1993-08-08,Romania,country_page,playoff,Rumania
+ROU,1994,11.0,1994-06-14,Romania,country_page,playoff,Rumania
+ROU,1995,11.0,1995-06-13,Romania,country_page,playoff,Rumania
+ROU,1996,16.0,1996-07-03,Romania,country_page,playoff,Rumania
+ROU,1997,7.0,1997-06-18,Romania,country_page,playoff,Rumania
+ROU,1998,12.0,1998-05-20,Romania,country_page,playoff,Rumania
+ROU,1999,8.0,1999-06-16,Romania,country_page,playoff,Rumania
+ROU,2000,13.0,2000-06-07,Romania,country_page,playoff,Rumania
+ROU,2001,15.0,2001-06-20,Romania,country_page,playoff,Rumania
+ROU,2002,24.0,2002-07-03,Romania,country_page,playoff,Rumania
+ROU,2003,27.0,2003-06-25,Romania,country_page,playoff,Rumania
+ROU,2004,29.0,2004-06-09,Romania,country_page,playoff,Rumania
+ROU,2005,27.0,2005-06-15,Romania,country_page,playoff,Rumania
+ROU,2006,19.0,2006-07-12,Romania,country_page,playoff,Rumania
+ROU,2007,13.0,2007-06-13,Romania,country_page,playoff,Rumania
+ROU,2008,21.0,2008-06-04,Romania,country_page,playoff,Rumania
+ROU,2009,36.0,2009-06-03,Romania,country_page,playoff,Rumania
+ROU,2010,56.0,2010-05-26,Romania,country_page,playoff,Rumania
+ROU,2011,56.0,2011-06-29,Romania,country_page,playoff,Rumania
+ROU,2012,33.0,2012-06-06,Romania,country_page,playoff,Rumania
+ROU,2013,32.0,2013-06-06,Romania,country_page,playoff,Rumania
+ROU,2014,15.0,2014-06-05,Romania,country_page,playoff,Rumania
+ROU,2015,16.0,2015-06-04,Romania,country_page,playoff,Rumania
+ROU,2016,39.0,2016-06-02,Romania,country_page,playoff,Rumania
+ROU,2017,41.0,2017-06-01,Romania,country_page,playoff,Rumania
+ROU,2018,24.0,2018-06-07,Romania,country_page,playoff,Rumania
+ROU,2019,37.0,2019-06-14,Romania,country_page,playoff,Rumania
+ROU,2020,37.0,2020-06-11,Romania,country_page,playoff,Rumania
+ROU,2021,44.0,2021-05-27,Romania,country_page,playoff,Rumania
+ROU,2022,52.0,2022-06-23,Romania,country_page,playoff,Rumania
+ROU,2023,43.0,2023-06-29,Romania,country_page,playoff,Rumania
+ROU,2024,38.0,2024-06-20,Romania,country_page,playoff,Rumania
+ROU,2025,47.0,2025-07-10,Romania,country_page,playoff,Rumania
+ROU,2026,49.0,2026-01-19,Romania,html_snapshot,playoff,Rumania
+RSA,1993,95.0,1993-08-08,South Africa,country_page,confirmed,Sudáfrica
+RSA,1994,56.0,1994-06-14,South Africa,country_page,confirmed,Sudáfrica
+RSA,1995,40.0,1995-06-13,South Africa,country_page,confirmed,Sudáfrica
+RSA,1996,19.0,1996-07-03,South Africa,country_page,confirmed,Sudáfrica
+RSA,1997,31.0,1997-06-18,South Africa,country_page,confirmed,Sudáfrica
+RSA,1998,26.0,1998-05-20,South Africa,country_page,confirmed,Sudáfrica
+RSA,1999,30.0,1999-06-16,South Africa,country_page,confirmed,Sudáfrica
+RSA,2000,20.0,2000-06-07,South Africa,country_page,confirmed,Sudáfrica
+RSA,2001,35.0,2001-06-20,South Africa,country_page,confirmed,Sudáfrica
+RSA,2002,30.0,2002-07-03,South Africa,country_page,confirmed,Sudáfrica
+RSA,2003,36.0,2003-06-25,South Africa,country_page,confirmed,Sudáfrica
+RSA,2004,38.0,2004-06-09,South Africa,country_page,confirmed,Sudáfrica
+RSA,2005,49.0,2005-06-15,South Africa,country_page,confirmed,Sudáfrica
+RSA,2006,67.0,2006-07-12,South Africa,country_page,confirmed,Sudáfrica
+RSA,2007,77.0,2007-06-13,South Africa,country_page,confirmed,Sudáfrica
+RSA,2008,76.0,2008-06-04,South Africa,country_page,confirmed,Sudáfrica
+RSA,2009,85.0,2009-06-03,South Africa,country_page,confirmed,Sudáfrica
+RSA,2010,51.0,2010-05-26,South Africa,country_page,confirmed,Sudáfrica
+RSA,2011,52.0,2011-06-29,South Africa,country_page,confirmed,Sudáfrica
+RSA,2012,87.0,2012-06-06,South Africa,country_page,confirmed,Sudáfrica
+RSA,2013,62.0,2013-06-06,South Africa,country_page,confirmed,Sudáfrica
+RSA,2014,52.0,2014-06-05,South Africa,country_page,confirmed,Sudáfrica
+RSA,2015,72.0,2015-06-04,South Africa,country_page,confirmed,Sudáfrica
+RSA,2016,60.0,2016-06-02,South Africa,country_page,confirmed,Sudáfrica
+RSA,2017,81.0,2017-06-01,South Africa,country_page,confirmed,Sudáfrica
+RSA,2018,72.0,2018-06-07,South Africa,country_page,confirmed,Sudáfrica
+RSA,2019,71.0,2019-06-14,South Africa,country_page,confirmed,Sudáfrica
+RSA,2020,71.0,2020-06-11,South Africa,country_page,confirmed,Sudáfrica
+RSA,2021,68.0,2021-05-27,South Africa,country_page,confirmed,Sudáfrica
+RSA,2022,67.0,2022-06-23,South Africa,country_page,confirmed,Sudáfrica
+RSA,2023,66.0,2023-06-29,South Africa,country_page,confirmed,Sudáfrica
+RSA,2024,57.0,2024-06-20,South Africa,country_page,confirmed,Sudáfrica
+RSA,2025,61.0,2025-07-10,South Africa,country_page,confirmed,Sudáfrica
+RSA,2026,60.0,2026-01-19,South Africa,html_snapshot,confirmed,Sudáfrica
+SCO,1993,24.0,1993-08-08,Scotland,country_page,confirmed,Escocia
+SCO,1994,32.0,1994-06-14,Scotland,country_page,confirmed,Escocia
+SCO,1995,26.0,1995-06-13,Scotland,country_page,confirmed,Escocia
+SCO,1996,29.0,1996-07-03,Scotland,country_page,confirmed,Escocia
+SCO,1997,37.0,1997-06-18,Scotland,country_page,confirmed,Escocia
+SCO,1998,38.0,1998-05-20,Scotland,country_page,confirmed,Escocia
+SCO,1999,20.0,1999-06-16,Scotland,country_page,confirmed,Escocia
+SCO,2000,25.0,2000-06-07,Scotland,country_page,confirmed,Escocia
+SCO,2001,50.0,2001-06-20,Scotland,country_page,confirmed,Escocia
+SCO,2002,59.0,2002-07-03,Scotland,country_page,confirmed,Escocia
+SCO,2003,54.0,2003-06-25,Scotland,country_page,confirmed,Escocia
+SCO,2004,86.0,2004-06-09,Scotland,country_page,confirmed,Escocia
+SCO,2005,60.0,2005-06-15,Scotland,country_page,confirmed,Escocia
+SCO,2006,25.0,2006-07-12,Scotland,country_page,confirmed,Escocia
+SCO,2007,14.0,2007-06-13,Scotland,country_page,confirmed,Escocia
+SCO,2008,33.0,2008-06-04,Scotland,country_page,confirmed,Escocia
+SCO,2009,46.0,2009-06-03,Scotland,country_page,confirmed,Escocia
+SCO,2010,52.0,2010-05-26,Scotland,country_page,confirmed,Escocia
+SCO,2011,47.0,2011-06-29,Scotland,country_page,confirmed,Escocia
+SCO,2012,72.0,2012-06-06,Scotland,country_page,confirmed,Escocia
+SCO,2013,34.0,2013-06-06,Scotland,country_page,confirmed,Escocia
+SCO,2014,36.0,2014-06-05,Scotland,country_page,confirmed,Escocia
+SCO,2015,52.0,2015-06-04,Scotland,country_page,confirmed,Escocia
+SCO,2016,67.0,2016-06-02,Scotland,country_page,confirmed,Escocia
+SCO,2017,32.0,2017-06-01,Scotland,country_page,confirmed,Escocia
+SCO,2018,38.0,2018-06-07,Scotland,country_page,confirmed,Escocia
+SCO,2019,50.0,2019-06-14,Scotland,country_page,confirmed,Escocia
+SCO,2020,48.0,2020-06-11,Scotland,country_page,confirmed,Escocia
+SCO,2021,38.0,2021-05-27,Scotland,country_page,confirmed,Escocia
+SCO,2022,42.0,2022-06-23,Scotland,country_page,confirmed,Escocia
+SCO,2023,36.0,2023-06-29,Scotland,country_page,confirmed,Escocia
+SCO,2024,45.0,2024-06-20,Scotland,country_page,confirmed,Escocia
+SCO,2025,36.0,2025-07-10,Scotland,country_page,confirmed,Escocia
+SCO,2026,38.0,2026-01-19,Scotland,html_snapshot,confirmed,Escocia
+SEN,1993,56.0,1993-08-08,Senegal,country_page,confirmed,Senegal
+SEN,1994,50.0,1994-06-14,Senegal,country_page,confirmed,Senegal
+SEN,1995,47.0,1995-06-13,Senegal,country_page,confirmed,Senegal
+SEN,1996,58.0,1996-07-03,Senegal,country_page,confirmed,Senegal
+SEN,1997,85.0,1997-06-18,Senegal,country_page,confirmed,Senegal
+SEN,1998,95.0,1998-05-20,Senegal,country_page,confirmed,Senegal
+SEN,1999,79.0,1999-06-16,Senegal,country_page,confirmed,Senegal
+SEN,2000,88.0,2000-06-07,Senegal,country_page,confirmed,Senegal
+SEN,2001,65.0,2001-06-20,Senegal,country_page,confirmed,Senegal
+SEN,2002,27.0,2002-07-03,Senegal,country_page,confirmed,Senegal
+SEN,2003,33.0,2003-06-25,Senegal,country_page,confirmed,Senegal
+SEN,2004,31.0,2004-06-09,Senegal,country_page,confirmed,Senegal
+SEN,2005,30.0,2005-06-15,Senegal,country_page,confirmed,Senegal
+SEN,2006,41.0,2006-07-12,Senegal,country_page,confirmed,Senegal
+SEN,2007,38.0,2007-06-13,Senegal,country_page,confirmed,Senegal
+SEN,2008,50.0,2008-06-04,Senegal,country_page,confirmed,Senegal
+SEN,2009,89.0,2009-06-03,Senegal,country_page,confirmed,Senegal
+SEN,2010,70.0,2010-05-26,Senegal,country_page,confirmed,Senegal
+SEN,2011,44.0,2011-06-29,Senegal,country_page,confirmed,Senegal
+SEN,2012,77.0,2012-06-06,Senegal,country_page,confirmed,Senegal
+SEN,2013,65.0,2013-06-06,Senegal,country_page,confirmed,Senegal
+SEN,2014,35.0,2014-06-05,Senegal,country_page,confirmed,Senegal
+SEN,2015,44.0,2015-06-04,Senegal,country_page,confirmed,Senegal
+SEN,2016,33.0,2016-06-02,Senegal,country_page,confirmed,Senegal
+SEN,2017,23.0,2017-06-01,Senegal,country_page,confirmed,Senegal
+SEN,2018,23.0,2018-06-07,Senegal,country_page,confirmed,Senegal
+SEN,2019,20.0,2019-06-14,Senegal,country_page,confirmed,Senegal
+SEN,2020,20.0,2020-06-11,Senegal,country_page,confirmed,Senegal
+SEN,2021,20.0,2021-05-27,Senegal,country_page,confirmed,Senegal
+SEN,2022,19.0,2022-06-23,Senegal,country_page,confirmed,Senegal
+SEN,2023,20.0,2023-06-29,Senegal,country_page,confirmed,Senegal
+SEN,2024,17.0,2024-06-20,Senegal,country_page,confirmed,Senegal
+SEN,2025,19.0,2025-07-10,Senegal,country_page,confirmed,Senegal
+SEN,2026,12.0,2026-01-19,Senegal,html_snapshot,confirmed,Senegal
+SUI,1993,12.0,1993-08-08,Switzerland,country_page,confirmed,Suiza
+SUI,1994,7.0,1994-06-14,Switzerland,country_page,confirmed,Suiza
+SUI,1995,18.0,1995-06-13,Switzerland,country_page,confirmed,Suiza
+SUI,1996,47.0,1996-07-03,Switzerland,country_page,confirmed,Suiza
+SUI,1997,62.0,1997-06-18,Switzerland,country_page,confirmed,Suiza
+SUI,1998,83.0,1998-05-20,Switzerland,country_page,confirmed,Suiza
+SUI,1999,47.0,1999-06-16,Switzerland,country_page,confirmed,Suiza
+SUI,2000,58.0,2000-06-07,Switzerland,country_page,confirmed,Suiza
+SUI,2001,63.0,2001-06-20,Switzerland,country_page,confirmed,Suiza
+SUI,2002,44.0,2002-07-03,Switzerland,country_page,confirmed,Suiza
+SUI,2003,44.0,2003-06-25,Switzerland,country_page,confirmed,Suiza
+SUI,2004,51.0,2004-06-09,Switzerland,country_page,confirmed,Suiza
+SUI,2005,35.0,2005-06-15,Switzerland,country_page,confirmed,Suiza
+SUI,2006,17.0,2006-07-12,Switzerland,country_page,confirmed,Suiza
+SUI,2007,44.0,2007-06-13,Switzerland,country_page,confirmed,Suiza
+SUI,2008,24.0,2008-06-04,Switzerland,country_page,confirmed,Suiza
+SUI,2009,18.0,2009-06-03,Switzerland,country_page,confirmed,Suiza
+SUI,2010,22.0,2010-05-26,Switzerland,country_page,confirmed,Suiza
+SUI,2011,17.0,2011-06-29,Switzerland,country_page,confirmed,Suiza
+SUI,2012,12.0,2012-06-06,Switzerland,country_page,confirmed,Suiza
+SUI,2013,8.0,2013-06-06,Switzerland,country_page,confirmed,Suiza
+SUI,2014,12.0,2014-06-05,Switzerland,country_page,confirmed,Suiza
+SUI,2015,12.0,2015-06-04,Switzerland,country_page,confirmed,Suiza
+SUI,2016,11.0,2016-06-02,Switzerland,country_page,confirmed,Suiza
+SUI,2017,8.0,2017-06-01,Switzerland,country_page,confirmed,Suiza
+SUI,2018,8.0,2018-06-07,Switzerland,country_page,confirmed,Suiza
+SUI,2019,12.0,2019-06-14,Switzerland,country_page,confirmed,Suiza
+SUI,2020,16.0,2020-06-11,Switzerland,country_page,confirmed,Suiza
+SUI,2021,13.0,2021-05-27,Switzerland,country_page,confirmed,Suiza
+SUI,2022,12.0,2022-06-23,Switzerland,country_page,confirmed,Suiza
+SUI,2023,18.0,2023-06-29,Switzerland,country_page,confirmed,Suiza
+SUI,2024,20.0,2024-06-20,Switzerland,country_page,confirmed,Suiza
+SUI,2025,17.0,2025-07-10,Switzerland,country_page,confirmed,Suiza
+SUI,2026,18.0,2026-01-19,Switzerland,html_snapshot,confirmed,Suiza
+SUR,1993,117.0,1993-08-08,Suriname,country_page,playoff,Surinam
+SUR,1994,104.0,1994-06-14,Suriname,country_page,playoff,Surinam
+SUR,1995,124.0,1995-06-13,Suriname,country_page,playoff,Surinam
+SUR,1996,131.0,1996-07-03,Suriname,country_page,playoff,Surinam
+SUR,1997,145.0,1997-06-18,Suriname,country_page,playoff,Surinam
+SUR,1998,160.0,1998-05-20,Suriname,country_page,playoff,Surinam
+SUR,1999,162.0,1999-06-16,Suriname,country_page,playoff,Surinam
+SUR,2000,164.0,2000-06-07,Suriname,country_page,playoff,Surinam
+SUR,2001,141.0,2001-06-20,Suriname,country_page,playoff,Surinam
+SUR,2002,141.0,2002-07-03,Suriname,country_page,playoff,Surinam
+SUR,2003,158.0,2003-06-25,Suriname,country_page,playoff,Surinam
+SUR,2004,149.0,2004-06-09,Suriname,country_page,playoff,Surinam
+SUR,2005,152.0,2005-06-15,Suriname,country_page,playoff,Surinam
+SUR,2006,122.0,2006-07-12,Suriname,country_page,playoff,Surinam
+SUR,2007,153.0,2007-06-13,Suriname,country_page,playoff,Surinam
+SUR,2008,129.0,2008-06-04,Suriname,country_page,playoff,Surinam
+SUR,2009,144.0,2009-06-03,Suriname,country_page,playoff,Surinam
+SUR,2010,115.0,2010-05-26,Suriname,country_page,playoff,Surinam
+SUR,2011,125.0,2011-06-29,Suriname,country_page,playoff,Surinam
+SUR,2012,114.0,2012-06-06,Suriname,country_page,playoff,Surinam
+SUR,2013,133.0,2013-06-06,Suriname,country_page,playoff,Surinam
+SUR,2014,163.0,2014-06-05,Suriname,country_page,playoff,Surinam
+SUR,2015,191.0,2015-06-04,Suriname,country_page,playoff,Surinam
+SUR,2016,150.0,2016-06-02,Suriname,country_page,playoff,Surinam
+SUR,2017,128.0,2017-06-01,Suriname,country_page,playoff,Surinam
+SUR,2018,153.0,2018-06-07,Suriname,country_page,playoff,Surinam
+SUR,2019,141.0,2019-06-14,Suriname,country_page,playoff,Surinam
+SUR,2020,141.0,2020-06-11,Suriname,country_page,playoff,Surinam
+SUR,2021,139.0,2021-05-27,Suriname,country_page,playoff,Surinam
+SUR,2022,139.0,2022-06-23,Suriname,country_page,playoff,Surinam
+SUR,2023,143.0,2023-06-29,Suriname,country_page,playoff,Surinam
+SUR,2024,138.0,2024-06-20,Suriname,country_page,playoff,Surinam
+SUR,2025,123.0,2025-07-10,Suriname,country_page,playoff,Surinam
+SUR,2026,123.0,2026-01-19,Suriname,html_snapshot,playoff,Surinam
+SVK,1993,150.0,1993-08-08,Slovakia,country_page,playoff,Eslovaquia
+SVK,1994,43.0,1994-06-14,Slovakia,country_page,playoff,Eslovaquia
+SVK,1995,35.0,1995-06-13,Slovakia,country_page,playoff,Eslovaquia
+SVK,1996,30.0,1996-07-03,Slovakia,country_page,playoff,Eslovaquia
+SVK,1997,34.0,1997-06-18,Slovakia,country_page,playoff,Eslovaquia
+SVK,1998,32.0,1998-05-20,Slovakia,country_page,playoff,Eslovaquia
+SVK,1999,21.0,1999-06-16,Slovakia,country_page,playoff,Eslovaquia
+SVK,2000,24.0,2000-06-07,Slovakia,country_page,playoff,Eslovaquia
+SVK,2001,47.0,2001-06-20,Slovakia,country_page,playoff,Eslovaquia
+SVK,2002,55.0,2002-07-03,Slovakia,country_page,playoff,Eslovaquia
+SVK,2003,50.0,2003-06-25,Slovakia,country_page,playoff,Eslovaquia
+SVK,2004,53.0,2004-06-09,Slovakia,country_page,playoff,Eslovaquia
+SVK,2005,45.0,2005-06-15,Slovakia,country_page,playoff,Eslovaquia
+SVK,2006,37.0,2006-07-12,Slovakia,country_page,playoff,Eslovaquia
+SVK,2007,53.0,2007-06-13,Slovakia,country_page,playoff,Eslovaquia
+SVK,2008,44.0,2008-06-04,Slovakia,country_page,playoff,Eslovaquia
+SVK,2009,33.0,2009-06-03,Slovakia,country_page,playoff,Eslovaquia
+SVK,2010,20.0,2010-05-26,Slovakia,country_page,playoff,Eslovaquia
+SVK,2011,40.0,2011-06-29,Slovakia,country_page,playoff,Eslovaquia
+SVK,2012,47.0,2012-06-06,Slovakia,country_page,playoff,Eslovaquia
+SVK,2013,60.0,2013-06-06,Slovakia,country_page,playoff,Eslovaquia
+SVK,2014,21.0,2014-06-05,Slovakia,country_page,playoff,Eslovaquia
+SVK,2015,26.0,2015-06-04,Slovakia,country_page,playoff,Eslovaquia
+SVK,2016,25.0,2016-06-02,Slovakia,country_page,playoff,Eslovaquia
+SVK,2017,28.0,2017-06-01,Slovakia,country_page,playoff,Eslovaquia
+SVK,2018,27.0,2018-06-07,Slovakia,country_page,playoff,Eslovaquia
+SVK,2019,32.0,2019-06-14,Slovakia,country_page,playoff,Eslovaquia
+SVK,2020,33.0,2020-06-11,Slovakia,country_page,playoff,Eslovaquia
+SVK,2021,42.0,2021-05-27,Slovakia,country_page,playoff,Eslovaquia
+SVK,2022,54.0,2022-06-23,Slovakia,country_page,playoff,Eslovaquia
+SVK,2023,45.0,2023-06-29,Slovakia,country_page,playoff,Eslovaquia
+SVK,2024,41.0,2024-06-20,Slovakia,country_page,playoff,Eslovaquia
+SVK,2025,45.0,2025-07-10,Slovakia,country_page,playoff,Eslovaquia
+SVK,2026,44.0,2026-01-19,Slovakia,html_snapshot,playoff,Eslovaquia
+SWE,1993,9.0,1993-08-08,Sweden,country_page,playoff,Suecia
+SWE,1994,3.0,1994-06-14,Sweden,country_page,playoff,Suecia
+SWE,1995,13.0,1995-06-13,Sweden,country_page,playoff,Suecia
+SWE,1996,17.0,1996-07-03,Sweden,country_page,playoff,Suecia
+SWE,1997,18.0,1997-06-18,Sweden,country_page,playoff,Suecia
+SWE,1998,18.0,1998-05-20,Sweden,country_page,playoff,Suecia
+SWE,1999,16.0,1999-06-16,Sweden,country_page,playoff,Suecia
+SWE,2000,23.0,2000-06-07,Sweden,country_page,playoff,Suecia
+SWE,2001,16.0,2001-06-20,Sweden,country_page,playoff,Suecia
+SWE,2002,25.0,2002-07-03,Sweden,country_page,playoff,Suecia
+SWE,2003,19.0,2003-06-25,Sweden,country_page,playoff,Suecia
+SWE,2004,13.0,2004-06-09,Sweden,country_page,playoff,Suecia
+SWE,2005,14.0,2005-06-15,Sweden,country_page,playoff,Suecia
+SWE,2006,14.0,2006-07-12,Sweden,country_page,playoff,Suecia
+SWE,2007,24.0,2007-06-13,Sweden,country_page,playoff,Suecia
+SWE,2008,32.0,2008-06-04,Sweden,country_page,playoff,Suecia
+SWE,2009,42.0,2009-06-03,Sweden,country_page,playoff,Suecia
+SWE,2010,33.0,2010-05-26,Sweden,country_page,playoff,Suecia
+SWE,2011,18.0,2011-06-29,Sweden,country_page,playoff,Suecia
+SWE,2012,20.0,2012-06-06,Sweden,country_page,playoff,Suecia
+SWE,2013,27.0,2013-06-06,Sweden,country_page,playoff,Suecia
+SWE,2014,44.0,2014-06-05,Sweden,country_page,playoff,Suecia
+SWE,2015,35.0,2015-06-04,Sweden,country_page,playoff,Suecia
+SWE,2016,41.0,2016-06-02,Sweden,country_page,playoff,Suecia
+SWE,2017,18.0,2017-06-01,Sweden,country_page,playoff,Suecia
+SWE,2018,14.0,2018-06-07,Sweden,country_page,playoff,Suecia
+SWE,2019,17.0,2019-06-14,Sweden,country_page,playoff,Suecia
+SWE,2020,20.0,2020-06-11,Sweden,country_page,playoff,Suecia
+SWE,2021,18.0,2021-05-27,Sweden,country_page,playoff,Suecia
+SWE,2022,23.0,2022-06-23,Sweden,country_page,playoff,Suecia
+SWE,2023,26.0,2023-06-29,Sweden,country_page,playoff,Suecia
+SWE,2024,27.0,2024-06-20,Sweden,country_page,playoff,Suecia
+SWE,2025,43.0,2025-07-10,Sweden,country_page,playoff,Suecia
+SWE,2026,42.0,2026-01-19,Sweden,html_snapshot,playoff,Suecia
+TUN,1993,32.0,1993-08-08,Tunisia,country_page,confirmed,Túnez
+TUN,1994,30.0,1994-06-14,Tunisia,country_page,confirmed,Túnez
+TUN,1995,22.0,1995-06-13,Tunisia,country_page,confirmed,Túnez
+TUN,1996,23.0,1996-07-03,Tunisia,country_page,confirmed,Túnez
+TUN,1997,23.0,1997-06-18,Tunisia,country_page,confirmed,Túnez
+TUN,1998,21.0,1998-05-20,Tunisia,country_page,confirmed,Túnez
+TUN,1999,31.0,1999-06-16,Tunisia,country_page,confirmed,Túnez
+TUN,2000,26.0,2000-06-07,Tunisia,country_page,confirmed,Túnez
+TUN,2001,28.0,2001-06-20,Tunisia,country_page,confirmed,Túnez
+TUN,2002,41.0,2002-07-03,Tunisia,country_page,confirmed,Túnez
+TUN,2003,45.0,2003-06-25,Tunisia,country_page,confirmed,Túnez
+TUN,2004,35.0,2004-06-09,Tunisia,country_page,confirmed,Túnez
+TUN,2005,28.0,2005-06-15,Tunisia,country_page,confirmed,Túnez
+TUN,2006,32.0,2006-07-12,Tunisia,country_page,confirmed,Túnez
+TUN,2007,47.0,2007-06-13,Tunisia,country_page,confirmed,Túnez
+TUN,2008,46.0,2008-06-04,Tunisia,country_page,confirmed,Túnez
+TUN,2009,53.0,2009-06-03,Tunisia,country_page,confirmed,Túnez
+TUN,2010,45.0,2010-05-26,Tunisia,country_page,confirmed,Túnez
+TUN,2011,59.0,2011-06-29,Tunisia,country_page,confirmed,Túnez
+TUN,2012,45.0,2012-06-06,Tunisia,country_page,confirmed,Túnez
+TUN,2013,48.0,2013-06-06,Tunisia,country_page,confirmed,Túnez
+TUN,2014,22.0,2014-06-05,Tunisia,country_page,confirmed,Túnez
+TUN,2015,40.0,2015-06-04,Tunisia,country_page,confirmed,Túnez
+TUN,2016,35.0,2016-06-02,Tunisia,country_page,confirmed,Túnez
+TUN,2017,27.0,2017-06-01,Tunisia,country_page,confirmed,Túnez
+TUN,2018,26.0,2018-06-07,Tunisia,country_page,confirmed,Túnez
+TUN,2019,27.0,2019-06-14,Tunisia,country_page,confirmed,Túnez
+TUN,2020,26.0,2020-06-11,Tunisia,country_page,confirmed,Túnez
+TUN,2021,30.0,2021-05-27,Tunisia,country_page,confirmed,Túnez
+TUN,2022,30.0,2022-06-23,Tunisia,country_page,confirmed,Túnez
+TUN,2023,28.0,2023-06-29,Tunisia,country_page,confirmed,Túnez
+TUN,2024,52.0,2024-06-20,Tunisia,country_page,confirmed,Túnez
+TUN,2025,41.0,2025-07-10,Tunisia,country_page,confirmed,Túnez
+TUN,2026,47.0,2026-01-19,Tunisia,html_snapshot,confirmed,Túnez
+TUR,1993,52.0,1993-08-08,Türkiye,country_page,playoff,Turquía
+TUR,1994,48.0,1994-06-14,Türkiye,country_page,playoff,Turquía
+TUR,1995,30.0,1995-06-13,Türkiye,country_page,playoff,Turquía
+TUR,1996,31.0,1996-07-03,Türkiye,country_page,playoff,Turquía
+TUR,1997,43.0,1997-06-18,Türkiye,country_page,playoff,Turquía
+TUR,1998,57.0,1998-05-20,Türkiye,country_page,playoff,Turquía
+TUR,1999,29.0,1999-06-16,Türkiye,country_page,playoff,Turquía
+TUR,2000,30.0,2000-06-07,Türkiye,country_page,playoff,Turquía
+TUR,2001,23.0,2001-06-20,Türkiye,country_page,playoff,Turquía
+TUR,2002,9.0,2002-07-03,Türkiye,country_page,playoff,Turquía
+TUR,2003,8.0,2003-06-25,Türkiye,country_page,playoff,Turquía
+TUR,2004,14.0,2004-06-09,Türkiye,country_page,playoff,Turquía
+TUR,2005,11.0,2005-06-15,Türkiye,country_page,playoff,Turquía
+TUR,2006,26.0,2006-07-12,Türkiye,country_page,playoff,Turquía
+TUR,2007,16.0,2007-06-13,Türkiye,country_page,playoff,Turquía
+TUR,2008,10.0,2008-06-04,Türkiye,country_page,playoff,Turquía
+TUR,2009,41.0,2009-06-03,Türkiye,country_page,playoff,Turquía
+TUR,2010,31.0,2010-05-26,Türkiye,country_page,playoff,Turquía
+TUR,2011,28.0,2011-06-29,Türkiye,country_page,playoff,Turquía
+TUR,2012,40.0,2012-06-06,Türkiye,country_page,playoff,Turquía
+TUR,2013,43.0,2013-06-06,Türkiye,country_page,playoff,Turquía
+TUR,2014,49.0,2014-06-05,Türkiye,country_page,playoff,Turquía
+TUR,2015,21.0,2015-06-04,Türkiye,country_page,playoff,Turquía
+TUR,2016,24.0,2016-06-02,Türkiye,country_page,playoff,Turquía
+TUR,2017,42.0,2017-06-01,Türkiye,country_page,playoff,Turquía
+TUR,2018,39.0,2018-06-07,Türkiye,country_page,playoff,Turquía
+TUR,2019,29.0,2019-06-14,Türkiye,country_page,playoff,Turquía
+TUR,2020,32.0,2020-06-11,Türkiye,country_page,playoff,Turquía
+TUR,2021,37.0,2021-05-27,Türkiye,country_page,playoff,Turquía
+TUR,2022,44.0,2022-06-23,Türkiye,country_page,playoff,Turquía
+TUR,2023,37.0,2023-06-29,Türkiye,country_page,playoff,Turquía
+TUR,2024,28.0,2024-06-20,Türkiye,country_page,playoff,Turquía
+TUR,2025,25.0,2025-07-10,Türkiye,country_page,playoff,Turquía
+TUR,2026,25.0,2026-01-19,Türkiye,html_snapshot,playoff,Turquía
+UKR,1993,90.0,1993-08-08,Ukraine,country_page,playoff,Ucrania
+UKR,1994,77.0,1994-06-14,Ukraine,country_page,playoff,Ucrania
+UKR,1995,71.0,1995-06-13,Ukraine,country_page,playoff,Ucrania
+UKR,1996,59.0,1996-07-03,Ukraine,country_page,playoff,Ucrania
+UKR,1997,49.0,1997-06-18,Ukraine,country_page,playoff,Ucrania
+UKR,1998,47.0,1998-05-20,Ukraine,country_page,playoff,Ucrania
+UKR,1999,27.0,1999-06-16,Ukraine,country_page,playoff,Ucrania
+UKR,2000,34.0,2000-06-07,Ukraine,country_page,playoff,Ucrania
+UKR,2001,45.0,2001-06-20,Ukraine,country_page,playoff,Ucrania
+UKR,2002,45.0,2002-07-03,Ukraine,country_page,playoff,Ucrania
+UKR,2003,60.0,2003-06-25,Ukraine,country_page,playoff,Ucrania
+UKR,2004,57.0,2004-06-09,Ukraine,country_page,playoff,Ucrania
+UKR,2005,40.0,2005-06-15,Ukraine,country_page,playoff,Ucrania
+UKR,2006,13.0,2006-07-12,Ukraine,country_page,playoff,Ucrania
+UKR,2007,30.0,2007-06-13,Ukraine,country_page,playoff,Ucrania
+UKR,2008,15.0,2008-06-04,Ukraine,country_page,playoff,Ucrania
+UKR,2009,22.0,2009-06-03,Ukraine,country_page,playoff,Ucrania
+UKR,2010,34.0,2010-05-26,Ukraine,country_page,playoff,Ucrania
+UKR,2011,55.0,2011-06-29,Ukraine,country_page,playoff,Ucrania
+UKR,2012,47.0,2012-06-06,Ukraine,country_page,playoff,Ucrania
+UKR,2013,18.0,2013-06-06,Ukraine,country_page,playoff,Ucrania
+UKR,2014,25.0,2014-06-05,Ukraine,country_page,playoff,Ucrania
+UKR,2015,29.0,2015-06-04,Ukraine,country_page,playoff,Ucrania
+UKR,2016,30.0,2016-06-02,Ukraine,country_page,playoff,Ucrania
+UKR,2017,35.0,2017-06-01,Ukraine,country_page,playoff,Ucrania
+UKR,2018,28.0,2018-06-07,Ukraine,country_page,playoff,Ucrania
+UKR,2019,24.0,2019-06-14,Ukraine,country_page,playoff,Ucrania
+UKR,2020,24.0,2020-06-11,Ukraine,country_page,playoff,Ucrania
+UKR,2021,25.0,2021-05-27,Ukraine,country_page,playoff,Ucrania
+UKR,2022,26.0,2022-06-23,Ukraine,country_page,playoff,Ucrania
+UKR,2023,22.0,2023-06-29,Ukraine,country_page,playoff,Ucrania
+UKR,2024,25.0,2024-06-20,Ukraine,country_page,playoff,Ucrania
+UKR,2025,28.0,2025-07-10,Ukraine,country_page,playoff,Ucrania
+UKR,2026,30.0,2026-01-19,Ukraine,html_snapshot,playoff,Ucrania
+URU,1993,17.0,1993-08-08,Uruguay,country_page,confirmed,Uruguay
+URU,1994,37.0,1994-06-14,Uruguay,country_page,confirmed,Uruguay
+URU,1995,32.0,1995-06-13,Uruguay,country_page,confirmed,Uruguay
+URU,1996,43.0,1996-07-03,Uruguay,country_page,confirmed,Uruguay
+URU,1997,40.0,1997-06-18,Uruguay,country_page,confirmed,Uruguay
+URU,1998,76.0,1998-05-20,Uruguay,country_page,confirmed,Uruguay
+URU,1999,46.0,1999-06-16,Uruguay,country_page,confirmed,Uruguay
+URU,2000,32.0,2000-06-07,Uruguay,country_page,confirmed,Uruguay
+URU,2001,22.0,2001-06-20,Uruguay,country_page,confirmed,Uruguay
+URU,2002,28.0,2002-07-03,Uruguay,country_page,confirmed,Uruguay
+URU,2003,21.0,2003-06-25,Uruguay,country_page,confirmed,Uruguay
+URU,2004,16.0,2004-06-09,Uruguay,country_page,confirmed,Uruguay
+URU,2005,18.0,2005-06-15,Uruguay,country_page,confirmed,Uruguay
+URU,2006,29.0,2006-07-12,Uruguay,country_page,confirmed,Uruguay
+URU,2007,28.0,2007-06-13,Uruguay,country_page,confirmed,Uruguay
+URU,2008,23.0,2008-06-04,Uruguay,country_page,confirmed,Uruguay
+URU,2009,20.0,2009-06-03,Uruguay,country_page,confirmed,Uruguay
+URU,2010,7.0,2010-05-26,Uruguay,country_page,confirmed,Uruguay
+URU,2011,4.0,2011-06-29,Uruguay,country_page,confirmed,Uruguay
+URU,2012,16.0,2012-06-06,Uruguay,country_page,confirmed,Uruguay
+URU,2013,6.0,2013-06-06,Uruguay,country_page,confirmed,Uruguay
+URU,2014,10.0,2014-06-05,Uruguay,country_page,confirmed,Uruguay
+URU,2015,11.0,2015-06-04,Uruguay,country_page,confirmed,Uruguay
+URU,2016,9.0,2016-06-02,Uruguay,country_page,confirmed,Uruguay
+URU,2017,21.0,2017-06-01,Uruguay,country_page,confirmed,Uruguay
+URU,2018,7.0,2018-06-07,Uruguay,country_page,confirmed,Uruguay
+URU,2019,5.0,2019-06-14,Uruguay,country_page,confirmed,Uruguay
+URU,2020,8.0,2020-06-11,Uruguay,country_page,confirmed,Uruguay
+URU,2021,17.0,2021-05-27,Uruguay,country_page,confirmed,Uruguay
+URU,2022,16.0,2022-06-23,Uruguay,country_page,confirmed,Uruguay
+URU,2023,11.0,2023-06-29,Uruguay,country_page,confirmed,Uruguay
+URU,2024,11.0,2024-06-20,Uruguay,country_page,confirmed,Uruguay
+URU,2025,16.0,2025-07-10,Uruguay,country_page,confirmed,Uruguay
+URU,2026,17.0,2026-01-19,Uruguay,html_snapshot,confirmed,Uruguay
+USA,1993,22.0,1993-08-08,USA,country_page,confirmed,Estados Unidos
+USA,1994,23.0,1994-06-14,USA,country_page,confirmed,Estados Unidos
+USA,1995,19.0,1995-06-13,USA,country_page,confirmed,Estados Unidos
+USA,1996,18.0,1996-07-03,USA,country_page,confirmed,Estados Unidos
+USA,1997,26.0,1997-06-18,USA,country_page,confirmed,Estados Unidos
+USA,1998,23.0,1998-05-20,USA,country_page,confirmed,Estados Unidos
+USA,1999,22.0,1999-06-16,USA,country_page,confirmed,Estados Unidos
+USA,2000,16.0,2000-06-07,USA,country_page,confirmed,Estados Unidos
+USA,2001,24.0,2001-06-20,USA,country_page,confirmed,Estados Unidos
+USA,2002,10.0,2002-07-03,USA,country_page,confirmed,Estados Unidos
+USA,2003,11.0,2003-06-25,USA,country_page,confirmed,Estados Unidos
+USA,2004,11.0,2004-06-09,USA,country_page,confirmed,Estados Unidos
+USA,2005,8.0,2005-06-15,USA,country_page,confirmed,Estados Unidos
+USA,2006,31.0,2006-07-12,USA,country_page,confirmed,Estados Unidos
+USA,2007,19.0,2007-06-13,USA,country_page,confirmed,Estados Unidos
+USA,2008,22.0,2008-06-04,USA,country_page,confirmed,Estados Unidos
+USA,2009,14.0,2009-06-03,USA,country_page,confirmed,Estados Unidos
+USA,2010,18.0,2010-05-26,USA,country_page,confirmed,Estados Unidos
+USA,2011,34.0,2011-06-29,USA,country_page,confirmed,Estados Unidos
+USA,2012,28.0,2012-06-06,USA,country_page,confirmed,Estados Unidos
+USA,2013,14.0,2013-06-06,USA,country_page,confirmed,Estados Unidos
+USA,2014,27.0,2014-06-05,USA,country_page,confirmed,Estados Unidos
+USA,2015,32.0,2015-06-04,USA,country_page,confirmed,Estados Unidos
+USA,2016,28.0,2016-06-02,USA,country_page,confirmed,Estados Unidos
+USA,2017,24.0,2017-06-01,USA,country_page,confirmed,Estados Unidos
+USA,2018,25.0,2018-06-07,USA,country_page,confirmed,Estados Unidos
+USA,2019,22.0,2019-06-14,USA,country_page,confirmed,Estados Unidos
+USA,2020,22.0,2020-06-11,USA,country_page,confirmed,Estados Unidos
+USA,2021,11.0,2021-05-27,USA,country_page,confirmed,Estados Unidos
+USA,2022,13.0,2022-06-23,USA,country_page,confirmed,Estados Unidos
+USA,2023,12.0,2023-06-29,USA,country_page,confirmed,Estados Unidos
+USA,2024,16.0,2024-06-20,USA,country_page,confirmed,Estados Unidos
+USA,2025,14.0,2025-07-10,USA,country_page,confirmed,Estados Unidos
+USA,2026,15.0,2026-01-19,USA,html_snapshot,confirmed,Estados Unidos
+UZB,1993,,1993-08-08,Uzbekistan,missing,confirmed,Uzbekistán
+UZB,1994,78.0,1994-06-14,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,1995,97.0,1995-06-13,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,1996,109.0,1996-07-03,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,1997,79.0,1997-06-18,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,1998,66.0,1998-05-20,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,1999,55.0,1999-06-16,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2000,71.0,2000-06-07,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2001,62.0,2001-06-20,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2002,98.0,2002-07-03,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2003,81.0,2003-06-25,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2004,47.0,2004-06-09,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2005,59.0,2005-06-15,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2006,45.0,2006-07-12,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2007,64.0,2007-06-13,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2008,72.0,2008-06-04,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2009,76.0,2009-06-03,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2010,109.0,2010-05-26,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2011,75.0,2011-06-29,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2012,67.0,2012-06-06,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2013,68.0,2013-06-06,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2014,74.0,2014-06-05,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2015,74.0,2015-06-04,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2016,62.0,2016-06-02,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2017,78.0,2017-06-01,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2018,95.0,2018-06-07,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2019,85.0,2019-06-14,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2020,85.0,2020-06-11,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2021,84.0,2021-05-27,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2022,77.0,2022-06-23,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2023,68.0,2023-06-29,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2024,58.0,2024-06-20,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2025,50.0,2025-07-10,Uzbekistan,country_page,confirmed,Uzbekistán
+UZB,2026,52.0,2026-01-19,Uzbekistan,html_snapshot,confirmed,Uzbekistán
+WAL,1993,29.0,1993-08-08,Wales,country_page,playoff,Gales
+WAL,1994,41.0,1994-06-14,Wales,country_page,playoff,Gales
+WAL,1995,61.0,1995-06-13,Wales,country_page,playoff,Gales
+WAL,1996,80.0,1996-07-03,Wales,country_page,playoff,Gales
+WAL,1997,102.0,1997-06-18,Wales,country_page,playoff,Gales
+WAL,1998,97.0,1998-05-20,Wales,country_page,playoff,Gales
+WAL,1999,98.0,1999-06-16,Wales,country_page,playoff,Gales
+WAL,2000,109.0,2000-06-07,Wales,country_page,playoff,Gales
+WAL,2001,100.0,2001-06-20,Wales,country_page,playoff,Gales
+WAL,2002,52.0,2002-07-03,Wales,country_page,playoff,Gales
+WAL,2003,66.0,2003-06-25,Wales,country_page,playoff,Gales
+WAL,2004,68.0,2004-06-09,Wales,country_page,playoff,Gales
+WAL,2005,71.0,2005-06-15,Wales,country_page,playoff,Gales
+WAL,2006,73.0,2006-07-12,Wales,country_page,playoff,Gales
+WAL,2007,57.0,2007-06-13,Wales,country_page,playoff,Gales
+WAL,2008,60.0,2008-06-04,Wales,country_page,playoff,Gales
+WAL,2009,77.0,2009-06-03,Wales,country_page,playoff,Gales
+WAL,2010,112.0,2010-05-26,Wales,country_page,playoff,Gales
+WAL,2011,48.0,2011-06-29,Wales,country_page,playoff,Gales
+WAL,2012,82.0,2012-06-06,Wales,country_page,playoff,Gales
+WAL,2013,56.0,2013-06-06,Wales,country_page,playoff,Gales
+WAL,2014,34.0,2014-06-05,Wales,country_page,playoff,Gales
+WAL,2015,17.0,2015-06-04,Wales,country_page,playoff,Gales
+WAL,2016,12.0,2016-06-02,Wales,country_page,playoff,Gales
+WAL,2017,19.0,2017-06-01,Wales,country_page,playoff,Gales
+WAL,2018,19.0,2018-06-07,Wales,country_page,playoff,Gales
+WAL,2019,22.0,2019-06-14,Wales,country_page,playoff,Gales
+WAL,2020,18.0,2020-06-11,Wales,country_page,playoff,Gales
+WAL,2021,19.0,2021-05-27,Wales,country_page,playoff,Gales
+WAL,2022,28.0,2022-06-23,Wales,country_page,playoff,Gales
+WAL,2023,29.0,2023-06-29,Wales,country_page,playoff,Gales
+WAL,2024,29.0,2024-06-20,Wales,country_page,playoff,Gales
+WAL,2025,32.0,2025-07-10,Wales,country_page,playoff,Gales
+WAL,2026,35.0,2026-01-19,Wales,html_snapshot,playoff,Gales
