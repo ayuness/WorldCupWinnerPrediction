@@ -1,0 +1,9 @@
+country_code,status,phase,position,pj,g,e,p,pts,gf,gc,dg,gf_per_game,gc_per_game
+USA,confirmed,anfitrion,,,,,,,,,,,
+MEX,confirmed,anfitrion,,,,,,,,,,,
+CAN,confirmed,anfitrion,,,,,,,,,,,
+CUW,confirmed,ronda_final,1.0,6.0,3.0,3.0,0.0,12.0,13.0,3.0,10.0,2.167,0.5
+PAN,confirmed,ronda_final,2.0,6.0,3.0,3.0,0.0,12.0,9.0,4.0,5.0,1.5,0.667
+JAM,playoff,ronda_final,3.0,6.0,3.0,2.0,1.0,11.0,11.0,3.0,8.0,1.833,0.5
+HAI,confirmed,ronda_final,4.0,6.0,3.0,2.0,1.0,11.0,9.0,6.0,3.0,1.5,1.0
+SUR,playoff,ronda_final,5.0,6.0,2.0,3.0,1.0,9.0,9.0,6.0,3.0,1.5,1.0

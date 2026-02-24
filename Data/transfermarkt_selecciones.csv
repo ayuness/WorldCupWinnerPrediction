@@ -1,0 +1,71 @@
+rank_tm,country_name_tm,country_code,confederation,members,avg_age,market_value_eur_m,avg_player_value_eur_m
+1,England,ENG,UEFA,25,26.9,1300.0,51.8
+2,France,FRA,UEFA,25,26.8,1290.0,51.5
+3,Spain,ESP,UEFA,27,27.3,1150.0,42.67
+4,Brazil,BRA,South American Football Confederation,26,27.9,932.0,35.85
+5,Portugal,POR,UEFA,23,27.2,841.0,36.57
+6,Germany,GER,UEFA,24,26.7,828.0,34.5
+7,Italy,ITA,UEFA,26,27.4,827.0,31.81
+8,Netherlands,NED,UEFA,22,26.7,808.0,36.73
+9,Argentina,ARG,South American Football Confederation,23,28.0,575.0,25.0
+10,Turkiye,TUR,UEFA,33,27.0,508.2,15.4
+11,Norway,NOR,UEFA,28,26.1,502.9,17.96
+12,Sweden,SWE,UEFA,26,27.1,495.98,19.08
+13,Belgium,BEL,UEFA,24,27.2,442.2,18.43
+14,Morocco,MAR,CAF,28,27.5,435.55,15.56
+15,Uruguay,URU,South American Football Confederation,36,26.2,419.23,11.65
+16,Senegal,SEN,CAF,27,27.5,405.9,15.03
+17,Denmark,DEN,UEFA,23,27.2,381.6,16.59
+18,Ivory Coast,CIV,CAF,27,26.7,370.8,13.73
+19,Ecuador,ECU,South American Football Confederation,28,25.3,349.58,12.48
+20,Colombia,COL,South American Football Confederation,26,29.4,285.1,10.97
+21,Nigeria,NGA,CAF,28,27.6,281.78,10.06
+22,Ukraine,UKR,UEFA,25,27.3,274.2,10.97
+23,Serbia,SRB,UEFA,28,26.8,266.7,9.53
+24,Croatia,CRO,UEFA,23,28.6,258.5,11.24
+25,Cameroon,CMR,CAF,28,25.7,256.03,9.14
+26,Ghana,GHA,CAF,25,25.9,254.85,10.19
+28,Switzerland,SUI,UEFA,25,27.6,251.0,10.04
+29,Austria,AUT,UEFA,26,28.1,231.9,8.92
+30,Algeria,ALG,CAF,26,26.5,229.3,8.82
+31,Japan,JPN,AFC,26,26.6,223.5,8.6
+33,Scotland,SCO,UEFA,25,29.1,214.45,8.58
+35,Republic of Ireland,IRL,UEFA,25,27.1,197.8,7.91
+36,Wales,WAL,UEFA,25,26.5,184.15,7.37
+38,United States,USA,CONCACAF,24,26.1,169.7,7.07
+39,Poland,POL,UEFA,25,27.9,164.35,6.57
+41,Kosovo,KOS,UEFA,28,27.3,143.38,5.12
+43,Egypt,EGY,CAF,28,29.1,138.5,4.95
+44,Democratic Republic of the Congo,COD,CAF,29,28.2,134.05,4.62
+45,Slovakia,SVK,UEFA,28,28.6,130.05,4.64
+46,Paraguay,PAR,South American Football Confederation,31,28.4,123.95,4.0
+48,South Korea,KOR,AFC,26,27.6,118.8,4.57
+49,Czech Republic,CZE,UEFA,22,27.0,115.9,5.27
+50,Mexico,MEX,CONCACAF,21,26.0,101.8,4.85
+51,Romania,ROU,UEFA,26,27.4,95.08,3.66
+52,Bosnia-Herzegovina,BIH,UEFA,25,26.8,92.1,3.68
+53,Albania,ALB,UEFA,25,28.1,88.5,3.54
+54,Northern Ireland,NIR,UEFA,24,25.9,86.88,3.62
+57,Chile,CHI,South American Football Confederation,26,25.4,80.3,3.09
+59,Venezuela,VEN,South American Football Confederation,36,25.1,72.35,2.01
+60,Tunisia,TUN,CAF,28,28.9,68.45,2.44
+65,South Africa,RSA,CAF,28,26.4,46.35,1.66
+66,Jamaica,JAM,CONCACAF,28,26.8,44.25,1.58
+68,Costa Rica,CRC,CONCACAF,26,27.9,40.13,1.54
+72,North Macedonia,MKD,UEFA,29,28.2,36.35,1.25
+74,Iran,IRN,AFC,28,29.3,34.25,1.22
+76,Australia,AUS,AFC,25,27.7,32.85,1.31
+79,Cape Verde,CPV,CAF,26,29.3,31.83,1.22
+84,Suriname,SUR,CONCACAF,31,28.4,23.63,
+85,Canada,CAN,CONCACAF,20,24.7,21.88,1.09
+86,Saudi Arabia,KSA,AFC,22,27.2,21.8,
+94,Qatar,QAT,AFC,23,27.9,18.0,
+95,New Zealand,NZL,OFC,23,27.9,16.43,
+96,Bolivia,BOL,South American Football Confederation,30,24.1,15.78,
+97,Honduras,HON,CONCACAF,28,28.1,15.5,
+106,Iraq,IRQ,AFC,22,28.2,10.7,
+112,Jordan,JOR,AFC,23,28.6,9.3,
+117,Peru,PER,South American Football Confederation,25,25.5,8.6,
+118,Uzbekistan,UZB,AFC,14,26.2,8.5,
+134,Panama,PAN,CONCACAF,23,25.5,5.3,
+220,New Caledonia,NCL,OFC,21,28.6,,

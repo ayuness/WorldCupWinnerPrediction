@@ -1,0 +1,11 @@
+country_code,status,pj,g,e,p,pts,gf,gc,dg,gf_per_game,gc_per_game
+TUN,confirmed,10,9,1,0,28,22,0,22,2.2,0.0
+CIV,confirmed,10,8,2,0,26,25,0,25,2.5,0.0
+EGY,confirmed,10,8,2,0,26,20,2,18,2.0,0.2
+GHA,confirmed,10,8,1,1,25,23,6,17,2.3,0.6
+ALG,confirmed,10,8,1,1,25,24,8,16,2.4,0.8
+SEN,confirmed,10,7,3,0,24,22,3,19,2.2,0.3
+MAR,confirmed,8,8,0,0,24,22,2,20,2.75,0.25
+CPV,confirmed,10,7,2,1,23,16,8,8,1.6,0.8
+RSA,confirmed,10,5,3,2,18,15,9,6,1.5,0.9
+NGA,playoff,10,4,5,1,17,15,8,7,1.5,0.8
