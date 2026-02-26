@@ -1,8 +1,8 @@
-confederation,phase,group,position,country_code,status,pj,g,e,p,gf,gc,dg,pts,pts_per_game,win_pct,gf_per_game,gc_per_game
-CONMEBOL,liga_unica,–,1,ARG,confirmed,18,12,2,4,31,10,21,38,2.111,0.667,1.722,0.556
-CONMEBOL,liga_unica,–,2,ECU,confirmed,18,8,8,2,14,5,9,29,1.611,0.444,0.778,0.278
-CONMEBOL,liga_unica,–,3,COL,confirmed,18,7,7,4,28,18,10,28,1.556,0.389,1.556,1.0
-CONMEBOL,liga_unica,–,4,URU,confirmed,18,7,7,4,22,12,10,28,1.556,0.389,1.222,0.667
-CONMEBOL,liga_unica,–,5,BRA,confirmed,18,8,4,6,24,17,7,28,1.556,0.444,1.333,0.944
-CONMEBOL,liga_unica,–,6,PAR,confirmed,18,7,7,4,14,10,4,28,1.556,0.389,0.778,0.556
-CONMEBOL,liga_unica,–,7,BOL,playoff,18,6,2,10,17,35,-18,20,1.111,0.333,0.944,1.944
+country_code,status,pj,g,e,p,pts,gf,gc,dg,gf_per_game,gc_per_game,win_pct
+ARG,confirmed,18,12,2,4,38,31,10,21,1.722,0.556,0.667
+ECU,confirmed,18,8,8,2,29,14,5,9,0.778,0.278,0.444
+COL,confirmed,18,7,7,4,28,28,18,10,1.556,1.0,0.389
+URU,confirmed,18,7,7,4,28,22,12,10,1.222,0.667,0.389
+BRA,confirmed,18,8,4,6,28,24,17,7,1.333,0.944,0.444
+PAR,confirmed,18,7,7,4,28,14,10,4,0.778,0.556,0.389
+BOL,playoff,18,6,2,10,20,17,35,-18,0.944,1.944,0.333

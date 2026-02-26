@@ -1,3 +1,3 @@
-country_code,status,pj,g,e,p,pts,gf,gc,dg,gf_per_game,gc_per_game
-NZL,confirmed,5,5,0,0,15,29,1,28,5.8,0.2
-NCL,playoff,5,3,1,1,10,10,7,3,2.0,1.4
+country_code,status,pj,g,e,p,pts,gf,gc,dg,gf_per_game,gc_per_game,win_pct
+NZL,confirmed,5,5,0,0,15,29,1,28,5.8,0.2,1.0
+NCL,playoff,5,3,1,1,10,10,7,3,2.0,1.4,0.6
