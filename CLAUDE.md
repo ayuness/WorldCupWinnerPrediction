@@ -36,7 +36,11 @@ build_ranking.py                             Data/WorldCupHistory/
                                                       ↓
                                            EDA.ipynb  (exploration & visualization)
                                                       ↓
-                                           [Feature Engineering + ML Model]
+                                           ModelDataset.ipynb  (feature engineering → master dataset)
+                                                      ↓
+                                           Data/master_dataset_64.csv  (64 teams × 17 features)
+                                                      ↓
+                                           [ML Model: XGBoost classifier]
                                                       ↓
                                            [Monte Carlo Simulation]
 ```
@@ -46,12 +50,15 @@ build_ranking.py                             Data/WorldCupHistory/
 | File | Description |
 |------|-------------|
 | `Data/WorldCupHistory/matches_1930_2022.csv` | All World Cup match results |
+| `Data/WorldCupHistory/worldcups.csv` | World Cup editions and winners (1930–2018) |
 | `Data/WorldCupHistory/historial_mundialista.csv` | Per-team World Cup history metrics |
 | `Data/Eliminatorias/eliminatorias_conjuntas.csv` | 2026 qualifiers (all 6 confederations combined) |
-| `ranking_mundial_2026_v2.csv` | Current FIFA rankings for 2026 participants |
-| `transfermarkt_selecciones.csv` | Team market valuations |
-| `Copa_America.csv` | Copa America historical results |
-| `Data/euro_histoia/` | Euro Championship historical data (1960–2024) |
+| `Data/Eliminatorias/eliminatorias_<conf>.csv` | Per-confederation qualifier data (afc, caf, concacaf, conmebol, ofc, uefa) |
+| `Data/ranking_mundial_2026_v2.csv` | Historical FIFA rankings 1993–2026 |
+| `Data/transfermarkt_selecciones.csv` | Team market valuations (Transfermarkt) |
+| `Data/Copa_America.csv` | Copa America historical results |
+| `Data/euro_histoia/` | Euro Championship historical data (1960–2024), one CSV per edition |
+| `Data/master_dataset_64.csv` | **Master dataset** — 64 teams × 17 features, ready for model training |
 
 ### Scripts in `Extras_(.py)/`
 
@@ -67,6 +74,25 @@ build_ranking.py                             Data/WorldCupHistory/
 
 - `Dataset.ipynb` — loads and merges all data sources into the master dataset
 - `EDA.ipynb` — exploratory data analysis with visualizations (matplotlib, seaborn, plotly)
+- `ModelDataset.ipynb` — feature engineering pipeline; builds `Data/master_dataset_64.csv` (64 teams × 17 features) from 8 raw sources for XGBoost training
+
+#### Features in `master_dataset_64.csv`
+
+| Group | Features |
+|-------|----------|
+| FIFA Ranking | `ranking_2026`, `ranking_volatility` |
+| World Cup history | `wc_win_pct`, `wc_gc_per_game`, `wc_titles` |
+| 2026 Qualifiers | `qual_gf_per_game`, `qual_gc_per_game`, `qual_points_per_game` |
+| Market value | `market_value_eur_m`, `squad_avg_age` |
+| Continental | `copa_win_pct` (CONMEBOL only), `euro_win_pct` (UEFA only) |
+| Performance vs elite | `win_pct_vs_top10` (weighted: WC ×3 recent, ×2 mid, ×1 old; + Euro/Copa) |
+| Flags | `wc_debut_flag`, `host_flag`, `is_playoff`, `confederation_strength_index` |
+
+**Key engineering decisions:**
+- Debutant teams (9 teams, 0 WC games): `win_pct=0`, `gc/game` = confederation median
+- USA/MEX/CAN (hosts, 0 qualifier games): assigned best CONCACAF qualifier values
+- Kosovo uses code `KVX` (Transfermarkt mismatch with `KOS`)
+- Missing market values filled with confederation minimum
 
 ## Tech Stack
 
@@ -74,4 +100,5 @@ build_ranking.py                             Data/WorldCupHistory/
 - `pandas`, `numpy` for data manipulation
 - `requests`, `BeautifulSoup` for web scraping
 - `matplotlib`, `seaborn`, `plotly` for visualization
-- `scikit-learn` (expected) for classification model and cross-validation
+- `scikit-learn` for cross-validation and preprocessing
+- `xgboost` (next step) for match outcome classification model
