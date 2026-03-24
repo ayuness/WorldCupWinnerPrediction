@@ -1,0 +1,213 @@
+Data,Casa,Fora,Gols Casa,Gols Fora,Edição,Fase
+2001-07-11,Equador,Chile,1,4,2001,Grupo A
+2001-07-11,Colombia,Venezuela,2,0,2001,Grupo A
+2001-07-14,Chile,Venezuela,1,0,2001,Grupo A
+2001-07-14,Colombia,Equador,1,0,2001,Grupo A
+2001-07-17,Equador,Venezuela,4,0,2001,Grupo A
+2001-07-17,Colombia,Chile,2,0,2001,Grupo A
+2001-07-12,Peru,Paraguai,3,3,2001,Grupo B
+2001-07-12,Brasil,Mexico,0,1,2001,Grupo B
+2001-07-15,Brasil,Peru,2,0,2001,Grupo B
+2001-07-15,Paraguai,Mexico,0,0,2001,Grupo B
+2001-07-18,Peru,Mexico,1,0,2001,Grupo B
+2001-07-18,Brasil,Paraguai,3,1,2001,Grupo B
+2001-07-13,Bolivia,Uruguai,0,1,2001,Grupo C
+2001-07-13,Honduras,Costa Rica,0,1,2001,Grupo C
+2001-07-16,Uruguai,Costa Rica,1,1,2001,Grupo C
+2001-07-16,Honduras,Bolivia,2,0,2001,Grupo C
+2001-07-19,Bolivia,Costa Rica,0,4,2001,Grupo C
+2001-07-19,Honduras,Uruguai,1,0,2001,Grupo C
+2001-07-22,Chile,Mexico,0,2,2001,Quartas
+2001-07-22,Costa Rica,Uruguai,1,2,2001,Quartas
+2001-07-23,Colombia,Peru,3,0,2001,Quartas
+2001-07-23,Honduras,Brasil,2,0,2001,Quartas
+2001-07-25,Mexico,Uruguai,2,1,2001,Semi
+2001-07-26,Colombia,Honduras,2,0,2001,Semi
+2001-07-29,Uruguai,Honduras,2,2,2001,Terceiro
+2001-07-29,Colombia,Mexico,1,0,2001,Final
+2004-07-06,Venezuela,Colombia,0,1,2004,Grupo A
+2004-07-06,Peru,Bolivia,2,2,2004,Grupo A
+2004-07-09,Colombia,Bolivia,1,0,2004,Grupo A
+2004-07-09,Peru,Venezuela,3,1,2004,Grupo A
+2004-07-12,Venezuela,Bolivia,1,1,2004,Grupo A
+2004-07-12,Peru,Colombia,2,2,2004,Grupo A
+2004-07-07,Mexico,Uruguai,2,2,2004,Grupo B
+2004-07-07,Argentina,Equador,6,1,2004,Grupo B
+2004-07-10,Uruguai,Equador,2,1,2004,Grupo B
+2004-07-10,Argentina,Mexico,0,1,2004,Grupo B
+2004-07-13,Mexico,Equador,2,1,2004,Grupo B
+2004-07-13,Argentina,Uruguai,4,2,2004,Grupo B
+2004-07-08,Costa Rica,Paraguai,0,1,2004,Grupo C
+2004-07-08,Brasil,Chile,1,0,2004,Grupo C
+2004-07-11,Brasil,Costa Rica,4,1,2004,Grupo C
+2004-07-11,Paraguai,Chile,1,1,2004,Grupo C
+2004-07-14,Costa Rica,Chile,2,1,2004,Grupo C
+2004-07-14,Brasil,Paraguai,1,2,2004,Grupo C
+2004-07-17,Peru,Argentina,0,1,2004,Quartas
+2004-07-17,Colombia,Costa Rica,2,0,2004,Quartas
+2004-07-18,Paraguai,Uruguai,1,3,2004,Quartas
+2004-07-18,Mexico,Brasil,0,4,2004,Quartas
+2004-07-20,Argentina,Colombia,3,0,2004,Semi
+2004-07-21,Brasil,Uruguai,1,1,2004,Semi
+2004-07-24,Colombia,Uruguai,1,2,2004,Terceiro
+2004-07-25,Argentina,Brasil,2,2,2004,Final
+2007-06-26,Uruguai,Peru,0,3,2007,Grupo A
+2007-06-26,Venezuela,Bolivia,2,2,2007,Grupo A
+2007-06-30,Bolivia,Uruguai,0,1,2007,Grupo A
+2007-06-30,Venezuela,Peru,2,0,2007,Grupo A
+2007-07-03,Peru,Bolivia,2,2,2007,Grupo A
+2007-07-03,Venezuela,Uruguai,0,0,2007,Grupo A
+2007-06-27,Equador,Chile,2,3,2007,Grupo B
+2007-06-27,Brasil,Mexico,0,2,2007,Grupo B
+2007-07-01,Brasil,Chile,3,0,2007,Grupo B
+2007-07-01,Mexico,Equador,2,1,2007,Grupo B
+2007-07-04,Mexico,Chile,0,0,2007,Grupo B
+2007-07-04,Brasil,Equador,1,0,2007,Grupo B
+2007-06-28,Paraguai,Colombia,5,0,2007,Grupo C
+2007-06-28,Argentina,EUA,4,1,2007,Grupo C
+2007-07-02,EUA,Paraguai,1,3,2007,Grupo C
+2007-07-02,Argentina,Colombia,4,2,2007,Grupo C
+2007-07-05,Colombia,EUA,1,0,2007,Grupo C
+2007-07-05,Argentina,Paraguai,1,0,2007,Grupo C
+2007-07-07,Venezuela,Uruguai,1,4,2007,Quartas
+2007-07-07,Chile,Brasil,1,6,2007,Quartas
+2007-07-08,Mexico,Paraguai,6,0,2007,Quartas
+2007-07-08,Argentina,Peru,4,0,2007,Quartas
+2007-07-10,Uruguai,Brasil,2,2,2007,Semi
+2007-07-11,Mexico,Argentina,0,3,2007,Semi
+2007-07-14,Uruguai,Mexico,1,3,2007,Terceiro
+2007-07-15,Brasil,Argentina,3,0,2007,Final
+2011-07-01,Argentina,Bolivia,1,1,2011,Grupo A
+2011-07-02,Colombia,Costa Rica,1,0,2011,Grupo A
+2011-07-06,Argentina,Colombia,0,0,2011,Grupo A
+2011-07-07,Bolivia,Costa Rica,0,2,2011,Grupo A
+2011-07-10,Colombia,Bolivia,2,0,2011,Grupo A
+2011-07-11,Argentina,Costa Rica,3,0,2011,Grupo A
+2011-07-03,Brasil,Venezuela,0,0,2011,Grupo B
+2011-07-03,Paraguai,Equador,0,0,2011,Grupo B
+2011-07-09,Brasil,Paraguai,2,2,2011,Grupo B
+2011-07-09,Venezuela,Equador,1,0,2011,Grupo B
+2011-07-13,Paraguai,Venezuela,3,3,2011,Grupo B
+2011-07-13,Brasil,Equador,4,2,2011,Grupo B
+2011-07-04,Uruguai,Peru,1,1,2011,Grupo C
+2011-07-04,Chile,Mexico,2,1,2011,Grupo C
+2011-07-08,Uruguai,Chile,1,1,2011,Grupo C
+2011-07-08,Peru,Mexico,1,0,2011,Grupo C
+2011-07-12,Chile,Peru,1,0,2011,Grupo C
+2011-07-12,Uruguai,Mexico,1,0,2011,Grupo C
+2011-07-16,Colombia,Peru,0,2,2011,Quartas
+2011-07-16,Argentina,Uruguai,1,1,2011,Quartas
+2011-07-17,Brasil,Paraguai,0,0,2011,Quartas
+2011-07-17,Chile,Venezuela,1,2,2011,Quartas
+2011-07-19,Peru,Uruguai,0,2,2011,Semi
+2011-07-20,Paraguai,Venezuela,0,0,2011,Semi
+2011-07-23,Peru,Venezuela,4,1,2011,Terceiro
+2011-07-24,Uruguai,Paraguai,3,0,2011,Final
+2015-06-11,Chile,Equador,2,0,2015,Grupo A
+2015-06-12,Mexico,Bolivia,0,0,2015,Grupo A
+2015-06-15,Equador,Bolivia,2,3,2015,Grupo A
+2015-06-15,Chile,Mexico,3,3,2015,Grupo A
+2015-06-19,Mexico,Equador,1,2,2015,Grupo A
+2015-06-19,Chile,Bolivia,5,0,2015,Grupo A
+2015-06-13,Uruguai,Jamaica,1,0,2015,Grupo B
+2015-06-13,Argentina,Paraguai,2,2,2015,Grupo B
+2015-06-16,Paraguai,Jamaica,1,0,2015,Grupo B
+2015-06-16,Argentina,Uruguai,1,0,2015,Grupo B
+2015-06-20,Uruguai,Paraguai,1,1,2015,Grupo B
+2015-06-20,Argentina,Jamaica,1,0,2015,Grupo B
+2015-06-14,Colombia,Venezuela,0,1,2015,Grupo C
+2015-06-14,Brasil,Peru,2,1,2015,Grupo C
+2015-06-17,Brasil,Colombia,0,1,2015,Grupo C
+2015-06-18,Peru,Venezuela,1,0,2015,Grupo C
+2015-06-21,Colombia,Peru,0,0,2015,Grupo C
+2015-06-21,Brasil,Venezuela,2,1,2015,Grupo C
+2015-06-24,Chile,Uruguai,1,0,2015,Quartas
+2015-06-25,Bolivia,Peru,1,3,2015,Quartas
+2015-06-26,Argentina,Colombia,0,0,2015,Quartas
+2015-06-27,Brasil,Paraguai,1,1,2015,Quartas
+2015-06-29,Chile,Peru,2,1,2015,Semi
+2015-06-30,Argentina,Paraguai,6,1,2015,Semi
+2015-07-03,Peru,Paraguai,2,0,2015,Terceiro
+2015-07-04,Chile,Argentina,0,0,2015,Final
+2016-06-03,EUA,Colombia,0,2,2016,Grupo A
+2016-06-04,Costa Rica,Paraguai,0,0,2016,Grupo A
+2016-06-07,EUA,Costa Rica,4,0,2016,Grupo A
+2016-06-07,Colombia,Paraguai,2,1,2016,Grupo A
+2016-06-11,EUA,Paraguai,1,0,2016,Grupo A
+2016-06-11,Colombia,Costa Rica,2,3,2016,Grupo A
+2016-06-04,Haiti,Peru,0,1,2016,Grupo B
+2016-06-04,Brasil,Equador,0,0,2016,Grupo B
+2016-06-08,Brasil,Haiti,7,1,2016,Grupo B
+2016-06-08,Equador,Peru,2,2,2016,Grupo B
+2016-06-12,Equador,Haiti,4,0,2016,Grupo B
+2016-06-12,Brasil,Peru,0,1,2016,Grupo B
+2016-06-05,Jamaica,Venezuela,0,1,2016,Grupo C
+2016-06-05,Mexico,Uruguai,3,1,2016,Grupo C
+2016-06-09,Uruguai,Venezuela,0,1,2016,Grupo C
+2016-06-09,Mexico,Jamaica,2,0,2016,Grupo C
+2016-06-13,Mexico,Venezuela,1,1,2016,Grupo C
+2016-06-13,Uruguai,Jamaica,3,0,2016,Grupo C
+2016-06-06,Panama,Bolivia,2,1,2016,Grupo D
+2016-06-06,Argentina,Chile,2,1,2016,Grupo D
+2016-06-10,Chile,Bolivia,2,1,2016,Grupo D
+2016-06-10,Argentina,Panama,5,0,2016,Grupo D
+2016-06-14,Chile,Panama,4,2,2016,Grupo D
+2016-06-14,Argentina,Bolivia,3,0,2016,Grupo D
+2016-06-16,EUA,Equador,2,1,2016,Quartas
+2016-06-17,Peru,Colombia,0,0,2016,Quartas
+2016-06-18,Argentina,Venezuela,4,1,2016,Quartas
+2016-06-18,Mexico,Chile,0,7,2016,Quartas
+2016-06-21,EUA,Argentina,0,4,2016,Semi
+2016-06-22,Colombia,Chile,0,2,2016,Semi
+2016-06-25,EUA,Colombia,0,1,2016,Terceiro
+2016-06-26,Argentina,Chile,0,0,2016,Final
+2019-06-14,Brasil,Bolivia,3,0,2019,Grupo A
+2019-06-15,Venezuela,Peru,0,0,2019,Grupo A
+2019-06-18,Bolivia,Peru,1,3,2019,Grupo A
+2019-06-18,Brasil,Venezuela,0,0,2019,Grupo A
+2019-06-22,Peru,Brasil,0,5,2019,Grupo A
+2019-06-22,Bolivia,Venezuela,1,3,2019,Grupo A
+2019-06-15,Argentina,Colombia,0,2,2019,Grupo B
+2019-06-16,Paraguai,Catar,2,2,2019,Grupo B
+2019-06-19,Colombia,Catar,1,0,2019,Grupo B
+2019-06-19,Argentina,Paraguai,1,1,2019,Grupo B
+2019-06-23,Catar,Argentina,0,2,2019,Grupo B
+2019-06-23,Colombia,Paraguai,1,0,2019,Grupo B
+2019-06-16,Uruguai,Equador,4,0,2019,Grupo C
+2019-06-17,Japao,Chile,0,4,2019,Grupo C
+2019-06-20,Uruguai,Japao,2,2,2019,Grupo C
+2019-06-21,Equador,Chile,1,2,2019,Grupo C
+2019-06-24,Chile,Uruguai,0,1,2019,Grupo C
+2019-06-24,Equador,Japao,1,1,2019,Grupo C
+2019-06-27,Brasil,Paraguai,0,0,2019,Quartas
+2019-06-28,Venezuela,Argentina,0,2,2019,Quartas
+2019-06-28,Colombia,Chile,0,0,2019,Quartas
+2019-06-29,Uruguai,Peru,0,0,2019,Quartas
+2019-07-02,Brasil,Argentina,2,0,2019,Semi
+2019-07-03,Chile,Peru,0,3,2019,Semi
+2019-07-06,Argentina,Chile,2,1,2019,Terceiro
+2019-07-07,Brasil,Peru,3,1,2019,Final
+2021-06-14,Argentina,Chile,1,1,2021,Grupo A
+2021-06-14,Paraguai,Bolivia,3,1,2021,Grupo A
+2021-06-18,Chile,Bolivia,1,0,2021,Grupo A
+2021-06-18,Argentina,Uruguai,1,0,2021,Grupo A
+2021-06-21,Uruguai,Chile,1,1,2021,Grupo A
+2021-06-21,Argentina,Paraguai,1,0,2021,Grupo A
+2021-06-24,Bolivia,Uruguai,0,2,2021,Grupo A
+2021-06-24,Chile,Paraguai,0,2,2021,Grupo A
+2021-06-28,Bolivia,Argentina,1,4,2021,Grupo A
+2021-06-28,Uruguai,Paraguai,1,0,2021,Grupo A
+2021-06-13,Brasil,Venezuela,3,0,2021,Grupo B
+2021-06-13,Colombia,Equador,1,0,2021,Grupo B
+2021-06-17,Colombia,Venezuela,0,0,2021,Grupo B
+2021-06-17,Brasil,Peru,4,0,2021,Grupo B
+2021-06-20,Venezuela,Equador,2,2,2021,Grupo B
+2021-06-20,Colombia,Peru,1,2,2021,Grupo B
+2021-06-23,Equador,Peru,2,2,2021,Grupo B
+2021-06-23,Brasil,Colombia,2,1,2021,Grupo B
+2021-06-27,Brasil,Equador,1,1,2021,Grupo B
+2021-06-27,Venezuela,Peru,0,1,2021,Grupo B
+2021-07-02,Peru,Paraguai,,,2021,Quartas
+2021-07-02,Brasil,Chile,,,2021,Quartas
+2021-07-03,Uruguai,Colombia,,,2021,Quartas
+2021-07-03,Argentina,Equador,,,2021,Quartas
