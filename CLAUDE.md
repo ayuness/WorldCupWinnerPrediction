@@ -38,7 +38,7 @@ build_ranking.py                             Data/WorldCupHistory/
                                                       ↓
                                            ModelDataset.ipynb  (feature engineering → master dataset)
                                                       ↓
-                                           Data/master_dataset_64.csv  (64 teams × 17 features)
+                                           Data/master_dataset_48.csv  (48 qualified teams × 17 features)
                                                       ↓
                                            [ML Model: XGBoost classifier]
                                                       ↓
@@ -58,7 +58,7 @@ build_ranking.py                             Data/WorldCupHistory/
 | `Data/transfermarkt_selecciones.csv` | Team market valuations (Transfermarkt) |
 | `Data/Copa_America.csv` | Copa America historical results |
 | `Data/euro_histoia/` | Euro Championship historical data (1960–2024), one CSV per edition |
-| `Data/master_dataset_64.csv` | **Master dataset** — 64 teams × 17 features, ready for model training |
+| `Data/master_dataset_48.csv` | **Master dataset** — 48 qualified teams × 17 features, ready for model training |
 
 ### Scripts in `Extras_(.py)/`
 
@@ -74,7 +74,7 @@ build_ranking.py                             Data/WorldCupHistory/
 
 - `Dataset.ipynb` — loads and merges all data sources into the master dataset
 - `EDA.ipynb` — exploratory data analysis with visualizations (matplotlib, seaborn, plotly)
-- `ModelDataset.ipynb` — feature engineering pipeline; builds `Data/master_dataset_64.csv` (64 teams × 17 features) from 8 raw sources for XGBoost training
+- `ModelDataset.ipynb` — feature engineering pipeline; builds `Data/master_dataset_48.csv` (48 qualified teams × 17 features) from 8 raw sources for XGBoost training
 
 #### Features in `master_dataset_64.csv`
 
