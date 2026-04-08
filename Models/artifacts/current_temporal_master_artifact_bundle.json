@@ -1,0 +1,10 @@
+{
+  "model_path": "/Users/bernardodelrio/Desktop/Sem8/Mineria/world-cup/Models/artifacts/current_temporal_master_model.xgb.json",
+  "metadata_path": "/Users/bernardodelrio/Desktop/Sem8/Mineria/world-cup/Models/artifacts/current_temporal_master_model.metadata.json",
+  "evaluation_folds_path": "/Users/bernardodelrio/Desktop/Sem8/Mineria/world-cup/Models/artifacts/current_temporal_master_evaluation_folds.csv",
+  "evaluation_summary_path": "/Users/bernardodelrio/Desktop/Sem8/Mineria/world-cup/Models/artifacts/current_temporal_master_evaluation_summary.csv",
+  "simulation_results_path": "/Users/bernardodelrio/Desktop/Sem8/Mineria/world-cup/Models/artifacts/current_temporal_master_simulation_results.csv",
+  "n_trials": 12,
+  "n_simulations": 50000,
+  "corr_vs_momios": 0.9437080340291042
+}

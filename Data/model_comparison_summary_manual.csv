@@ -1,0 +1,5 @@
+model,benchmark,train_matches,test_matches,mean_log_loss,mean_accuracy,mean_brier,notes
+current,full_coverage_cleaned,1560,384,1.019022,0.53125,0.606249,200-trial notebook best params evaluated on cleaned current pipeline
+current,shared_test_full_training,1560,225,1.022802,0.527145,0.608318,Current model evaluated only on matches usable by master48
+current,shared_train_and_test,689,225,1.053706,0.53282,0.628274,Current model restricted to master48 coverage using notebook best params
+master48,shared_train_and_test,689,225,1.003056,0.523394,,60-trial full run from master48_alt_model.py

@@ -1,0 +1,4 @@
+model,benchmark,train_matches,test_matches,mean_log_loss,mean_accuracy,mean_brier,corr_vs_momios,notes
+current_temporal_master,full_coverage,1560,384,0.9410382173958894,0.6067708333333334,0.5527503944828538,0.9437080340291042,12-trial retune after adding yearly rank + squad priors
+current_temporal_master,shared_train_and_test,689,225,0.955446,0.599622,0.562886,,8-trial shared-subset check after adding yearly rank + squad priors
+master48,shared_train_and_test,689,225,0.992485,0.536695,0.587786,0.8475177809299693,Existing full comparison artifact before temporal-master upgrade
