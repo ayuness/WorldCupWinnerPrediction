@@ -46,6 +46,10 @@ build/
 *.hdf5
 *.model
 models/
+!Models/
+!Models/**
+Models/__pycache__/
+Models/**/*.py[cod]
 saved_models/
 
 # Outputs / resultados generados
