@@ -1,0 +1,1 @@
+All Results of the Africa Cup of Nations scraped from WikiPedia
