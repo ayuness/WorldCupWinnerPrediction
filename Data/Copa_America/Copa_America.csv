@@ -207,7 +207,11 @@ Data,Casa,Fora,Gols Casa,Gols Fora,Edição,Fase
 2021-06-23,Brasil,Colombia,2,1,2021,Grupo B
 2021-06-27,Brasil,Equador,1,1,2021,Grupo B
 2021-06-27,Venezuela,Peru,0,1,2021,Grupo B
-2021-07-02,Peru,Paraguai,,,2021,Quartas
-2021-07-02,Brasil,Chile,,,2021,Quartas
-2021-07-03,Uruguai,Colombia,,,2021,Quartas
-2021-07-03,Argentina,Equador,,,2021,Quartas
+2021-07-02,Peru,Paraguai,3,3,2021,Quartas
+2021-07-02,Brasil,Chile,1,0,2021,Quartas
+2021-07-03,Uruguai,Colombia,0,0,2021,Quartas
+2021-07-03,Argentina,Equador,3,0,2021,Quartas
+,Brasil,Peru,1,0,2021,Semi
+,Argentina,Colombia,1,1,2021,Semi
+,Colombia,Peru,3,2,2021,Terceiro
+,Argentina,Brasil,1,0,2021,Final
