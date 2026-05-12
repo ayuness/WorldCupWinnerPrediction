@@ -1,0 +1,11 @@
+{
+  "C": 0.039054412752107935,
+  "l1_ratio": 0.2912291401980419,
+  "class_weight": null,
+  "best_inner_log_loss": 0.9780092022493493,
+  "n_trials": 100,
+  "inner_year_max": 2014,
+  "max_iter": 20000,
+  "tol": 1e-05,
+  "seed": 42
+}
