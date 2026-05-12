@@ -1,0 +1,11 @@
+{
+  "C": 0.039054412752107935,
+  "l1_ratio": 0.2912291401980419,
+  "calibrate": "isotonic",
+  "drop_features": [
+    "delta_squad_market_value_log"
+  ],
+  "best_inner_log_loss": 0.9762975868262976,
+  "n_trials": 100,
+  "inner_year_max": 2014
+}

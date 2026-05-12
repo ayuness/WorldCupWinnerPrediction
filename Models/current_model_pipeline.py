@@ -578,7 +578,10 @@ def prepare_experiment(
     rankings = pd.read_csv(_repo_path("Data", "ranking_mundial_2026_v2.csv"))
     master = pd.read_csv(_repo_path(*Path(master_path).parts))
     momios = pd.read_csv(_repo_path(*Path(momios_path).parts))
-    copa = pd.read_csv(_repo_path("Data", "Copa_America.csv"))
+    copa_path = _repo_path("Data", "Copa_America.csv")
+    if not copa_path.exists():
+        copa_path = _repo_path("Data", "Copa_America", "Copa_America.csv")
+    copa = pd.read_csv(copa_path)
     players_df = pd.read_csv(_repo_path("Data", "transfermarkt_players.csv"))
 
     euro_files = sorted(glob.glob(str(_repo_path("Data", "euro_histoia", "*.csv"))))
