@@ -1,0 +1,233 @@
+{
+  "comparison_date": "2026-05-12",
+  "description": "Comparación de 3 modelos de clasificación de partidos de la Copa del Mundo 2026",
+  "validation": {
+    "method": "Walk-forward temporal cross-validation",
+    "target": "3 clases (Win/Draw/Loss)",
+    "test_years_lgbm_rf": [2014, 2018, 2022],
+    "test_years_xgboost": [2002, 2006, 2010, 2014, 2018, 2022],
+    "test_size_per_fold": 128,
+    "total_train_rows": 1822
+  },
+  "models": {
+    "lightgbm": {
+      "name": "LightGBM",
+      "pipeline": "sim_Adolfo/lgbm_pipeline.py",
+      "model_file": "sim_Adolfo/lgbm_wc_model.txt",
+      "feature_approach": "Deltas entre equipos (team_X, opp_X, delta_X)",
+      "n_features": 58,
+      "avg_best_iteration": 46,
+      "summary": {
+        "mean_accuracy": 0.6224,
+        "mean_logloss": 0.9055,
+        "corr_vs_momios": 0.922
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "train_cutoff": 2010,
+          "test_year": 2014,
+          "train_size": 1438,
+          "test_size": 128,
+          "best_iteration": 30,
+          "logloss": 0.9175,
+          "accuracy": 0.6641
+        },
+        {
+          "fold": 2,
+          "train_cutoff": 2014,
+          "test_year": 2018,
+          "train_size": 1566,
+          "test_size": 128,
+          "best_iteration": 48,
+          "logloss": 0.8826,
+          "accuracy": 0.6328
+        },
+        {
+          "fold": 3,
+          "train_cutoff": 2018,
+          "test_year": 2022,
+          "train_size": 1694,
+          "test_size": 128,
+          "best_iteration": 61,
+          "logloss": 0.9163,
+          "accuracy": 0.5703
+        }
+      ],
+      "top_10_features": [
+        "delta_wc_games_played",
+        "delta_ranking",
+        "delta_wc_gf_per_game",
+        "delta_wc_gc_per_game",
+        "opp_ranking",
+        "opp_wc_gf_per_game",
+        "team_wc_gf_per_game",
+        "team_ranking",
+        "team_wc_draw_pct",
+        "opp_wc_gc_per_game"
+      ]
+    },
+    "xgboost": {
+      "name": "XGBoost (current_temporal_master)",
+      "pipeline": "Models/current_model_pipeline.py",
+      "model_file": "Models/artifacts/current_temporal_master_model.xgb.json",
+      "feature_approach": "Deltas entre equipos (delta_X) + flags",
+      "n_features": 22,
+      "n_estimators": 762,
+      "hyperparameters": {
+        "max_depth": 8,
+        "learning_rate": 0.0176,
+        "min_child_weight": 10,
+        "subsample": 0.7607,
+        "colsample_bytree": 0.8141,
+        "reg_alpha": 0.000119,
+        "reg_lambda": 0.1309,
+        "gamma": 2.8527
+      },
+      "summary": {
+        "mean_accuracy": 0.6068,
+        "mean_logloss": 0.9410,
+        "mean_brier": 0.5528,
+        "corr_vs_momios": 0.9437,
+        "n_simulations": 50000
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "test_year": 2002,
+          "n_train": 748,
+          "n_test": 64,
+          "logloss": 1.0255,
+          "accuracy": 0.5469
+        },
+        {
+          "fold": 2,
+          "test_year": 2006,
+          "n_train": 869,
+          "n_test": 64,
+          "logloss": 0.7870,
+          "accuracy": 0.7031
+        },
+        {
+          "fold": 3,
+          "test_year": 2010,
+          "n_train": 990,
+          "n_test": 64,
+          "logloss": 0.9831,
+          "accuracy": 0.5469
+        },
+        {
+          "fold": 4,
+          "test_year": 2014,
+          "n_train": 1111,
+          "n_test": 64,
+          "logloss": 0.8924,
+          "accuracy": 0.6406
+        },
+        {
+          "fold": 5,
+          "test_year": 2018,
+          "n_train": 1284,
+          "n_test": 64,
+          "logloss": 0.9292,
+          "accuracy": 0.6563
+        },
+        {
+          "fold": 6,
+          "test_year": 2022,
+          "n_train": 1445,
+          "n_test": 64,
+          "logloss": 1.0289,
+          "accuracy": 0.5469
+        }
+      ],
+      "features": [
+        "delta_elo",
+        "delta_form_wp",
+        "delta_form_gf",
+        "delta_form_gc",
+        "delta_wc_win_pct",
+        "delta_wc_gc_per_game",
+        "delta_wc_titles",
+        "delta_wc_experience",
+        "is_knockout",
+        "tournament_weight",
+        "delta_rank_strength",
+        "delta_rank_volatility",
+        "delta_squad_market_value_log",
+        "delta_squad_avg_age",
+        "both_rank_available",
+        "both_squad_available",
+        "delta_star_concentration",
+        "delta_top5_avg_value",
+        "delta_gk_value",
+        "delta_squad_depth_ratio",
+        "delta_age_weighted_value",
+        "delta_top_league_pct"
+      ]
+    },
+    "random_forest": {
+      "name": "Random Forest",
+      "pipeline": "sim_Adolfo/rf_pipeline.py",
+      "model_file": "sim_Adolfo/rf_wc_model.joblib",
+      "feature_approach": "Deltas entre equipos (team_X, opp_X, delta_X)",
+      "n_features": 58,
+      "summary": {
+        "mean_accuracy": 0.5208,
+        "mean_logloss": 0.9631,
+        "corr_vs_momios": null
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "train_cutoff": 2010,
+          "test_year": 2014,
+          "train_size": 1438,
+          "test_size": 128,
+          "best_n_estimators": 200,
+          "logloss": 0.9908,
+          "accuracy": 0.4453
+        },
+        {
+          "fold": 2,
+          "train_cutoff": 2014,
+          "test_year": 2018,
+          "train_size": 1566,
+          "test_size": 128,
+          "best_n_estimators": 500,
+          "logloss": 0.9542,
+          "accuracy": 0.5078
+        },
+        {
+          "fold": 3,
+          "train_cutoff": 2018,
+          "test_year": 2022,
+          "train_size": 1694,
+          "test_size": 128,
+          "best_n_estimators": 500,
+          "logloss": 0.9443,
+          "accuracy": 0.6094
+        }
+      ],
+      "top_10_features": [
+        "delta_wc_games_played",
+        "delta_wc_gf_per_game",
+        "delta_wc_win_pct",
+        "opp_wc_gf_per_game",
+        "team_wc_gf_per_game",
+        "delta_wc_appearances",
+        "delta_ranking",
+        "delta_wc_gc_per_game",
+        "opp_wc_games_played",
+        "team_wc_gc_per_game"
+      ]
+    }
+  },
+  "ranking": {
+    "by_accuracy": ["lightgbm", "xgboost", "random_forest"],
+    "by_logloss": ["lightgbm", "xgboost", "random_forest"],
+    "by_momios_correlation": ["xgboost", "lightgbm", "random_forest"],
+    "best_overall": "lightgbm",
+    "notes": "LightGBM gana en accuracy y log-loss. XGBoost tiene la mayor correlación con momios de casas de apuestas (0.944 vs 0.922). RF queda lejos en todas las métricas."
+  }
+}

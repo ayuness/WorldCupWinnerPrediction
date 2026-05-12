@@ -1,0 +1,52 @@
+{
+  "folds": [
+    {
+      "fold": 1,
+      "train_cutoff": 2010,
+      "test_year": 2014,
+      "train_size": 1438,
+      "test_size": 128,
+      "best_iteration": 30,
+      "logloss": 0.9175457931451998,
+      "accuracy": 0.6640625,
+      "pred_dist": {
+        "0": 61,
+        "1": 6,
+        "2": 61
+      }
+    },
+    {
+      "fold": 2,
+      "train_cutoff": 2014,
+      "test_year": 2018,
+      "train_size": 1566,
+      "test_size": 128,
+      "best_iteration": 48,
+      "logloss": 0.8826067321222829,
+      "accuracy": 0.6328125,
+      "pred_dist": {
+        "0": 60,
+        "1": 7,
+        "2": 61
+      }
+    },
+    {
+      "fold": 3,
+      "train_cutoff": 2018,
+      "test_year": 2022,
+      "train_size": 1694,
+      "test_size": 128,
+      "best_iteration": 61,
+      "logloss": 0.916291468622614,
+      "accuracy": 0.5703125,
+      "pred_dist": {
+        "0": 63,
+        "1": 8,
+        "2": 57
+      }
+    }
+  ],
+  "avg_best_iteration": 46,
+  "total_train_rows": 1822,
+  "corr_vs_momios": 0.922026973573538
+}
