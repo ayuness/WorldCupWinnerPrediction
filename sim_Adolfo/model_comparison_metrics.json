@@ -1,80 +1,44 @@
 {
-  "comparison_date": "2026-05-12",
-  "description": "Comparación de 3 modelos de clasificación de partidos de la Copa del Mundo 2026",
+  "project": "Prediccion del Campeon del Mundial FIFA 2026",
+  "date": "2026-05-12",
+  "description": "Comparacion completa de 4 modelos de clasificacion de partidos (Win/Draw/Loss) y sus simulaciones Monte Carlo del torneo 2026",
   "validation": {
-    "method": "Walk-forward temporal cross-validation",
-    "target": "3 clases (Win/Draw/Loss)",
-    "test_years_lgbm_rf": [2014, 2018, 2022],
-    "test_years_xgboost": [2002, 2006, 2010, 2014, 2018, 2022],
-    "test_size_per_fold": 128,
-    "total_train_rows": 1822
+    "method": "Leave-One-Tournament-Out (walk-forward temporal)",
+    "target": "3 clases: Win (2), Draw (1), Loss (0)",
+    "baseline_logloss": 1.099,
+    "baseline_accuracy": 0.333,
+    "total_train_rows": 1822,
+    "test_size_per_fold": 64,
+    "data_sources": [
+      "World Cup matches 1930-2022 (964 partidos)",
+      "Euro Championship matches (388 partidos)",
+      "Copa America matches (212 partidos)",
+      "FIFA Rankings 1993-2026",
+      "Transfermarkt player valuations (39,903 jugadores)",
+      "Momios del Mundial 2026 (48 equipos)"
+    ]
   },
   "models": {
-    "lightgbm": {
-      "name": "LightGBM",
-      "pipeline": "sim_Adolfo/lgbm_pipeline.py",
-      "model_file": "sim_Adolfo/lgbm_wc_model.txt",
-      "feature_approach": "Deltas entre equipos (team_X, opp_X, delta_X)",
-      "n_features": 58,
-      "avg_best_iteration": 46,
-      "summary": {
-        "mean_accuracy": 0.6224,
-        "mean_logloss": 0.9055,
-        "corr_vs_momios": 0.922
-      },
-      "folds": [
-        {
-          "fold": 1,
-          "train_cutoff": 2010,
-          "test_year": 2014,
-          "train_size": 1438,
-          "test_size": 128,
-          "best_iteration": 30,
-          "logloss": 0.9175,
-          "accuracy": 0.6641
-        },
-        {
-          "fold": 2,
-          "train_cutoff": 2014,
-          "test_year": 2018,
-          "train_size": 1566,
-          "test_size": 128,
-          "best_iteration": 48,
-          "logloss": 0.8826,
-          "accuracy": 0.6328
-        },
-        {
-          "fold": 3,
-          "train_cutoff": 2018,
-          "test_year": 2022,
-          "train_size": 1694,
-          "test_size": 128,
-          "best_iteration": 61,
-          "logloss": 0.9163,
-          "accuracy": 0.5703
-        }
-      ],
-      "top_10_features": [
-        "delta_wc_games_played",
-        "delta_ranking",
-        "delta_wc_gf_per_game",
-        "delta_wc_gc_per_game",
-        "opp_ranking",
-        "opp_wc_gf_per_game",
-        "team_wc_gf_per_game",
-        "team_ranking",
-        "team_wc_draw_pct",
-        "opp_wc_gc_per_game"
-      ]
-    },
     "xgboost": {
       "name": "XGBoost (current_temporal_master)",
+      "type": "Gradient Boosting (tree ensemble)",
       "pipeline": "Models/current_model_pipeline.py",
       "model_file": "Models/artifacts/current_temporal_master_model.xgb.json",
-      "feature_approach": "Deltas entre equipos (delta_X) + flags",
+      "feature_approach": "22 features delta entre equipos",
       "n_features": 22,
       "n_estimators": 762,
+      "n_folds": 6,
+      "test_years": [
+        2002,
+        2006,
+        2010,
+        2014,
+        2018,
+        2022
+      ],
+      "total_test_matches": 384,
       "hyperparameters": {
+        "objective": "multi:softprob",
         "max_depth": 8,
         "learning_rate": 0.0176,
         "min_child_weight": 10,
@@ -82,63 +46,63 @@
         "colsample_bytree": 0.8141,
         "reg_alpha": 0.000119,
         "reg_lambda": 0.1309,
-        "gamma": 2.8527
+        "gamma": 2.8527,
+        "n_trials_optuna": 12
       },
-      "summary": {
+      "cv_metrics": {
         "mean_accuracy": 0.6068,
-        "mean_logloss": 0.9410,
+        "mean_logloss": 0.941,
         "mean_brier": 0.5528,
-        "corr_vs_momios": 0.9437,
-        "n_simulations": 50000
+        "corr_vs_momios": 0.9437
       },
       "folds": [
         {
-          "fold": 1,
           "test_year": 2002,
           "n_train": 748,
           "n_test": 64,
           "logloss": 1.0255,
-          "accuracy": 0.5469
+          "accuracy": 0.5469,
+          "brier": 0.6139
         },
         {
-          "fold": 2,
           "test_year": 2006,
           "n_train": 869,
           "n_test": 64,
-          "logloss": 0.7870,
-          "accuracy": 0.7031
+          "logloss": 0.787,
+          "accuracy": 0.7031,
+          "brier": 0.4505
         },
         {
-          "fold": 3,
           "test_year": 2010,
           "n_train": 990,
           "n_test": 64,
           "logloss": 0.9831,
-          "accuracy": 0.5469
+          "accuracy": 0.5469,
+          "brier": 0.5846
         },
         {
-          "fold": 4,
           "test_year": 2014,
           "n_train": 1111,
           "n_test": 64,
           "logloss": 0.8924,
-          "accuracy": 0.6406
+          "accuracy": 0.6406,
+          "brier": 0.5271
         },
         {
-          "fold": 5,
           "test_year": 2018,
           "n_train": 1284,
           "n_test": 64,
           "logloss": 0.9292,
-          "accuracy": 0.6563
+          "accuracy": 0.6563,
+          "brier": 0.55
         },
         {
-          "fold": 6,
           "test_year": 2022,
           "n_train": 1445,
           "n_test": 64,
           "logloss": 1.0289,
-          "accuracy": 0.5469
+          "accuracy": 0.5469,
+          "brier": 0.5904
         }
       ],
       "features": [
@@ -164,52 +128,1023 @@
         "delta_squad_depth_ratio",
         "delta_age_weighted_value",
         "delta_top_league_pct"
-      ]
+      ],
+      "montecarlo": {
+        "n_simulations": 50000,
+        "seed": 42,
+        "top_10": [
+          {
+            "country_code": "ESP",
+            "champion_pct": 22.79,
+            "finalist_pct": 34.08,
+            "semifinal_pct": 48.33
+          },
+          {
+            "country_code": "ARG",
+            "champion_pct": 15.86,
+            "finalist_pct": 28.37,
+            "semifinal_pct": 44.68
+          },
+          {
+            "country_code": "BRA",
+            "champion_pct": 14.97,
+            "finalist_pct": 27.72,
+            "semifinal_pct": 48.7
+          },
+          {
+            "country_code": "FRA",
+            "champion_pct": 14.8,
+            "finalist_pct": 27.84,
+            "semifinal_pct": 42.51
+          },
+          {
+            "country_code": "ENG",
+            "champion_pct": 13.51,
+            "finalist_pct": 24.53,
+            "semifinal_pct": 39.61
+          },
+          {
+            "country_code": "POR",
+            "champion_pct": 4.32,
+            "finalist_pct": 11.1,
+            "semifinal_pct": 24.16
+          },
+          {
+            "country_code": "NED",
+            "champion_pct": 3.55,
+            "finalist_pct": 8.87,
+            "semifinal_pct": 21.0
+          },
+          {
+            "country_code": "GER",
+            "champion_pct": 3.53,
+            "finalist_pct": 8.64,
+            "semifinal_pct": 20.09
+          },
+          {
+            "country_code": "BEL",
+            "champion_pct": 2.42,
+            "finalist_pct": 8.28,
+            "semifinal_pct": 21.53
+          },
+          {
+            "country_code": "MAR",
+            "champion_pct": 0.93,
+            "finalist_pct": 3.38,
+            "semifinal_pct": 10.85
+          }
+        ],
+        "all_48_teams": [
+          {
+            "country_code": "ESP",
+            "champion_pct": 22.79
+          },
+          {
+            "country_code": "ARG",
+            "champion_pct": 15.86
+          },
+          {
+            "country_code": "BRA",
+            "champion_pct": 14.97
+          },
+          {
+            "country_code": "FRA",
+            "champion_pct": 14.8
+          },
+          {
+            "country_code": "ENG",
+            "champion_pct": 13.51
+          },
+          {
+            "country_code": "POR",
+            "champion_pct": 4.32
+          },
+          {
+            "country_code": "NED",
+            "champion_pct": 3.55
+          },
+          {
+            "country_code": "GER",
+            "champion_pct": 3.53
+          },
+          {
+            "country_code": "BEL",
+            "champion_pct": 2.42
+          },
+          {
+            "country_code": "MAR",
+            "champion_pct": 0.93
+          },
+          {
+            "country_code": "CRO",
+            "champion_pct": 0.72
+          },
+          {
+            "country_code": "URU",
+            "champion_pct": 0.44
+          },
+          {
+            "country_code": "SEN",
+            "champion_pct": 0.35
+          },
+          {
+            "country_code": "USA",
+            "champion_pct": 0.34
+          },
+          {
+            "country_code": "SUI",
+            "champion_pct": 0.26
+          },
+          {
+            "country_code": "COL",
+            "champion_pct": 0.26
+          },
+          {
+            "country_code": "MEX",
+            "champion_pct": 0.17
+          },
+          {
+            "country_code": "NOR",
+            "champion_pct": 0.13
+          },
+          {
+            "country_code": "KOR",
+            "champion_pct": 0.1
+          },
+          {
+            "country_code": "JPN",
+            "champion_pct": 0.1
+          },
+          {
+            "country_code": "TUR",
+            "champion_pct": 0.08
+          },
+          {
+            "country_code": "ECU",
+            "champion_pct": 0.07
+          },
+          {
+            "country_code": "CAN",
+            "champion_pct": 0.05
+          },
+          {
+            "country_code": "AUT",
+            "champion_pct": 0.05
+          },
+          {
+            "country_code": "IRN",
+            "champion_pct": 0.03
+          },
+          {
+            "country_code": "CIV",
+            "champion_pct": 0.03
+          },
+          {
+            "country_code": "SWE",
+            "champion_pct": 0.02
+          },
+          {
+            "country_code": "EGY",
+            "champion_pct": 0.02
+          },
+          {
+            "country_code": "CZE",
+            "champion_pct": 0.02
+          },
+          {
+            "country_code": "SCO",
+            "champion_pct": 0.02
+          },
+          {
+            "country_code": "GHA",
+            "champion_pct": 0.01
+          },
+          {
+            "country_code": "ALG",
+            "champion_pct": 0.01
+          },
+          {
+            "country_code": "NZL",
+            "champion_pct": 0.01
+          },
+          {
+            "country_code": "PAR",
+            "champion_pct": 0.01
+          },
+          {
+            "country_code": "AUS",
+            "champion_pct": 0.01
+          },
+          {
+            "country_code": "BIH",
+            "champion_pct": 0.004
+          },
+          {
+            "country_code": "PAN",
+            "champion_pct": 0.004
+          },
+          {
+            "country_code": "KSA",
+            "champion_pct": 0.004
+          },
+          {
+            "country_code": "IRQ",
+            "champion_pct": 0.002
+          },
+          {
+            "country_code": "CUW",
+            "champion_pct": 0.002
+          },
+          {
+            "country_code": "QAT",
+            "champion_pct": 0.0
+          },
+          {
+            "country_code": "JOR",
+            "champion_pct": 0.0
+          },
+          {
+            "country_code": "CPV",
+            "champion_pct": 0.0
+          },
+          {
+            "country_code": "COD",
+            "champion_pct": 0.0
+          },
+          {
+            "country_code": "UZB",
+            "champion_pct": 0.0
+          },
+          {
+            "country_code": "RSA",
+            "champion_pct": 0.0
+          },
+          {
+            "country_code": "TUN",
+            "champion_pct": 0.0
+          },
+          {
+            "country_code": "HAI",
+            "champion_pct": 0.0
+          }
+        ]
+      }
     },
-    "random_forest": {
-      "name": "Random Forest",
-      "pipeline": "sim_Adolfo/rf_pipeline.py",
-      "model_file": "sim_Adolfo/rf_wc_model.joblib",
-      "feature_approach": "Deltas entre equipos (team_X, opp_X, delta_X)",
+    "lightgbm": {
+      "name": "LightGBM",
+      "type": "Gradient Boosting (histogram-based)",
+      "pipeline": "sim_Adolfo/lgbm_pipeline.py",
+      "model_file": "sim_Adolfo/lgbm_wc_model.txt",
+      "feature_approach": "58 features: team_X, opp_X y delta_X para 19 variables base + is_knockout",
       "n_features": 58,
-      "summary": {
-        "mean_accuracy": 0.5208,
-        "mean_logloss": 0.9631,
-        "corr_vs_momios": null
+      "avg_best_iteration": 46,
+      "n_folds": 3,
+      "test_years": [
+        2014,
+        2018,
+        2022
+      ],
+      "total_test_matches": 384,
+      "cv_metrics": {
+        "mean_accuracy": 0.6224,
+        "mean_logloss": 0.9055,
+        "corr_vs_momios": 0.922
       },
       "folds": [
         {
-          "fold": 1,
-          "train_cutoff": 2010,
           "test_year": 2014,
-          "train_size": 1438,
-          "test_size": 128,
-          "best_n_estimators": 200,
-          "logloss": 0.9908,
-          "accuracy": 0.4453
+          "n_train": 1438,
+          "n_test": 128,
+          "logloss": 0.9175,
+          "accuracy": 0.6641,
+          "best_iteration": 30
         },
         {
-          "fold": 2,
-          "train_cutoff": 2014,
           "test_year": 2018,
-          "train_size": 1566,
-          "test_size": 128,
-          "best_n_estimators": 500,
-          "logloss": 0.9542,
-          "accuracy": 0.5078
+          "n_train": 1566,
+          "n_test": 128,
+          "logloss": 0.8826,
+          "accuracy": 0.6328,
+          "best_iteration": 48
         },
         {
-          "fold": 3,
-          "train_cutoff": 2018,
           "test_year": 2022,
-          "train_size": 1694,
-          "test_size": 128,
-          "best_n_estimators": 500,
-          "logloss": 0.9443,
-          "accuracy": 0.6094
+          "n_train": 1694,
+          "n_test": 128,
+          "logloss": 0.9163,
+          "accuracy": 0.5703,
+          "best_iteration": 61
         }
       ],
-      "top_10_features": [
+      "base_features": [
+        "wc_win_pct",
+        "wc_draw_pct",
+        "wc_gf_per_game",
+        "wc_gc_per_game",
+        "wc_appearances",
+        "wc_games_played",
+        "wc_semi_pct",
+        "wc_final_pct",
+        "wc_champion_count",
+        "ranking",
+        "ranking_volatility",
+        "has_ranking",
+        "market_value_eur_m",
+        "squad_avg_age",
+        "win_pct_vs_top10",
+        "euro_win_pct",
+        "copa_win_pct",
+        "afcon_win_pct",
+        "host_flag"
+      ],
+      "top_10_features_by_gain": [
+        "delta_wc_games_played",
+        "delta_ranking",
+        "delta_wc_gf_per_game",
+        "delta_wc_gc_per_game",
+        "opp_ranking",
+        "opp_wc_gf_per_game",
+        "team_wc_gf_per_game",
+        "team_ranking",
+        "team_wc_draw_pct",
+        "opp_wc_gc_per_game"
+      ],
+      "montecarlo": {
+        "n_simulations": 10000,
+        "seed": 42,
+        "top_10": [
+          {
+            "country_code": "ESP",
+            "champion_pct": 22.72,
+            "final_pct": 31.78,
+            "semifinal_pct": 45.97
+          },
+          {
+            "country_code": "ARG",
+            "champion_pct": 17.42,
+            "final_pct": 29.08,
+            "semifinal_pct": 42.05
+          },
+          {
+            "country_code": "FRA",
+            "champion_pct": 16.27,
+            "final_pct": 25.93,
+            "semifinal_pct": 41.72
+          },
+          {
+            "country_code": "ENG",
+            "champion_pct": 10.52,
+            "final_pct": 19.73,
+            "semifinal_pct": 33.84
+          },
+          {
+            "country_code": "BRA",
+            "champion_pct": 7.7,
+            "final_pct": 16.85,
+            "semifinal_pct": 31.06
+          },
+          {
+            "country_code": "POR",
+            "champion_pct": 5.32,
+            "final_pct": 12.34,
+            "semifinal_pct": 23.77
+          },
+          {
+            "country_code": "NED",
+            "champion_pct": 3.85,
+            "final_pct": 9.55,
+            "semifinal_pct": 20.33
+          },
+          {
+            "country_code": "USA",
+            "champion_pct": 2.24,
+            "final_pct": 6.55,
+            "semifinal_pct": 16.22
+          },
+          {
+            "country_code": "MAR",
+            "champion_pct": 2.15,
+            "final_pct": 6.52,
+            "semifinal_pct": 16.23
+          },
+          {
+            "country_code": "GER",
+            "champion_pct": 1.9,
+            "final_pct": 6.32,
+            "semifinal_pct": 15.07
+          }
+        ],
+        "all_48_teams": [
+          {
+            "country_code": "ESP",
+            "champion_pct": 22.72
+          },
+          {
+            "country_code": "ARG",
+            "champion_pct": 17.42
+          },
+          {
+            "country_code": "FRA",
+            "champion_pct": 16.27
+          },
+          {
+            "country_code": "ENG",
+            "champion_pct": 10.52
+          },
+          {
+            "country_code": "BRA",
+            "champion_pct": 7.7
+          },
+          {
+            "country_code": "POR",
+            "champion_pct": 5.32
+          },
+          {
+            "country_code": "NED",
+            "champion_pct": 3.85
+          },
+          {
+            "country_code": "USA",
+            "champion_pct": 2.24
+          },
+          {
+            "country_code": "MAR",
+            "champion_pct": 2.15
+          },
+          {
+            "country_code": "GER",
+            "champion_pct": 1.9
+          },
+          {
+            "country_code": "BEL",
+            "champion_pct": 1.69
+          },
+          {
+            "country_code": "CRO",
+            "champion_pct": 1.41
+          },
+          {
+            "country_code": "CAN",
+            "champion_pct": 1.29
+          },
+          {
+            "country_code": "MEX",
+            "champion_pct": 1.25
+          },
+          {
+            "country_code": "SEN",
+            "champion_pct": 0.92
+          },
+          {
+            "country_code": "SUI",
+            "champion_pct": 0.46
+          },
+          {
+            "country_code": "KOR",
+            "champion_pct": 0.39
+          },
+          {
+            "country_code": "TUR",
+            "champion_pct": 0.36
+          },
+          {
+            "country_code": "IRN",
+            "champion_pct": 0.29
+          },
+          {
+            "country_code": "URU",
+            "champion_pct": 0.28
+          },
+          {
+            "country_code": "AUS",
+            "champion_pct": 0.2
+          },
+          {
+            "country_code": "COL",
+            "champion_pct": 0.2
+          },
+          {
+            "country_code": "ECU",
+            "champion_pct": 0.17
+          },
+          {
+            "country_code": "PAN",
+            "champion_pct": 0.12
+          },
+          {
+            "country_code": "JPN",
+            "champion_pct": 0.12
+          },
+          {
+            "country_code": "AUT",
+            "champion_pct": 0.11
+          },
+          {
+            "country_code": "EGY",
+            "champion_pct": 0.1
+          },
+          {
+            "country_code": "CIV",
+            "champion_pct": 0.07
+          },
+          {
+            "country_code": "QAT",
+            "champion_pct": 0.06
+          },
+          {
+            "country_code": "CZE",
+            "champion_pct": 0.06
+          },
+          {
+            "country_code": "CUW",
+            "champion_pct": 0.05
+          },
+          {
+            "country_code": "NOR",
+            "champion_pct": 0.04
+          },
+          {
+            "country_code": "SCO",
+            "champion_pct": 0.04
+          },
+          {
+            "country_code": "ALG",
+            "champion_pct": 0.04
+          },
+          {
+            "country_code": "TUN",
+            "champion_pct": 0.03
+          },
+          {
+            "country_code": "HAI",
+            "champion_pct": 0.03
+          },
+          {
+            "country_code": "KSA",
+            "champion_pct": 0.03
+          },
+          {
+            "country_code": "CPV",
+            "champion_pct": 0.02
+          },
+          {
+            "country_code": "CGO",
+            "champion_pct": 0.02
+          },
+          {
+            "country_code": "BIH",
+            "champion_pct": 0.02
+          },
+          {
+            "country_code": "NZL",
+            "champion_pct": 0.02
+          },
+          {
+            "country_code": "SWE",
+            "champion_pct": 0.01
+          },
+          {
+            "country_code": "UZB",
+            "champion_pct": 0.01
+          },
+          {
+            "country_code": "IRQ",
+            "champion_pct": 0.0
+          },
+          {
+            "country_code": "GHA",
+            "champion_pct": 0.0
+          },
+          {
+            "country_code": "PAR",
+            "champion_pct": 0.0
+          },
+          {
+            "country_code": "JOR",
+            "champion_pct": 0.0
+          },
+          {
+            "country_code": "RSA",
+            "champion_pct": 0.0
+          }
+        ]
+      }
+    },
+    "logistic_regression": {
+      "name": "Regresion Logistica Multinomial (Elastic Net)",
+      "type": "Modelo lineal regularizado con calibracion isotonica",
+      "pipeline": "Models/logreg_model.py",
+      "model_file": "Models/artifacts/logreg/pipeline.pkl",
+      "feature_approach": "22 features delta (mismos que XGBoost) + StandardScaler + ElasticNet",
+      "n_features": 22,
+      "n_folds": 6,
+      "test_years": [
+        2002,
+        2006,
+        2010,
+        2014,
+        2018,
+        2022
+      ],
+      "total_test_matches": 384,
+      "hyperparameters": {
+        "C": 0.0391,
+        "l1_ratio": 0.2912,
+        "class_weight": null,
+        "max_iter": 20000,
+        "solver": "saga",
+        "penalty": "elasticnet",
+        "n_trials_optuna": 100,
+        "calibration": "isotonic (post-hoc, CV=5)"
+      },
+      "cv_metrics": {
+        "mean_accuracy": 0.5547,
+        "mean_logloss": 0.9786,
+        "mean_brier": 0.5671,
+        "corr_vs_momios": 0.9232
+      },
+      "cv_metrics_calibrated": {
+        "mean_accuracy": 0.5625,
+        "mean_logloss": 0.9729,
+        "mean_brier": 0.569,
+        "corr_vs_momios": 0.9317
+      },
+      "folds": [
+        {
+          "test_year": 2002,
+          "n_train": 748,
+          "n_test": 64,
+          "logloss": 1.0253,
+          "accuracy": 0.4063,
+          "brier": 0.6168
+        },
+        {
+          "test_year": 2006,
+          "n_train": 869,
+          "n_test": 64,
+          "logloss": 0.8526,
+          "accuracy": 0.6406,
+          "brier": 0.5004
+        },
+        {
+          "test_year": 2010,
+          "n_train": 990,
+          "n_test": 64,
+          "logloss": 1.0437,
+          "accuracy": 0.5469,
+          "brier": 0.5796
+        },
+        {
+          "test_year": 2014,
+          "n_train": 1111,
+          "n_test": 64,
+          "logloss": 0.9903,
+          "accuracy": 0.625,
+          "brier": 0.5585
+        },
+        {
+          "test_year": 2018,
+          "n_train": 1284,
+          "n_test": 64,
+          "logloss": 0.958,
+          "accuracy": 0.5625,
+          "brier": 0.5688
+        },
+        {
+          "test_year": 2022,
+          "n_train": 1453,
+          "n_test": 64,
+          "logloss": 1.0016,
+          "accuracy": 0.5469,
+          "brier": 0.5787
+        }
+      ],
+      "key_coefficients_standardized": {
+        "home_win": {
+          "tournament_weight": 0.244,
+          "delta_wc_experience": 0.171,
+          "is_knockout": 0.106,
+          "delta_squad_market_value_log": 0.093,
+          "delta_rank_strength": 0.085,
+          "delta_form_gc": -0.214,
+          "both_rank_available": -0.181
+        },
+        "away_win": {
+          "delta_rank_strength": -0.328,
+          "delta_squad_market_value_log": -0.175,
+          "both_rank_available": 0.165,
+          "delta_form_gf": -0.107,
+          "delta_wc_experience": -0.094,
+          "delta_wc_win_pct": -0.09
+        }
+      },
+      "montecarlo": {
+        "n_simulations": 50000,
+        "seed": 42,
+        "top_10": [
+          {
+            "country_code": "ENG",
+            "champion_pct": 15.3,
+            "finalist_pct": 24.62,
+            "semifinal_pct": 40.1
+          },
+          {
+            "country_code": "ESP",
+            "champion_pct": 14.98,
+            "finalist_pct": 26.61,
+            "semifinal_pct": 38.77
+          },
+          {
+            "country_code": "GER",
+            "champion_pct": 13.16,
+            "finalist_pct": 21.29,
+            "semifinal_pct": 34.58
+          },
+          {
+            "country_code": "BRA",
+            "champion_pct": 11.79,
+            "finalist_pct": 19.86,
+            "semifinal_pct": 33.81
+          },
+          {
+            "country_code": "FRA",
+            "champion_pct": 9.92,
+            "finalist_pct": 17.37,
+            "semifinal_pct": 31.98
+          },
+          {
+            "country_code": "ARG",
+            "champion_pct": 8.91,
+            "finalist_pct": 17.53,
+            "semifinal_pct": 29.75
+          },
+          {
+            "country_code": "NED",
+            "champion_pct": 4.58,
+            "finalist_pct": 9.1,
+            "semifinal_pct": 17.89
+          },
+          {
+            "country_code": "BEL",
+            "champion_pct": 4.33,
+            "finalist_pct": 10.92,
+            "semifinal_pct": 21.49
+          },
+          {
+            "country_code": "POR",
+            "champion_pct": 3.57,
+            "finalist_pct": 8.83,
+            "semifinal_pct": 18.37
+          },
+          {
+            "country_code": "URU",
+            "champion_pct": 1.76,
+            "finalist_pct": 5.25,
+            "semifinal_pct": 13.15
+          }
+        ],
+        "all_48_teams": [
+          {
+            "country_code": "ENG",
+            "champion_pct": 15.3
+          },
+          {
+            "country_code": "ESP",
+            "champion_pct": 14.98
+          },
+          {
+            "country_code": "GER",
+            "champion_pct": 13.16
+          },
+          {
+            "country_code": "BRA",
+            "champion_pct": 11.79
+          },
+          {
+            "country_code": "FRA",
+            "champion_pct": 9.92
+          },
+          {
+            "country_code": "ARG",
+            "champion_pct": 8.91
+          },
+          {
+            "country_code": "NED",
+            "champion_pct": 4.58
+          },
+          {
+            "country_code": "BEL",
+            "champion_pct": 4.33
+          },
+          {
+            "country_code": "POR",
+            "champion_pct": 3.57
+          },
+          {
+            "country_code": "URU",
+            "champion_pct": 1.76
+          },
+          {
+            "country_code": "CRO",
+            "champion_pct": 1.51
+          },
+          {
+            "country_code": "NOR",
+            "champion_pct": 1.41
+          },
+          {
+            "country_code": "SUI",
+            "champion_pct": 1.4
+          },
+          {
+            "country_code": "MAR",
+            "champion_pct": 1.26
+          },
+          {
+            "country_code": "USA",
+            "champion_pct": 1.11
+          },
+          {
+            "country_code": "JPN",
+            "champion_pct": 0.91
+          },
+          {
+            "country_code": "MEX",
+            "champion_pct": 0.65
+          },
+          {
+            "country_code": "AUT",
+            "champion_pct": 0.56
+          },
+          {
+            "country_code": "COL",
+            "champion_pct": 0.49
+          },
+          {
+            "country_code": "KOR",
+            "champion_pct": 0.45
+          },
+          {
+            "country_code": "SEN",
+            "champion_pct": 0.4
+          },
+          {
+            "country_code": "CIV",
+            "champion_pct": 0.26
+          },
+          {
+            "country_code": "TUR",
+            "champion_pct": 0.23
+          },
+          {
+            "country_code": "ALG",
+            "champion_pct": 0.23
+          },
+          {
+            "country_code": "ECU",
+            "champion_pct": 0.15
+          },
+          {
+            "country_code": "EGY",
+            "champion_pct": 0.12
+          },
+          {
+            "country_code": "CAN",
+            "champion_pct": 0.09
+          },
+          {
+            "country_code": "SWE",
+            "champion_pct": 0.09
+          },
+          {
+            "country_code": "CZE",
+            "champion_pct": 0.07
+          },
+          {
+            "country_code": "SCO",
+            "champion_pct": 0.07
+          },
+          {
+            "country_code": "PAR",
+            "champion_pct": 0.05
+          },
+          {
+            "country_code": "GHA",
+            "champion_pct": 0.04
+          },
+          {
+            "country_code": "AUS",
+            "champion_pct": 0.04
+          },
+          {
+            "country_code": "IRN",
+            "champion_pct": 0.04
+          },
+          {
+            "country_code": "TUN",
+            "champion_pct": 0.02
+          },
+          {
+            "country_code": "BIH",
+            "champion_pct": 0.01
+          },
+          {
+            "country_code": "NZL",
+            "champion_pct": 0.01
+          },
+          {
+            "country_code": "UZB",
+            "champion_pct": 0.01
+          },
+          {
+            "country_code": "CUW",
+            "champion_pct": 0.004
+          },
+          {
+            "country_code": "KSA",
+            "champion_pct": 0.002
+          },
+          {
+            "country_code": "COD",
+            "champion_pct": 0.0
+          },
+          {
+            "country_code": "RSA",
+            "champion_pct": 0.0
+          },
+          {
+            "country_code": "JOR",
+            "champion_pct": 0.0
+          },
+          {
+            "country_code": "CPV",
+            "champion_pct": 0.0
+          },
+          {
+            "country_code": "IRQ",
+            "champion_pct": 0.0
+          },
+          {
+            "country_code": "QAT",
+            "champion_pct": 0.0
+          },
+          {
+            "country_code": "HAI",
+            "champion_pct": 0.0
+          },
+          {
+            "country_code": "PAN",
+            "champion_pct": 0.0
+          }
+        ]
+      }
+    },
+    "random_forest": {
+      "name": "Random Forest",
+      "type": "Bagging ensemble (decision trees)",
+      "pipeline": "sim_Adolfo/rf_pipeline.py",
+      "model_file": "sim_Adolfo/rf_wc_model.joblib",
+      "feature_approach": "58 features: team_X, opp_X y delta_X (mismas que LightGBM)",
+      "n_features": 58,
+      "n_folds": 3,
+      "test_years": [
+        2014,
+        2018,
+        2022
+      ],
+      "total_test_matches": 384,
+      "cv_metrics": {
+        "mean_accuracy": 0.5208,
+        "mean_logloss": 0.9631,
+        "corr_vs_momios": 0.8775
+      },
+      "folds": [
+        {
+          "test_year": 2014,
+          "n_train": 1438,
+          "n_test": 128,
+          "logloss": 0.9908,
+          "accuracy": 0.4453,
+          "best_n_estimators": 200
+        },
+        {
+          "test_year": 2018,
+          "n_train": 1566,
+          "n_test": 128,
+          "logloss": 0.9542,
+          "accuracy": 0.5078,
+          "best_n_estimators": 500
+        },
+        {
+          "test_year": 2022,
+          "n_train": 1694,
+          "n_test": 128,
+          "logloss": 0.9443,
+          "accuracy": 0.6094,
+          "best_n_estimators": 500
+        }
+      ],
+      "top_10_features_by_importance": [
         "delta_wc_games_played",
         "delta_wc_gf_per_game",
         "delta_wc_win_pct",
@@ -220,14 +1155,811 @@
         "delta_wc_gc_per_game",
         "opp_wc_games_played",
         "team_wc_gc_per_game"
-      ]
+      ],
+      "montecarlo": {
+        "n_simulations": 1000,
+        "seed": 42,
+        "top_10": [
+          {
+            "country_code": "ARG",
+            "champion_pct": 8.1,
+            "final_pct": 13.6,
+            "semifinal_pct": 18.9
+          },
+          {
+            "country_code": "FRA",
+            "champion_pct": 8.1,
+            "final_pct": 12.5,
+            "semifinal_pct": 21.8
+          },
+          {
+            "country_code": "ESP",
+            "champion_pct": 6.9,
+            "final_pct": 11.0,
+            "semifinal_pct": 17.2
+          },
+          {
+            "country_code": "BRA",
+            "champion_pct": 6.2,
+            "final_pct": 10.8,
+            "semifinal_pct": 19.7
+          },
+          {
+            "country_code": "BEL",
+            "champion_pct": 5.9,
+            "final_pct": 10.4,
+            "semifinal_pct": 18.5
+          },
+          {
+            "country_code": "GER",
+            "champion_pct": 5.3,
+            "final_pct": 9.5,
+            "semifinal_pct": 16.7
+          },
+          {
+            "country_code": "ENG",
+            "champion_pct": 5.3,
+            "final_pct": 9.5,
+            "semifinal_pct": 15.8
+          },
+          {
+            "country_code": "NED",
+            "champion_pct": 4.6,
+            "final_pct": 8.5,
+            "semifinal_pct": 16.0
+          },
+          {
+            "country_code": "POR",
+            "champion_pct": 4.6,
+            "final_pct": 7.1,
+            "semifinal_pct": 11.6
+          },
+          {
+            "country_code": "CRO",
+            "champion_pct": 3.8,
+            "final_pct": 6.3,
+            "semifinal_pct": 12.2
+          }
+        ],
+        "all_48_teams": [
+          {
+            "country_code": "ARG",
+            "champion_pct": 8.1
+          },
+          {
+            "country_code": "FRA",
+            "champion_pct": 8.1
+          },
+          {
+            "country_code": "ESP",
+            "champion_pct": 6.9
+          },
+          {
+            "country_code": "BRA",
+            "champion_pct": 6.2
+          },
+          {
+            "country_code": "BEL",
+            "champion_pct": 5.9
+          },
+          {
+            "country_code": "GER",
+            "champion_pct": 5.3
+          },
+          {
+            "country_code": "ENG",
+            "champion_pct": 5.3
+          },
+          {
+            "country_code": "NED",
+            "champion_pct": 4.6
+          },
+          {
+            "country_code": "POR",
+            "champion_pct": 4.6
+          },
+          {
+            "country_code": "CRO",
+            "champion_pct": 3.8
+          },
+          {
+            "country_code": "URU",
+            "champion_pct": 2.9
+          },
+          {
+            "country_code": "MEX",
+            "champion_pct": 2.7
+          },
+          {
+            "country_code": "COL",
+            "champion_pct": 2.7
+          },
+          {
+            "country_code": "TUR",
+            "champion_pct": 2.6
+          },
+          {
+            "country_code": "USA",
+            "champion_pct": 2.4
+          },
+          {
+            "country_code": "ECU",
+            "champion_pct": 2.1
+          },
+          {
+            "country_code": "MAR",
+            "champion_pct": 2.0
+          },
+          {
+            "country_code": "SEN",
+            "champion_pct": 1.9
+          },
+          {
+            "country_code": "AUT",
+            "champion_pct": 1.6
+          },
+          {
+            "country_code": "IRN",
+            "champion_pct": 1.5
+          },
+          {
+            "country_code": "SWE",
+            "champion_pct": 1.5
+          },
+          {
+            "country_code": "SUI",
+            "champion_pct": 1.5
+          },
+          {
+            "country_code": "AUS",
+            "champion_pct": 1.4
+          },
+          {
+            "country_code": "JPN",
+            "champion_pct": 1.3
+          },
+          {
+            "country_code": "NOR",
+            "champion_pct": 1.2
+          },
+          {
+            "country_code": "ALG",
+            "champion_pct": 1.1
+          },
+          {
+            "country_code": "EGY",
+            "champion_pct": 1.0
+          },
+          {
+            "country_code": "PAR",
+            "champion_pct": 1.0
+          },
+          {
+            "country_code": "CAN",
+            "champion_pct": 0.9
+          },
+          {
+            "country_code": "CZE",
+            "champion_pct": 0.8
+          },
+          {
+            "country_code": "CIV",
+            "champion_pct": 0.7
+          },
+          {
+            "country_code": "KSA",
+            "champion_pct": 0.7
+          },
+          {
+            "country_code": "KOR",
+            "champion_pct": 0.7
+          },
+          {
+            "country_code": "UZB",
+            "champion_pct": 0.6
+          },
+          {
+            "country_code": "HAI",
+            "champion_pct": 0.6
+          },
+          {
+            "country_code": "PAN",
+            "champion_pct": 0.6
+          },
+          {
+            "country_code": "GHA",
+            "champion_pct": 0.5
+          },
+          {
+            "country_code": "TUN",
+            "champion_pct": 0.5
+          },
+          {
+            "country_code": "QAT",
+            "champion_pct": 0.4
+          },
+          {
+            "country_code": "RSA",
+            "champion_pct": 0.4
+          },
+          {
+            "country_code": "BIH",
+            "champion_pct": 0.3
+          },
+          {
+            "country_code": "IRQ",
+            "champion_pct": 0.3
+          },
+          {
+            "country_code": "SCO",
+            "champion_pct": 0.2
+          },
+          {
+            "country_code": "CPV",
+            "champion_pct": 0.2
+          },
+          {
+            "country_code": "JOR",
+            "champion_pct": 0.2
+          },
+          {
+            "country_code": "CGO",
+            "champion_pct": 0.1
+          },
+          {
+            "country_code": "CUW",
+            "champion_pct": 0.1
+          },
+          {
+            "country_code": "NZL",
+            "champion_pct": 0.0
+          }
+        ]
+      }
     }
   },
-  "ranking": {
-    "by_accuracy": ["lightgbm", "xgboost", "random_forest"],
-    "by_logloss": ["lightgbm", "xgboost", "random_forest"],
-    "by_momios_correlation": ["xgboost", "lightgbm", "random_forest"],
-    "best_overall": "lightgbm",
-    "notes": "LightGBM gana en accuracy y log-loss. XGBoost tiene la mayor correlación con momios de casas de apuestas (0.944 vs 0.922). RF queda lejos en todas las métricas."
+  "model_ranking": {
+    "by_accuracy": [
+      {
+        "rank": 1,
+        "model": "lightgbm",
+        "value": 0.6224
+      },
+      {
+        "rank": 2,
+        "model": "xgboost",
+        "value": 0.6068
+      },
+      {
+        "rank": 3,
+        "model": "logistic_regression",
+        "value": 0.5547
+      },
+      {
+        "rank": 4,
+        "model": "random_forest",
+        "value": 0.5208
+      }
+    ],
+    "by_logloss": [
+      {
+        "rank": 1,
+        "model": "lightgbm",
+        "value": 0.9055
+      },
+      {
+        "rank": 2,
+        "model": "xgboost",
+        "value": 0.941
+      },
+      {
+        "rank": 3,
+        "model": "random_forest",
+        "value": 0.9631
+      },
+      {
+        "rank": 4,
+        "model": "logistic_regression",
+        "value": 0.9786
+      }
+    ],
+    "by_momios_correlation": [
+      {
+        "rank": 1,
+        "model": "xgboost",
+        "value": 0.9437
+      },
+      {
+        "rank": 2,
+        "model": "logistic_regression",
+        "value": 0.9232
+      },
+      {
+        "rank": 3,
+        "model": "lightgbm",
+        "value": 0.922
+      },
+      {
+        "rank": 4,
+        "model": "random_forest",
+        "value": 0.8775
+      }
+    ]
+  },
+  "cross_model_champion_comparison": {
+    "description": "Probabilidad de campeonato (%) por modelo \u2014 48 selecciones, ordenadas por promedio de los 4 modelos",
+    "teams": [
+      {
+        "country_code": "ESP",
+        "xgboost": 22.79,
+        "lightgbm": 22.72,
+        "logreg": 14.98,
+        "momios": 14.44,
+        "avg": 16.85,
+        "random_forest": 6.9
+      },
+      {
+        "country_code": "ARG",
+        "xgboost": 15.86,
+        "lightgbm": 17.42,
+        "logreg": 8.91,
+        "momios": 8.82,
+        "avg": 12.57,
+        "random_forest": 8.1
+      },
+      {
+        "country_code": "FRA",
+        "xgboost": 14.8,
+        "lightgbm": 16.27,
+        "logreg": 9.92,
+        "momios": 13.23,
+        "avg": 12.27,
+        "random_forest": 8.1
+      },
+      {
+        "country_code": "ENG",
+        "xgboost": 13.51,
+        "lightgbm": 10.52,
+        "logreg": 15.3,
+        "momios": 11.34,
+        "avg": 11.16,
+        "random_forest": 5.3
+      },
+      {
+        "country_code": "BRA",
+        "xgboost": 14.97,
+        "lightgbm": 7.7,
+        "logreg": 11.79,
+        "momios": 8.82,
+        "avg": 10.17,
+        "random_forest": 6.2
+      },
+      {
+        "country_code": "GER",
+        "xgboost": 3.53,
+        "lightgbm": 1.9,
+        "logreg": 13.16,
+        "momios": 6.11,
+        "avg": 5.97,
+        "random_forest": 5.3
+      },
+      {
+        "country_code": "POR",
+        "xgboost": 4.32,
+        "lightgbm": 5.32,
+        "logreg": 3.57,
+        "momios": 7.94,
+        "avg": 4.45,
+        "random_forest": 4.6
+      },
+      {
+        "country_code": "NED",
+        "xgboost": 3.55,
+        "lightgbm": 3.85,
+        "logreg": 4.58,
+        "momios": 3.78,
+        "avg": 4.14,
+        "random_forest": 4.6
+      },
+      {
+        "country_code": "BEL",
+        "xgboost": 2.42,
+        "lightgbm": 1.69,
+        "logreg": 4.33,
+        "momios": 2.34,
+        "avg": 3.58,
+        "random_forest": 5.9
+      },
+      {
+        "country_code": "CRO",
+        "xgboost": 0.72,
+        "lightgbm": 1.41,
+        "logreg": 1.51,
+        "momios": 0.98,
+        "avg": 1.86,
+        "random_forest": 3.8
+      },
+      {
+        "country_code": "MAR",
+        "xgboost": 0.93,
+        "lightgbm": 2.15,
+        "logreg": 1.26,
+        "momios": 1.3,
+        "avg": 1.58,
+        "random_forest": 2.0
+      },
+      {
+        "country_code": "USA",
+        "xgboost": 0.34,
+        "lightgbm": 2.24,
+        "logreg": 1.11,
+        "momios": 1.3,
+        "avg": 1.52,
+        "random_forest": 2.4
+      },
+      {
+        "country_code": "URU",
+        "xgboost": 0.44,
+        "lightgbm": 0.28,
+        "logreg": 1.76,
+        "momios": 1.19,
+        "avg": 1.34,
+        "random_forest": 2.9
+      },
+      {
+        "country_code": "MEX",
+        "xgboost": 0.17,
+        "lightgbm": 1.25,
+        "logreg": 0.65,
+        "momios": 0.98,
+        "avg": 1.19,
+        "random_forest": 2.7
+      },
+      {
+        "country_code": "SUI",
+        "xgboost": 0.26,
+        "lightgbm": 0.46,
+        "logreg": 1.4,
+        "momios": 0.98,
+        "avg": 0.91,
+        "random_forest": 1.5
+      },
+      {
+        "country_code": "COL",
+        "xgboost": 0.26,
+        "lightgbm": 0.2,
+        "logreg": 0.49,
+        "momios": 2.56,
+        "avg": 0.91,
+        "random_forest": 2.7
+      },
+      {
+        "country_code": "SEN",
+        "xgboost": 0.35,
+        "lightgbm": 0.92,
+        "logreg": 0.4,
+        "momios": 0.98,
+        "avg": 0.89,
+        "random_forest": 1.9
+      },
+      {
+        "country_code": "TUR",
+        "xgboost": 0.08,
+        "lightgbm": 0.36,
+        "logreg": 0.23,
+        "momios": 0.98,
+        "avg": 0.82,
+        "random_forest": 2.6
+      },
+      {
+        "country_code": "NOR",
+        "xgboost": 0.13,
+        "lightgbm": 0.04,
+        "logreg": 1.41,
+        "momios": 3.05,
+        "avg": 0.69,
+        "random_forest": 1.2
+      },
+      {
+        "country_code": "ECU",
+        "xgboost": 0.07,
+        "lightgbm": 0.17,
+        "logreg": 0.15,
+        "momios": 1.3,
+        "avg": 0.62,
+        "random_forest": 2.1
+      },
+      {
+        "country_code": "JPN",
+        "xgboost": 0.1,
+        "lightgbm": 0.12,
+        "logreg": 0.91,
+        "momios": 1.56,
+        "avg": 0.61,
+        "random_forest": 1.3
+      },
+      {
+        "country_code": "CAN",
+        "xgboost": 0.05,
+        "lightgbm": 1.29,
+        "logreg": 0.09,
+        "momios": 0.53,
+        "avg": 0.58,
+        "random_forest": 0.9
+      },
+      {
+        "country_code": "AUT",
+        "xgboost": 0.05,
+        "lightgbm": 0.11,
+        "logreg": 0.56,
+        "momios": 0.53,
+        "avg": 0.58,
+        "random_forest": 1.6
+      },
+      {
+        "country_code": "IRN",
+        "xgboost": 0.03,
+        "lightgbm": 0.29,
+        "logreg": 0.04,
+        "momios": 0.16,
+        "avg": 0.46,
+        "random_forest": 1.5
+      },
+      {
+        "country_code": "KOR",
+        "xgboost": 0.1,
+        "lightgbm": 0.39,
+        "logreg": 0.45,
+        "momios": 0.18,
+        "avg": 0.41,
+        "random_forest": 0.7
+      },
+      {
+        "country_code": "AUS",
+        "xgboost": 0.01,
+        "lightgbm": 0.2,
+        "logreg": 0.04,
+        "momios": 0.16,
+        "avg": 0.41,
+        "random_forest": 1.4
+      },
+      {
+        "country_code": "SWE",
+        "xgboost": 0.02,
+        "lightgbm": 0.01,
+        "logreg": 0.09,
+        "momios": 0.98,
+        "avg": 0.41,
+        "random_forest": 1.5
+      },
+      {
+        "country_code": "ALG",
+        "xgboost": 0.01,
+        "lightgbm": 0.04,
+        "logreg": 0.23,
+        "momios": 0.2,
+        "avg": 0.35,
+        "random_forest": 1.1
+      },
+      {
+        "country_code": "EGY",
+        "xgboost": 0.02,
+        "lightgbm": 0.1,
+        "logreg": 0.12,
+        "momios": 0.26,
+        "avg": 0.31,
+        "random_forest": 1.0
+      },
+      {
+        "country_code": "CIV",
+        "xgboost": 0.03,
+        "lightgbm": 0.07,
+        "logreg": 0.26,
+        "momios": 0.26,
+        "avg": 0.27,
+        "random_forest": 0.7
+      },
+      {
+        "country_code": "PAR",
+        "xgboost": 0.006,
+        "lightgbm": 0.0,
+        "logreg": 0.05,
+        "momios": 0.53,
+        "avg": 0.26,
+        "random_forest": 1.0
+      },
+      {
+        "country_code": "CZE",
+        "xgboost": 0.02,
+        "lightgbm": 0.06,
+        "logreg": 0.07,
+        "momios": 0.26,
+        "avg": 0.24,
+        "random_forest": 0.8
+      },
+      {
+        "country_code": "PAN",
+        "xgboost": 0.004,
+        "lightgbm": 0.12,
+        "logreg": 0.0,
+        "momios": 0.08,
+        "avg": 0.18,
+        "random_forest": 0.6
+      },
+      {
+        "country_code": "KSA",
+        "xgboost": 0.004,
+        "lightgbm": 0.03,
+        "logreg": 0.002,
+        "momios": 0.08,
+        "avg": 0.18,
+        "random_forest": 0.7
+      },
+      {
+        "country_code": "HAI",
+        "xgboost": 0.0,
+        "lightgbm": 0.03,
+        "logreg": 0.0,
+        "momios": 0.08,
+        "avg": 0.16,
+        "random_forest": 0.6
+      },
+      {
+        "country_code": "UZB",
+        "xgboost": 0.0,
+        "lightgbm": 0.01,
+        "logreg": 0.006,
+        "momios": 0.08,
+        "avg": 0.15,
+        "random_forest": 0.6
+      },
+      {
+        "country_code": "GHA",
+        "xgboost": 0.01,
+        "lightgbm": 0.0,
+        "logreg": 0.04,
+        "momios": 0.2,
+        "avg": 0.14,
+        "random_forest": 0.5
+      },
+      {
+        "country_code": "TUN",
+        "xgboost": 0.0,
+        "lightgbm": 0.03,
+        "logreg": 0.02,
+        "momios": 0.16,
+        "avg": 0.14,
+        "random_forest": 0.5
+      },
+      {
+        "country_code": "QAT",
+        "xgboost": 0.0,
+        "lightgbm": 0.06,
+        "logreg": 0.0,
+        "momios": 0.08,
+        "avg": 0.12,
+        "random_forest": 0.4
+      },
+      {
+        "country_code": "RSA",
+        "xgboost": 0.0,
+        "lightgbm": 0.0,
+        "logreg": 0.0,
+        "momios": 0.08,
+        "avg": 0.1,
+        "random_forest": 0.4
+      },
+      {
+        "country_code": "SCO",
+        "xgboost": 0.02,
+        "lightgbm": 0.04,
+        "logreg": 0.07,
+        "momios": 0.32,
+        "avg": 0.08,
+        "random_forest": 0.2
+      },
+      {
+        "country_code": "BIH",
+        "xgboost": 0.004,
+        "lightgbm": 0.02,
+        "logreg": 0.01,
+        "momios": 0.32,
+        "avg": 0.08,
+        "random_forest": 0.3
+      },
+      {
+        "country_code": "IRQ",
+        "xgboost": 0.002,
+        "lightgbm": 0.0,
+        "logreg": 0.0,
+        "momios": 0.08,
+        "avg": 0.08,
+        "random_forest": 0.3
+      },
+      {
+        "country_code": "CPV",
+        "xgboost": 0.0,
+        "lightgbm": 0.02,
+        "logreg": 0.0,
+        "momios": 0.08,
+        "avg": 0.06,
+        "random_forest": 0.2
+      },
+      {
+        "country_code": "JOR",
+        "xgboost": 0.0,
+        "lightgbm": 0.0,
+        "logreg": 0.0,
+        "momios": 0.08,
+        "avg": 0.05,
+        "random_forest": 0.2
+      },
+      {
+        "country_code": "CUW",
+        "xgboost": 0.002,
+        "lightgbm": 0.05,
+        "logreg": 0.004,
+        "momios": 0.08,
+        "avg": 0.04,
+        "random_forest": 0.1
+      },
+      {
+        "country_code": "CGO",
+        "xgboost": 0.0,
+        "lightgbm": 0.02,
+        "logreg": 0.0,
+        "momios": 0.0,
+        "avg": 0.03,
+        "random_forest": 0.1
+      },
+      {
+        "country_code": "NZL",
+        "xgboost": 0.006,
+        "lightgbm": 0.02,
+        "logreg": 0.01,
+        "momios": 0.08,
+        "avg": 0.01,
+        "random_forest": 0.0
+      },
+      {
+        "country_code": "COD",
+        "xgboost": 0.0,
+        "lightgbm": 0.0,
+        "logreg": 0.0,
+        "momios": 0.11,
+        "avg": 0.0,
+        "random_forest": 0.0
+      }
+    ]
+  },
+  "consensus_prediction": {
+    "description": "Promedio de los 4 modelos (XGBoost, LightGBM, LogReg, Random Forest)",
+    "top_5": [
+      {
+        "rank": 1,
+        "country_code": "ESP",
+        "avg_champion_pct": 16.85
+      },
+      {
+        "rank": 2,
+        "country_code": "ARG",
+        "avg_champion_pct": 12.57
+      },
+      {
+        "rank": 3,
+        "country_code": "FRA",
+        "avg_champion_pct": 12.27
+      },
+      {
+        "rank": 4,
+        "country_code": "ENG",
+        "avg_champion_pct": 11.16
+      },
+      {
+        "rank": 5,
+        "country_code": "BRA",
+        "avg_champion_pct": 10.17
+      }
+    ]
   }
 }

@@ -1,0 +1,439 @@
+{
+  "n_simulations": 1000,
+  "seed": 42,
+  "model": "RandomForest",
+  "results": [
+    {
+      "country_code": "ARG",
+      "champion_pct": 8.1,
+      "final_pct": 13.6,
+      "semifinal_pct": 18.9,
+      "quarterfinal_pct": 31.2,
+      "champion_count": 81,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "FRA",
+      "champion_pct": 8.1,
+      "final_pct": 12.5,
+      "semifinal_pct": 21.8,
+      "quarterfinal_pct": 37.1,
+      "champion_count": 81,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "ESP",
+      "champion_pct": 6.9,
+      "final_pct": 11.0,
+      "semifinal_pct": 17.2,
+      "quarterfinal_pct": 29.4,
+      "champion_count": 69,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "BRA",
+      "champion_pct": 6.2,
+      "final_pct": 10.8,
+      "semifinal_pct": 19.7,
+      "quarterfinal_pct": 32.5,
+      "champion_count": 62,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "BEL",
+      "champion_pct": 5.9,
+      "final_pct": 10.4,
+      "semifinal_pct": 18.5,
+      "quarterfinal_pct": 31.4,
+      "champion_count": 59,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "GER",
+      "champion_pct": 5.3,
+      "final_pct": 9.5,
+      "semifinal_pct": 16.7,
+      "quarterfinal_pct": 29.9,
+      "champion_count": 53,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "ENG",
+      "champion_pct": 5.3,
+      "final_pct": 9.5,
+      "semifinal_pct": 15.8,
+      "quarterfinal_pct": 25.3,
+      "champion_count": 53,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "NED",
+      "champion_pct": 4.6,
+      "final_pct": 8.5,
+      "semifinal_pct": 16.0,
+      "quarterfinal_pct": 27.4,
+      "champion_count": 46,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "POR",
+      "champion_pct": 4.6,
+      "final_pct": 7.1,
+      "semifinal_pct": 11.6,
+      "quarterfinal_pct": 18.8,
+      "champion_count": 46,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "CRO",
+      "champion_pct": 3.8,
+      "final_pct": 6.3,
+      "semifinal_pct": 12.2,
+      "quarterfinal_pct": 21.2,
+      "champion_count": 38,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "URU",
+      "champion_pct": 2.9,
+      "final_pct": 6.3,
+      "semifinal_pct": 11.9,
+      "quarterfinal_pct": 24.2,
+      "champion_count": 29,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "MEX",
+      "champion_pct": 2.7,
+      "final_pct": 4.7,
+      "semifinal_pct": 10.1,
+      "quarterfinal_pct": 17.6,
+      "champion_count": 27,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "COL",
+      "champion_pct": 2.7,
+      "final_pct": 4.9,
+      "semifinal_pct": 9.2,
+      "quarterfinal_pct": 16.3,
+      "champion_count": 27,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "TUR",
+      "champion_pct": 2.6,
+      "final_pct": 6.2,
+      "semifinal_pct": 11.8,
+      "quarterfinal_pct": 23.5,
+      "champion_count": 26,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "USA",
+      "champion_pct": 2.4,
+      "final_pct": 6.3,
+      "semifinal_pct": 9.5,
+      "quarterfinal_pct": 19.3,
+      "champion_count": 24,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "ECU",
+      "champion_pct": 2.1,
+      "final_pct": 4.1,
+      "semifinal_pct": 8.3,
+      "quarterfinal_pct": 16.8,
+      "champion_count": 21,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "MAR",
+      "champion_pct": 2.0,
+      "final_pct": 4.6,
+      "semifinal_pct": 10.0,
+      "quarterfinal_pct": 21.8,
+      "champion_count": 20,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "SEN",
+      "champion_pct": 1.9,
+      "final_pct": 5.2,
+      "semifinal_pct": 12.5,
+      "quarterfinal_pct": 28.5,
+      "champion_count": 19,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "AUT",
+      "champion_pct": 1.6,
+      "final_pct": 3.1,
+      "semifinal_pct": 7.6,
+      "quarterfinal_pct": 16.7,
+      "champion_count": 16,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "IRN",
+      "champion_pct": 1.5,
+      "final_pct": 4.5,
+      "semifinal_pct": 9.1,
+      "quarterfinal_pct": 20.6,
+      "champion_count": 15,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "SWE",
+      "champion_pct": 1.5,
+      "final_pct": 3.6,
+      "semifinal_pct": 6.8,
+      "quarterfinal_pct": 15.4,
+      "champion_count": 15,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "SUI",
+      "champion_pct": 1.5,
+      "final_pct": 3.8,
+      "semifinal_pct": 9.1,
+      "quarterfinal_pct": 17.5,
+      "champion_count": 15,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "AUS",
+      "champion_pct": 1.4,
+      "final_pct": 3.5,
+      "semifinal_pct": 7.0,
+      "quarterfinal_pct": 15.6,
+      "champion_count": 14,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "JPN",
+      "champion_pct": 1.3,
+      "final_pct": 2.7,
+      "semifinal_pct": 7.2,
+      "quarterfinal_pct": 14.0,
+      "champion_count": 13,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "NOR",
+      "champion_pct": 1.2,
+      "final_pct": 2.3,
+      "semifinal_pct": 6.1,
+      "quarterfinal_pct": 16.2,
+      "champion_count": 12,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "ALG",
+      "champion_pct": 1.1,
+      "final_pct": 2.2,
+      "semifinal_pct": 5.7,
+      "quarterfinal_pct": 14.0,
+      "champion_count": 11,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "EGY",
+      "champion_pct": 1.0,
+      "final_pct": 2.8,
+      "semifinal_pct": 6.0,
+      "quarterfinal_pct": 13.4,
+      "champion_count": 10,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "PAR",
+      "champion_pct": 1.0,
+      "final_pct": 2.2,
+      "semifinal_pct": 4.8,
+      "quarterfinal_pct": 12.8,
+      "champion_count": 10,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "CAN",
+      "champion_pct": 0.9,
+      "final_pct": 2.3,
+      "semifinal_pct": 6.2,
+      "quarterfinal_pct": 10.2,
+      "champion_count": 9,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "CZE",
+      "champion_pct": 0.8,
+      "final_pct": 2.7,
+      "semifinal_pct": 5.5,
+      "quarterfinal_pct": 11.4,
+      "champion_count": 8,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "CIV",
+      "champion_pct": 0.7,
+      "final_pct": 1.7,
+      "semifinal_pct": 5.8,
+      "quarterfinal_pct": 15.3,
+      "champion_count": 7,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "KSA",
+      "champion_pct": 0.7,
+      "final_pct": 1.4,
+      "semifinal_pct": 3.9,
+      "quarterfinal_pct": 8.5,
+      "champion_count": 7,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "KOR",
+      "champion_pct": 0.7,
+      "final_pct": 3.0,
+      "semifinal_pct": 6.8,
+      "quarterfinal_pct": 14.6,
+      "champion_count": 7,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "UZB",
+      "champion_pct": 0.6,
+      "final_pct": 1.2,
+      "semifinal_pct": 2.3,
+      "quarterfinal_pct": 6.7,
+      "champion_count": 6,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "HAI",
+      "champion_pct": 0.6,
+      "final_pct": 0.8,
+      "semifinal_pct": 2.6,
+      "quarterfinal_pct": 9.4,
+      "champion_count": 6,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "PAN",
+      "champion_pct": 0.6,
+      "final_pct": 1.7,
+      "semifinal_pct": 4.5,
+      "quarterfinal_pct": 10.1,
+      "champion_count": 6,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "GHA",
+      "champion_pct": 0.5,
+      "final_pct": 1.1,
+      "semifinal_pct": 3.7,
+      "quarterfinal_pct": 8.2,
+      "champion_count": 5,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "TUN",
+      "champion_pct": 0.5,
+      "final_pct": 1.1,
+      "semifinal_pct": 4.3,
+      "quarterfinal_pct": 10.2,
+      "champion_count": 5,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "QAT",
+      "champion_pct": 0.4,
+      "final_pct": 1.0,
+      "semifinal_pct": 4.0,
+      "quarterfinal_pct": 9.7,
+      "champion_count": 4,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "RSA",
+      "champion_pct": 0.4,
+      "final_pct": 1.2,
+      "semifinal_pct": 5.0,
+      "quarterfinal_pct": 8.6,
+      "champion_count": 4,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "BIH",
+      "champion_pct": 0.3,
+      "final_pct": 1.3,
+      "semifinal_pct": 3.7,
+      "quarterfinal_pct": 7.4,
+      "champion_count": 3,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "IRQ",
+      "champion_pct": 0.3,
+      "final_pct": 1.0,
+      "semifinal_pct": 2.3,
+      "quarterfinal_pct": 9.0,
+      "champion_count": 3,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "SCO",
+      "champion_pct": 0.2,
+      "final_pct": 1.7,
+      "semifinal_pct": 5.9,
+      "quarterfinal_pct": 12.8,
+      "champion_count": 2,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "CPV",
+      "champion_pct": 0.2,
+      "final_pct": 0.6,
+      "semifinal_pct": 2.2,
+      "quarterfinal_pct": 7.4,
+      "champion_count": 2,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "JOR",
+      "champion_pct": 0.2,
+      "final_pct": 0.9,
+      "semifinal_pct": 2.1,
+      "quarterfinal_pct": 9.6,
+      "champion_count": 2,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "CGO",
+      "champion_pct": 0.1,
+      "final_pct": 0.8,
+      "semifinal_pct": 1.9,
+      "quarterfinal_pct": 4.1,
+      "champion_count": 1,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "CUW",
+      "champion_pct": 0.1,
+      "final_pct": 0.7,
+      "semifinal_pct": 2.5,
+      "quarterfinal_pct": 7.2,
+      "champion_count": 1,
+      "n_sims": 1000
+    },
+    {
+      "country_code": "NZL",
+      "champion_pct": 0.0,
+      "final_pct": 1.6,
+      "semifinal_pct": 3.7,
+      "quarterfinal_pct": 11.2,
+      "champion_count": 0,
+      "n_sims": 1000
+    }
+  ]
+}
