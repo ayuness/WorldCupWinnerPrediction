@@ -8,7 +8,7 @@ Este proyecto predice al campeón de la Copa del Mundo FIFA 2026 mediante un sis
 
 El sistema se alimenta de 9 datasets que cubren resultados históricos de mundiales (1930–2022), rankings FIFA (1993–2026), valores de mercado de Transfermarkt, eliminatorias de las 6 confederaciones, y datos de torneos continentales (Copa America, Eurocopa). A partir de estos, se construye un master dataset de 48 equipos clasificados con ~17 features cada uno.
 
-Se entrenan tres modelos — Logistic Regression (baseline), Random Forest (contender) y XGBoost (principal) — y se evalúan con split temporal (train: 1930–2018, test: 2022) para evitar data leakage. La métrica principal es log-loss porque necesitamos probabilidades calibradas, no solo la clase ganadora.
+Se entrenan cuatro modelos — Logistic Regression (baseline), Random Forest (contender), LightGBM (contender) y XGBoost (principal) — y se evalúan con split temporal (train: 1930–2018, test: 2022) para evitar data leakage. La métrica principal es log-loss porque necesitamos probabilidades calibradas, no solo la clase ganadora.
 
 **Decisiones de diseño más defendibles:**
 - Split temporal en lugar de random split para respetar la estructura cronológica de los datos.
@@ -318,18 +318,66 @@ Monte Carlo necesita las probabilidades de las 3 clases para muestrear resultado
 
 **Contras:** más hiperparámetros que tunear, riesgo de overfitting si se usa sin early stopping ni regularización, menor interpretabilidad (mitigado con SHAP).
 
-### 4.4. Tabla comparativa
+### 4.4. LightGBM (contender)
 
-| Criterio | Logistic Regression | Random Forest | XGBoost |
-|----------|-------------------|---------------|---------|
-| **Tipo** | Modelo lineal generalizado | Ensemble de árboles (bagging) | Ensemble de árboles (boosting) |
-| **Interpretabilidad** | Alta (coeficientes directos) | Media (feature importance) | Baja-Media (SHAP) |
-| **Manejo de nulls** | Requiere imputación | Requiere imputación | Nativo (aprende dirección de split) |
-| **Requiere escalado** | Si (StandardScaler) | No | No |
-| **Captura no linealidad** | No (sin features manuales) | Si | Si |
-| **Riesgo de overfitting** | Bajo | Bajo-Medio | Medio-Alto (sin regularización) |
-| **Costo computacional** | Bajo | Medio | Medio |
-| **Rol en el proyecto** | Baseline | Contender | Principal |
+**Construccion:** LightGBM (Light Gradient Boosting Machine) es otra implementación de gradient boosting, desarrollada por Microsoft. Comparte la filosofía de XGBoost — árboles secuenciales que corrigen errores residuales — pero introduce dos innovaciones algorítmicas que lo hacen significativamente más rápido:
+
+**Innovacion 1 — Gradient-based One-Side Sampling (GOSS):**
+
+En cada iteración de boosting, no todas las observaciones contribuyen igual al gradiente. GOSS mantiene todas las observaciones con gradientes grandes (las que el modelo actual predice peor) y muestrea aleatoriamente entre las de gradientes pequeños (las que ya predice bien). Esto reduce el costo de construir cada árbol sin perder las observaciones más informativas.
+
+Formalmente, si tenemos $N$ observaciones ordenadas por $|g_i|$:
+- Se conservan las top $a \times N$ con mayor gradiente
+- Se muestrean $b \times N$ del resto
+- Las muestreadas se ponderan por $\frac{1-a}{b}$ para compensar el submuestreo
+
+**Innovacion 2 — Exclusive Feature Bundling (EFB):**
+
+Features que rara vez toman valores distintos de cero simultáneamente se agrupan ("bundlan") en una sola feature compuesta, reduciendo la dimensionalidad efectiva. Es una optimización especialmente útil cuando hay muchas features categóricas one-hot encoded.
+
+**Crecimiento del arbol — leaf-wise vs level-wise:**
+
+XGBoost crece los árboles *level-wise* (todos los nodos de un nivel antes de pasar al siguiente). LightGBM crece *leaf-wise*: en cada paso, expande la hoja con mayor ganancia potencial, sin importar el nivel. Esto produce árboles asimétricos que concentran su capacidad donde más se necesita.
+
+Ventaja: convergencia más rápida (menos hojas para la misma calidad de predicción).
+Riesgo: con `max_depth` sin limitar, puede generar árboles muy profundos y overfittear. Se mitiga con `num_leaves` (limita el número total de hojas, no la profundidad).
+
+**Hiperparametros clave:**
+
+| Hiperparámetro | Rol |
+|----------------|-----|
+| `objective='multiclass'` | Clasificación multiclass con softmax |
+| `num_leaves` | Número máximo de hojas por árbol — control de complejidad principal (en lugar de `max_depth`) |
+| `learning_rate` | Shrinkage, mismo rol que en XGBoost |
+| `n_estimators` + early stopping | Número de árboles con parada automática |
+| `min_child_samples` | Mínimo de observaciones en una hoja |
+| `subsample` (bagging_fraction) | Fracción de filas por iteración |
+| `colsample_bytree` (feature_fraction) | Fracción de features por árbol |
+| `reg_alpha` (L1) y `reg_lambda` (L2) | Regularización sobre pesos de hojas |
+
+**Diferencia clave con XGBoost:** `num_leaves` vs `max_depth`. Un árbol con `max_depth=5` tiene como máximo $2^5=32$ hojas, distribuidas uniformemente. Un árbol LightGBM con `num_leaves=31` tiene hojas similares pero distribuidas asimétricamente donde más importan. En la práctica, LightGBM puede alcanzar la misma calidad con menos hojas totales.
+
+**Por que como contender y no como principal:**
+
+LightGBM y XGBoost suelen dar resultados muy similares en datasets chicos. La ventaja de velocidad de LightGBM (GOSS, EFB, leaf-wise) se nota más en datasets grandes ($N > 100{,}000$). Con ~700 filas, ambos entrenan en segundos. Se incluye como contender para validar que los resultados de XGBoost son robustos: si LightGBM y XGBoost coinciden en sus predicciones, la señal es real y no un artefacto del algoritmo específico.
+
+**Pros:** más rápido que XGBoost en datasets grandes, manejo nativo de NaN y features categóricas (sin necesidad de one-hot encoding), regularización integrada, leaf-wise growth converge con menos árboles.
+
+**Contras:** leaf-wise growth puede overfittear más fácilmente en datasets chicos si no se controla `num_leaves`, ligeramente menos maduro que XGBoost en documentación y comunidad, sensible a la elección de `num_leaves` (hiperparámetro menos intuitivo que `max_depth`).
+
+### 4.5. Tabla comparativa
+
+| Criterio | Logistic Regression | Random Forest | LightGBM | XGBoost |
+|----------|-------------------|---------------|----------|---------|
+| **Tipo** | Modelo lineal generalizado | Ensemble de árboles (bagging) | Ensemble de árboles (boosting, leaf-wise) | Ensemble de árboles (boosting, level-wise) |
+| **Interpretabilidad** | Alta (coeficientes directos) | Media (feature importance) | Baja-Media (SHAP) | Baja-Media (SHAP) |
+| **Manejo de nulls** | Requiere imputación | Requiere imputación | Nativo (dirección de split) | Nativo (aprende dirección de split) |
+| **Requiere escalado** | Si (StandardScaler) | No | No | No |
+| **Captura no linealidad** | No (sin features manuales) | Si | Si | Si |
+| **Riesgo de overfitting** | Bajo | Bajo-Medio | Medio-Alto (leaf-wise) | Medio-Alto (sin regularización) |
+| **Costo computacional** | Bajo | Medio | Bajo-Medio | Medio |
+| **Control de complejidad** | Regularización L2 | `max_depth`, `min_samples_leaf` | `num_leaves`, `min_child_samples` | `max_depth`, `min_child_weight` |
+| **Rol en el proyecto** | Baseline | Contender | Contender | Principal |
 
 ---
 
@@ -474,9 +522,9 @@ El modelo no memoriza enfrentamientos específicos. Aprende relaciones entre fea
 
 No, porque los momios NO entran al modelo ML. El modelo se entrena y evalúa exclusivamente con datos históricos. Los momios solo se usan en la etapa de Monte Carlo como ponderación opcional, y eso es transparente. Además, si usáramos momios como feature de entrenamiento, tendríamos el problema de que no existen momios históricos comparables para partidos de 1930–2018.
 
-**P8: ¿Por que tres modelos y no solo el mejor?**
+**P8: ¿Por que cuatro modelos y no solo el mejor?**
 
-Tres razones: (1) Logistic Regression como baseline verifica que las features tienen señal — si LR no supera predicción uniforme, hay un problema en el feature engineering, no en el modelo. (2) Comparar LR (lineal) vs RF/XGB (no lineal) cuantifica cuánta no linealidad hay en los datos. (3) Si los tres modelos coinciden en las predicciones, hay más confianza en los resultados. Si divergen, eso informa sobre la incertidumbre.
+Cuatro razones: (1) Logistic Regression como baseline verifica que las features tienen señal — si LR no supera predicción uniforme, hay un problema en el feature engineering, no en el modelo. (2) Comparar LR (lineal) vs RF/LightGBM/XGB (no lineal) cuantifica cuánta no linealidad hay en los datos. (3) LightGBM y XGBoost son dos implementaciones de gradient boosting con decisiones algorítmicas distintas (leaf-wise vs level-wise) — si ambos coinciden, la señal es robusta al algoritmo. (4) Si los cuatro modelos coinciden en las predicciones, hay más confianza en los resultados. Si divergen, eso informa sobre la incertidumbre.
 
 **P9: ¿Como manejas la dependencia temporal? Un partido de 1950 no es comparable a uno de 2022.**
 
