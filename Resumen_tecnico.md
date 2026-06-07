@@ -542,9 +542,9 @@ Monte Carlo recibe el vector completo, por ejemplo $[P(W)=0.35, P(D)=0.40, P(L)=
 
 Se monitorea la convergencia de la distribución empírica. Si tras 5,000 simulaciones la probabilidad estimada del campeón cambia menos de 0.1% al agregar 1,000 más, la simulación ha convergido. Formalmente, el error estándar de una proporción estimada con $N$ simulaciones es $\sqrt{p(1-p)/N}$. Para $p=0.15$ (15% de probabilidad de ser campeón) y $N=10{,}000$, el error estándar es $\approx 0.36\%$, lo cual es suficiente para nuestros fines.
 
-**P13: ¿Que pasaria si entrenaras con datos de todos los partidos internacionales (amistosos, eliminatorias, torneos continentales) y no solo mundiales?**
+**P13: ¿Solo entrenaste con partidos de mundiales o usaste mas datos?**
 
-Sería una extensión válida que aumentaría $N$ de ~700 a ~15,000+. La ventaja: más datos, más señal, el modelo podría aprender patrones más finos. La desventaja: los amistosos son partidos de baja intensidad donde los equipos experimentan con alineaciones — mezclar amistosos con partidos de mundial introduce ruido. Si se hiciera, habría que ponderar los partidos por importancia (mundial ×3, eliminatorias ×2, amistoso ×1) para que los partidos competitivos dominen el aprendizaje.
+El pipeline principal (XGBoost/LogReg) entrena con partidos de **tres torneos**: World Cup, Eurocopa y Copa America. No son tratados igual — cada torneo tiene un `tournament_weight` que refleja su nivel competitivo: World Cup = 1.0, Euro = 0.85, Copa America = 0.80. Estos pesos entran de dos formas: (1) como feature del modelo, para que aprenda que un resultado en un mundial es más informativo que uno en Copa America; (2) en el cálculo de Elo, donde el K-factor se multiplica por el peso, así una victoria mundialista mueve más el Elo. El pipeline LightGBM/RF incorpora además la Copa Africana de Naciones (AFCON) como fuente de features históricas (`afcon_win_pct`). Se excluyeron amistosos deliberadamente porque son partidos de baja intensidad donde los equipos experimentan con alineaciones — mezclarlos introduciría ruido que diluiría la señal competitiva.
 
 **P14: ¿Tu modelo captura el efecto "equipo revelacion" (dark horse)?**
 

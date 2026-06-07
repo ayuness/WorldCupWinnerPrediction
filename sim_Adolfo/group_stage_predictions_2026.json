@@ -1,0 +1,2590 @@
+{
+  "description": "Predicciones match-level para la fase de grupos del Mundial FIFA 2026",
+  "format": {
+    "win_a": "Probabilidad de que team_a gane",
+    "draw": "Probabilidad de empate",
+    "win_b": "Probabilidad de que team_b gane",
+    "note": "Simetrizado: promedio de predicciones A-vs-B y B-vs-A de cada modelo"
+  },
+  "models": {
+    "xgboost": "Temporal-master, 22 features, 762 trees, Optuna",
+    "logistic_regression": "ElasticNet + calibracion isotonica, 22 features",
+    "lightgbm": "Walk-forward, 58 features, 46 iterations",
+    "random_forest": "Walk-forward, 58 features, sentinel NaN, balanced",
+    "ensemble_avg": "Promedio aritmetico de los 4 modelos",
+    "ensemble_no_xgb": "Promedio de logistic_regression + lightgbm + random_forest (sin XGBoost)"
+  },
+  "stage": "group",
+  "n_groups": 12,
+  "n_matches": 72,
+  "groups": {
+    "A": {
+      "teams": [
+        "MEX",
+        "CZE",
+        "KOR",
+        "RSA"
+      ],
+      "matches": [
+        {
+          "team_a": "MEX",
+          "team_b": "CZE",
+          "xgboost": {
+            "win_a": 0.5629,
+            "draw": 0.2661,
+            "win_b": 0.1709
+          },
+          "logistic_regression": {
+            "win_a": 0.4716,
+            "draw": 0.246,
+            "win_b": 0.2824
+          },
+          "lightgbm": {
+            "win_a": 0.7619,
+            "draw": 0.0806,
+            "win_b": 0.1575
+          },
+          "random_forest": {
+            "win_a": 0.4075,
+            "draw": 0.2793,
+            "win_b": 0.3132
+          },
+          "ensemble_avg": {
+            "win_a": 0.551,
+            "draw": 0.218,
+            "win_b": 0.231
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.547,
+            "draw": 0.202,
+            "win_b": 0.251
+          }
+        },
+        {
+          "team_a": "MEX",
+          "team_b": "KOR",
+          "xgboost": {
+            "win_a": 0.4845,
+            "draw": 0.3022,
+            "win_b": 0.2133
+          },
+          "logistic_regression": {
+            "win_a": 0.403,
+            "draw": 0.2359,
+            "win_b": 0.361
+          },
+          "lightgbm": {
+            "win_a": 0.6399,
+            "draw": 0.1243,
+            "win_b": 0.2359
+          },
+          "random_forest": {
+            "win_a": 0.3996,
+            "draw": 0.29,
+            "win_b": 0.3104
+          },
+          "ensemble_avg": {
+            "win_a": 0.4818,
+            "draw": 0.2381,
+            "win_b": 0.2801
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.4808,
+            "draw": 0.2167,
+            "win_b": 0.3024
+          }
+        },
+        {
+          "team_a": "MEX",
+          "team_b": "RSA",
+          "xgboost": {
+            "win_a": 0.688,
+            "draw": 0.2039,
+            "win_b": 0.1081
+          },
+          "logistic_regression": {
+            "win_a": 0.6114,
+            "draw": 0.2327,
+            "win_b": 0.1559
+          },
+          "lightgbm": {
+            "win_a": 0.7981,
+            "draw": 0.0747,
+            "win_b": 0.1272
+          },
+          "random_forest": {
+            "win_a": 0.4827,
+            "draw": 0.2766,
+            "win_b": 0.2407
+          },
+          "ensemble_avg": {
+            "win_a": 0.645,
+            "draw": 0.197,
+            "win_b": 0.158
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6307,
+            "draw": 0.1947,
+            "win_b": 0.1746
+          }
+        },
+        {
+          "team_a": "CZE",
+          "team_b": "KOR",
+          "xgboost": {
+            "win_a": 0.1942,
+            "draw": 0.2401,
+            "win_b": 0.5657
+          },
+          "logistic_regression": {
+            "win_a": 0.3333,
+            "draw": 0.2353,
+            "win_b": 0.4314
+          },
+          "lightgbm": {
+            "win_a": 0.251,
+            "draw": 0.1204,
+            "win_b": 0.6286
+          },
+          "random_forest": {
+            "win_a": 0.3157,
+            "draw": 0.2847,
+            "win_b": 0.3996
+          },
+          "ensemble_avg": {
+            "win_a": 0.2735,
+            "draw": 0.2201,
+            "win_b": 0.5063
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.3,
+            "draw": 0.2135,
+            "win_b": 0.4865
+          }
+        },
+        {
+          "team_a": "CZE",
+          "team_b": "RSA",
+          "xgboost": {
+            "win_a": 0.6577,
+            "draw": 0.2331,
+            "win_b": 0.1092
+          },
+          "logistic_regression": {
+            "win_a": 0.5563,
+            "draw": 0.2383,
+            "win_b": 0.2054
+          },
+          "lightgbm": {
+            "win_a": 0.6462,
+            "draw": 0.1129,
+            "win_b": 0.2409
+          },
+          "random_forest": {
+            "win_a": 0.44,
+            "draw": 0.2863,
+            "win_b": 0.2738
+          },
+          "ensemble_avg": {
+            "win_a": 0.575,
+            "draw": 0.2176,
+            "win_b": 0.2073
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5475,
+            "draw": 0.2125,
+            "win_b": 0.24
+          }
+        },
+        {
+          "team_a": "KOR",
+          "team_b": "RSA",
+          "xgboost": {
+            "win_a": 0.6517,
+            "draw": 0.2222,
+            "win_b": 0.1261
+          },
+          "logistic_regression": {
+            "win_a": 0.5838,
+            "draw": 0.2365,
+            "win_b": 0.1797
+          },
+          "lightgbm": {
+            "win_a": 0.6774,
+            "draw": 0.095,
+            "win_b": 0.2276
+          },
+          "random_forest": {
+            "win_a": 0.4395,
+            "draw": 0.2707,
+            "win_b": 0.2898
+          },
+          "ensemble_avg": {
+            "win_a": 0.5881,
+            "draw": 0.2061,
+            "win_b": 0.2058
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5669,
+            "draw": 0.2007,
+            "win_b": 0.2324
+          }
+        }
+      ]
+    },
+    "B": {
+      "teams": [
+        "SUI",
+        "CAN",
+        "BIH",
+        "QAT"
+      ],
+      "matches": [
+        {
+          "team_a": "SUI",
+          "team_b": "CAN",
+          "xgboost": {
+            "win_a": 0.6298,
+            "draw": 0.2202,
+            "win_b": 0.15
+          },
+          "logistic_regression": {
+            "win_a": 0.5344,
+            "draw": 0.2437,
+            "win_b": 0.222
+          },
+          "lightgbm": {
+            "win_a": 0.4524,
+            "draw": 0.1536,
+            "win_b": 0.3939
+          },
+          "random_forest": {
+            "win_a": 0.4311,
+            "draw": 0.2919,
+            "win_b": 0.2769
+          },
+          "ensemble_avg": {
+            "win_a": 0.5119,
+            "draw": 0.2274,
+            "win_b": 0.2607
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.4726,
+            "draw": 0.2297,
+            "win_b": 0.2976
+          }
+        },
+        {
+          "team_a": "SUI",
+          "team_b": "BIH",
+          "xgboost": {
+            "win_a": 0.6566,
+            "draw": 0.2162,
+            "win_b": 0.1272
+          },
+          "logistic_regression": {
+            "win_a": 0.5971,
+            "draw": 0.2384,
+            "win_b": 0.1645
+          },
+          "lightgbm": {
+            "win_a": 0.7261,
+            "draw": 0.0942,
+            "win_b": 0.1797
+          },
+          "random_forest": {
+            "win_a": 0.4792,
+            "draw": 0.265,
+            "win_b": 0.2558
+          },
+          "ensemble_avg": {
+            "win_a": 0.6148,
+            "draw": 0.2035,
+            "win_b": 0.1818
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6008,
+            "draw": 0.1992,
+            "win_b": 0.2
+          }
+        },
+        {
+          "team_a": "SUI",
+          "team_b": "QAT",
+          "xgboost": {
+            "win_a": 0.7313,
+            "draw": 0.1825,
+            "win_b": 0.0862
+          },
+          "logistic_regression": {
+            "win_a": 0.6545,
+            "draw": 0.2325,
+            "win_b": 0.113
+          },
+          "lightgbm": {
+            "win_a": 0.6865,
+            "draw": 0.0853,
+            "win_b": 0.2282
+          },
+          "random_forest": {
+            "win_a": 0.504,
+            "draw": 0.2636,
+            "win_b": 0.2323
+          },
+          "ensemble_avg": {
+            "win_a": 0.6441,
+            "draw": 0.191,
+            "win_b": 0.1649
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.615,
+            "draw": 0.1938,
+            "win_b": 0.1912
+          }
+        },
+        {
+          "team_a": "CAN",
+          "team_b": "BIH",
+          "xgboost": {
+            "win_a": 0.5986,
+            "draw": 0.2264,
+            "win_b": 0.175
+          },
+          "logistic_regression": {
+            "win_a": 0.4562,
+            "draw": 0.2422,
+            "win_b": 0.3017
+          },
+          "lightgbm": {
+            "win_a": 0.7961,
+            "draw": 0.084,
+            "win_b": 0.1199
+          },
+          "random_forest": {
+            "win_a": 0.4166,
+            "draw": 0.277,
+            "win_b": 0.3065
+          },
+          "ensemble_avg": {
+            "win_a": 0.5669,
+            "draw": 0.2074,
+            "win_b": 0.2257
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5563,
+            "draw": 0.2011,
+            "win_b": 0.2427
+          }
+        },
+        {
+          "team_a": "CAN",
+          "team_b": "QAT",
+          "xgboost": {
+            "win_a": 0.6107,
+            "draw": 0.2624,
+            "win_b": 0.1269
+          },
+          "logistic_regression": {
+            "win_a": 0.5608,
+            "draw": 0.2492,
+            "win_b": 0.19
+          },
+          "lightgbm": {
+            "win_a": 0.8157,
+            "draw": 0.0681,
+            "win_b": 0.1162
+          },
+          "random_forest": {
+            "win_a": 0.4458,
+            "draw": 0.2716,
+            "win_b": 0.2826
+          },
+          "ensemble_avg": {
+            "win_a": 0.6083,
+            "draw": 0.2128,
+            "win_b": 0.1789
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6074,
+            "draw": 0.1963,
+            "win_b": 0.1963
+          }
+        },
+        {
+          "team_a": "BIH",
+          "team_b": "QAT",
+          "xgboost": {
+            "win_a": 0.2588,
+            "draw": 0.2991,
+            "win_b": 0.4421
+          },
+          "logistic_regression": {
+            "win_a": 0.4957,
+            "draw": 0.2395,
+            "win_b": 0.2649
+          },
+          "lightgbm": {
+            "win_a": 0.3767,
+            "draw": 0.0928,
+            "win_b": 0.5305
+          },
+          "random_forest": {
+            "win_a": 0.3509,
+            "draw": 0.274,
+            "win_b": 0.375
+          },
+          "ensemble_avg": {
+            "win_a": 0.3705,
+            "draw": 0.2263,
+            "win_b": 0.4031
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.4078,
+            "draw": 0.2021,
+            "win_b": 0.3901
+          }
+        }
+      ]
+    },
+    "C": {
+      "teams": [
+        "BRA",
+        "MAR",
+        "SCO",
+        "HAI"
+      ],
+      "matches": [
+        {
+          "team_a": "BRA",
+          "team_b": "MAR",
+          "xgboost": {
+            "win_a": 0.5418,
+            "draw": 0.2839,
+            "win_b": 0.1743
+          },
+          "logistic_regression": {
+            "win_a": 0.5597,
+            "draw": 0.2386,
+            "win_b": 0.2017
+          },
+          "lightgbm": {
+            "win_a": 0.6638,
+            "draw": 0.0899,
+            "win_b": 0.2463
+          },
+          "random_forest": {
+            "win_a": 0.434,
+            "draw": 0.3071,
+            "win_b": 0.2589
+          },
+          "ensemble_avg": {
+            "win_a": 0.5498,
+            "draw": 0.2299,
+            "win_b": 0.2203
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5525,
+            "draw": 0.2119,
+            "win_b": 0.2356
+          }
+        },
+        {
+          "team_a": "BRA",
+          "team_b": "SCO",
+          "xgboost": {
+            "win_a": 0.6855,
+            "draw": 0.1974,
+            "win_b": 0.1171
+          },
+          "logistic_regression": {
+            "win_a": 0.6618,
+            "draw": 0.2202,
+            "win_b": 0.118
+          },
+          "lightgbm": {
+            "win_a": 0.6976,
+            "draw": 0.0895,
+            "win_b": 0.2129
+          },
+          "random_forest": {
+            "win_a": 0.4755,
+            "draw": 0.3089,
+            "win_b": 0.2156
+          },
+          "ensemble_avg": {
+            "win_a": 0.6301,
+            "draw": 0.204,
+            "win_b": 0.1659
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6116,
+            "draw": 0.2062,
+            "win_b": 0.1822
+          }
+        },
+        {
+          "team_a": "BRA",
+          "team_b": "HAI",
+          "xgboost": {
+            "win_a": 0.6766,
+            "draw": 0.2065,
+            "win_b": 0.1169
+          },
+          "logistic_regression": {
+            "win_a": 0.7553,
+            "draw": 0.2093,
+            "win_b": 0.0354
+          },
+          "lightgbm": {
+            "win_a": 0.6996,
+            "draw": 0.1027,
+            "win_b": 0.1977
+          },
+          "random_forest": {
+            "win_a": 0.5066,
+            "draw": 0.2902,
+            "win_b": 0.2032
+          },
+          "ensemble_avg": {
+            "win_a": 0.6595,
+            "draw": 0.2022,
+            "win_b": 0.1383
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6538,
+            "draw": 0.2007,
+            "win_b": 0.1454
+          }
+        },
+        {
+          "team_a": "MAR",
+          "team_b": "SCO",
+          "xgboost": {
+            "win_a": 0.6122,
+            "draw": 0.24,
+            "win_b": 0.1478
+          },
+          "logistic_regression": {
+            "win_a": 0.5328,
+            "draw": 0.2571,
+            "win_b": 0.2101
+          },
+          "lightgbm": {
+            "win_a": 0.7206,
+            "draw": 0.1001,
+            "win_b": 0.1793
+          },
+          "random_forest": {
+            "win_a": 0.4551,
+            "draw": 0.2827,
+            "win_b": 0.2622
+          },
+          "ensemble_avg": {
+            "win_a": 0.5802,
+            "draw": 0.22,
+            "win_b": 0.1999
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5695,
+            "draw": 0.2133,
+            "win_b": 0.2172
+          }
+        },
+        {
+          "team_a": "MAR",
+          "team_b": "HAI",
+          "xgboost": {
+            "win_a": 0.7098,
+            "draw": 0.1962,
+            "win_b": 0.0941
+          },
+          "logistic_regression": {
+            "win_a": 0.705,
+            "draw": 0.2142,
+            "win_b": 0.0808
+          },
+          "lightgbm": {
+            "win_a": 0.7448,
+            "draw": 0.095,
+            "win_b": 0.1602
+          },
+          "random_forest": {
+            "win_a": 0.4964,
+            "draw": 0.2815,
+            "win_b": 0.2221
+          },
+          "ensemble_avg": {
+            "win_a": 0.664,
+            "draw": 0.1967,
+            "win_b": 0.1393
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6487,
+            "draw": 0.1969,
+            "win_b": 0.1544
+          }
+        },
+        {
+          "team_a": "SCO",
+          "team_b": "HAI",
+          "xgboost": {
+            "win_a": 0.6295,
+            "draw": 0.2584,
+            "win_b": 0.1121
+          },
+          "logistic_regression": {
+            "win_a": 0.6129,
+            "draw": 0.2168,
+            "win_b": 0.1703
+          },
+          "lightgbm": {
+            "win_a": 0.6087,
+            "draw": 0.1297,
+            "win_b": 0.2616
+          },
+          "random_forest": {
+            "win_a": 0.4625,
+            "draw": 0.2713,
+            "win_b": 0.2662
+          },
+          "ensemble_avg": {
+            "win_a": 0.5784,
+            "draw": 0.2191,
+            "win_b": 0.2026
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5614,
+            "draw": 0.2059,
+            "win_b": 0.2327
+          }
+        }
+      ]
+    },
+    "D": {
+      "teams": [
+        "USA",
+        "TUR",
+        "PAR",
+        "AUS"
+      ],
+      "matches": [
+        {
+          "team_a": "USA",
+          "team_b": "TUR",
+          "xgboost": {
+            "win_a": 0.5251,
+            "draw": 0.2641,
+            "win_b": 0.2108
+          },
+          "logistic_regression": {
+            "win_a": 0.4585,
+            "draw": 0.241,
+            "win_b": 0.3005
+          },
+          "lightgbm": {
+            "win_a": 0.6807,
+            "draw": 0.1013,
+            "win_b": 0.218
+          },
+          "random_forest": {
+            "win_a": 0.3652,
+            "draw": 0.2841,
+            "win_b": 0.3507
+          },
+          "ensemble_avg": {
+            "win_a": 0.5074,
+            "draw": 0.2226,
+            "win_b": 0.27
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5015,
+            "draw": 0.2088,
+            "win_b": 0.2897
+          }
+        },
+        {
+          "team_a": "USA",
+          "team_b": "PAR",
+          "xgboost": {
+            "win_a": 0.6153,
+            "draw": 0.2537,
+            "win_b": 0.131
+          },
+          "logistic_regression": {
+            "win_a": 0.5374,
+            "draw": 0.2456,
+            "win_b": 0.217
+          },
+          "lightgbm": {
+            "win_a": 0.7974,
+            "draw": 0.0826,
+            "win_b": 0.12
+          },
+          "random_forest": {
+            "win_a": 0.4619,
+            "draw": 0.2638,
+            "win_b": 0.2744
+          },
+          "ensemble_avg": {
+            "win_a": 0.603,
+            "draw": 0.2114,
+            "win_b": 0.1856
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5989,
+            "draw": 0.1973,
+            "win_b": 0.2038
+          }
+        },
+        {
+          "team_a": "USA",
+          "team_b": "AUS",
+          "xgboost": {
+            "win_a": 0.617,
+            "draw": 0.2637,
+            "win_b": 0.1193
+          },
+          "logistic_regression": {
+            "win_a": 0.55,
+            "draw": 0.2433,
+            "win_b": 0.2067
+          },
+          "lightgbm": {
+            "win_a": 0.6738,
+            "draw": 0.1112,
+            "win_b": 0.2149
+          },
+          "random_forest": {
+            "win_a": 0.4562,
+            "draw": 0.2777,
+            "win_b": 0.2661
+          },
+          "ensemble_avg": {
+            "win_a": 0.5742,
+            "draw": 0.224,
+            "win_b": 0.2018
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.56,
+            "draw": 0.2107,
+            "win_b": 0.2292
+          }
+        },
+        {
+          "team_a": "TUR",
+          "team_b": "PAR",
+          "xgboost": {
+            "win_a": 0.6197,
+            "draw": 0.231,
+            "win_b": 0.1493
+          },
+          "logistic_regression": {
+            "win_a": 0.4578,
+            "draw": 0.2527,
+            "win_b": 0.2895
+          },
+          "lightgbm": {
+            "win_a": 0.6565,
+            "draw": 0.1304,
+            "win_b": 0.2131
+          },
+          "random_forest": {
+            "win_a": 0.454,
+            "draw": 0.2923,
+            "win_b": 0.2537
+          },
+          "ensemble_avg": {
+            "win_a": 0.547,
+            "draw": 0.2266,
+            "win_b": 0.2264
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5228,
+            "draw": 0.2251,
+            "win_b": 0.2521
+          }
+        },
+        {
+          "team_a": "TUR",
+          "team_b": "AUS",
+          "xgboost": {
+            "win_a": 0.4993,
+            "draw": 0.3153,
+            "win_b": 0.1855
+          },
+          "logistic_regression": {
+            "win_a": 0.4621,
+            "draw": 0.2539,
+            "win_b": 0.284
+          },
+          "lightgbm": {
+            "win_a": 0.4834,
+            "draw": 0.1275,
+            "win_b": 0.389
+          },
+          "random_forest": {
+            "win_a": 0.4273,
+            "draw": 0.2978,
+            "win_b": 0.2749
+          },
+          "ensemble_avg": {
+            "win_a": 0.468,
+            "draw": 0.2486,
+            "win_b": 0.2833
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.4576,
+            "draw": 0.2264,
+            "win_b": 0.316
+          }
+        },
+        {
+          "team_a": "PAR",
+          "team_b": "AUS",
+          "xgboost": {
+            "win_a": 0.2783,
+            "draw": 0.2663,
+            "win_b": 0.4554
+          },
+          "logistic_regression": {
+            "win_a": 0.3942,
+            "draw": 0.2315,
+            "win_b": 0.3744
+          },
+          "lightgbm": {
+            "win_a": 0.2656,
+            "draw": 0.0918,
+            "win_b": 0.6426
+          },
+          "random_forest": {
+            "win_a": 0.3282,
+            "draw": 0.2701,
+            "win_b": 0.4017
+          },
+          "ensemble_avg": {
+            "win_a": 0.3166,
+            "draw": 0.2149,
+            "win_b": 0.4685
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.3293,
+            "draw": 0.1978,
+            "win_b": 0.4729
+          }
+        }
+      ]
+    },
+    "E": {
+      "teams": [
+        "GER",
+        "ECU",
+        "CIV",
+        "CUW"
+      ],
+      "matches": [
+        {
+          "team_a": "GER",
+          "team_b": "ECU",
+          "xgboost": {
+            "win_a": 0.6509,
+            "draw": 0.2218,
+            "win_b": 0.1274
+          },
+          "logistic_regression": {
+            "win_a": 0.6311,
+            "draw": 0.2293,
+            "win_b": 0.1396
+          },
+          "lightgbm": {
+            "win_a": 0.6257,
+            "draw": 0.1438,
+            "win_b": 0.2306
+          },
+          "random_forest": {
+            "win_a": 0.4418,
+            "draw": 0.3261,
+            "win_b": 0.2321
+          },
+          "ensemble_avg": {
+            "win_a": 0.5874,
+            "draw": 0.2302,
+            "win_b": 0.1824
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5662,
+            "draw": 0.2331,
+            "win_b": 0.2008
+          }
+        },
+        {
+          "team_a": "GER",
+          "team_b": "CIV",
+          "xgboost": {
+            "win_a": 0.6711,
+            "draw": 0.2237,
+            "win_b": 0.1052
+          },
+          "logistic_regression": {
+            "win_a": 0.6233,
+            "draw": 0.2377,
+            "win_b": 0.139
+          },
+          "lightgbm": {
+            "win_a": 0.7176,
+            "draw": 0.0937,
+            "win_b": 0.1886
+          },
+          "random_forest": {
+            "win_a": 0.4579,
+            "draw": 0.3149,
+            "win_b": 0.2272
+          },
+          "ensemble_avg": {
+            "win_a": 0.6175,
+            "draw": 0.2175,
+            "win_b": 0.165
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5996,
+            "draw": 0.2154,
+            "win_b": 0.1849
+          }
+        },
+        {
+          "team_a": "GER",
+          "team_b": "CUW",
+          "xgboost": {
+            "win_a": 0.6373,
+            "draw": 0.2558,
+            "win_b": 0.1069
+          },
+          "logistic_regression": {
+            "win_a": 0.7159,
+            "draw": 0.2284,
+            "win_b": 0.0557
+          },
+          "lightgbm": {
+            "win_a": 0.6134,
+            "draw": 0.1383,
+            "win_b": 0.2483
+          },
+          "random_forest": {
+            "win_a": 0.4894,
+            "draw": 0.2924,
+            "win_b": 0.2183
+          },
+          "ensemble_avg": {
+            "win_a": 0.614,
+            "draw": 0.2287,
+            "win_b": 0.1573
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6062,
+            "draw": 0.2197,
+            "win_b": 0.1741
+          }
+        },
+        {
+          "team_a": "ECU",
+          "team_b": "CIV",
+          "xgboost": {
+            "win_a": 0.5662,
+            "draw": 0.2283,
+            "win_b": 0.2055
+          },
+          "logistic_regression": {
+            "win_a": 0.3443,
+            "draw": 0.2316,
+            "win_b": 0.4241
+          },
+          "lightgbm": {
+            "win_a": 0.6433,
+            "draw": 0.1297,
+            "win_b": 0.227
+          },
+          "random_forest": {
+            "win_a": 0.4152,
+            "draw": 0.2947,
+            "win_b": 0.2901
+          },
+          "ensemble_avg": {
+            "win_a": 0.4923,
+            "draw": 0.2211,
+            "win_b": 0.2867
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.4676,
+            "draw": 0.2187,
+            "win_b": 0.3137
+          }
+        },
+        {
+          "team_a": "ECU",
+          "team_b": "CUW",
+          "xgboost": {
+            "win_a": 0.6586,
+            "draw": 0.2226,
+            "win_b": 0.1188
+          },
+          "logistic_regression": {
+            "win_a": 0.5722,
+            "draw": 0.2498,
+            "win_b": 0.178
+          },
+          "lightgbm": {
+            "win_a": 0.6767,
+            "draw": 0.1069,
+            "win_b": 0.2165
+          },
+          "random_forest": {
+            "win_a": 0.5047,
+            "draw": 0.2737,
+            "win_b": 0.2216
+          },
+          "ensemble_avg": {
+            "win_a": 0.603,
+            "draw": 0.2133,
+            "win_b": 0.1837
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5845,
+            "draw": 0.2101,
+            "win_b": 0.2054
+          }
+        },
+        {
+          "team_a": "CIV",
+          "team_b": "CUW",
+          "xgboost": {
+            "win_a": 0.6429,
+            "draw": 0.2453,
+            "win_b": 0.1118
+          },
+          "logistic_regression": {
+            "win_a": 0.5822,
+            "draw": 0.2499,
+            "win_b": 0.168
+          },
+          "lightgbm": {
+            "win_a": 0.6333,
+            "draw": 0.1226,
+            "win_b": 0.2441
+          },
+          "random_forest": {
+            "win_a": 0.4718,
+            "draw": 0.2737,
+            "win_b": 0.2545
+          },
+          "ensemble_avg": {
+            "win_a": 0.5825,
+            "draw": 0.2229,
+            "win_b": 0.1946
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5624,
+            "draw": 0.2154,
+            "win_b": 0.2222
+          }
+        }
+      ]
+    },
+    "F": {
+      "teams": [
+        "NED",
+        "JPN",
+        "SWE",
+        "TUN"
+      ],
+      "matches": [
+        {
+          "team_a": "NED",
+          "team_b": "JPN",
+          "xgboost": {
+            "win_a": 0.6445,
+            "draw": 0.2311,
+            "win_b": 0.1244
+          },
+          "logistic_regression": {
+            "win_a": 0.5014,
+            "draw": 0.2496,
+            "win_b": 0.249
+          },
+          "lightgbm": {
+            "win_a": 0.7341,
+            "draw": 0.1066,
+            "win_b": 0.1593
+          },
+          "random_forest": {
+            "win_a": 0.4478,
+            "draw": 0.3222,
+            "win_b": 0.2299
+          },
+          "ensemble_avg": {
+            "win_a": 0.582,
+            "draw": 0.2274,
+            "win_b": 0.1907
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5611,
+            "draw": 0.2261,
+            "win_b": 0.2127
+          }
+        },
+        {
+          "team_a": "NED",
+          "team_b": "SWE",
+          "xgboost": {
+            "win_a": 0.6368,
+            "draw": 0.216,
+            "win_b": 0.1473
+          },
+          "logistic_regression": {
+            "win_a": 0.5891,
+            "draw": 0.244,
+            "win_b": 0.1669
+          },
+          "lightgbm": {
+            "win_a": 0.7128,
+            "draw": 0.1118,
+            "win_b": 0.1753
+          },
+          "random_forest": {
+            "win_a": 0.4378,
+            "draw": 0.3277,
+            "win_b": 0.2345
+          },
+          "ensemble_avg": {
+            "win_a": 0.5941,
+            "draw": 0.2249,
+            "win_b": 0.181
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5799,
+            "draw": 0.2278,
+            "win_b": 0.1922
+          }
+        },
+        {
+          "team_a": "NED",
+          "team_b": "TUN",
+          "xgboost": {
+            "win_a": 0.6728,
+            "draw": 0.2153,
+            "win_b": 0.1119
+          },
+          "logistic_regression": {
+            "win_a": 0.6357,
+            "draw": 0.2451,
+            "win_b": 0.1192
+          },
+          "lightgbm": {
+            "win_a": 0.7293,
+            "draw": 0.1207,
+            "win_b": 0.15
+          },
+          "random_forest": {
+            "win_a": 0.4738,
+            "draw": 0.3069,
+            "win_b": 0.2193
+          },
+          "ensemble_avg": {
+            "win_a": 0.6279,
+            "draw": 0.222,
+            "win_b": 0.1501
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6129,
+            "draw": 0.2242,
+            "win_b": 0.1628
+          }
+        },
+        {
+          "team_a": "JPN",
+          "team_b": "SWE",
+          "xgboost": {
+            "win_a": 0.4773,
+            "draw": 0.243,
+            "win_b": 0.2797
+          },
+          "logistic_regression": {
+            "win_a": 0.4746,
+            "draw": 0.2571,
+            "win_b": 0.2683
+          },
+          "lightgbm": {
+            "win_a": 0.651,
+            "draw": 0.0983,
+            "win_b": 0.2507
+          },
+          "random_forest": {
+            "win_a": 0.3889,
+            "draw": 0.2829,
+            "win_b": 0.3282
+          },
+          "ensemble_avg": {
+            "win_a": 0.498,
+            "draw": 0.2203,
+            "win_b": 0.2817
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5048,
+            "draw": 0.2128,
+            "win_b": 0.2824
+          }
+        },
+        {
+          "team_a": "JPN",
+          "team_b": "TUN",
+          "xgboost": {
+            "win_a": 0.6454,
+            "draw": 0.2315,
+            "win_b": 0.1231
+          },
+          "logistic_regression": {
+            "win_a": 0.5644,
+            "draw": 0.2432,
+            "win_b": 0.1923
+          },
+          "lightgbm": {
+            "win_a": 0.6738,
+            "draw": 0.1137,
+            "win_b": 0.2125
+          },
+          "random_forest": {
+            "win_a": 0.4782,
+            "draw": 0.2667,
+            "win_b": 0.2551
+          },
+          "ensemble_avg": {
+            "win_a": 0.5905,
+            "draw": 0.2138,
+            "win_b": 0.1958
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5721,
+            "draw": 0.2079,
+            "win_b": 0.22
+          }
+        },
+        {
+          "team_a": "SWE",
+          "team_b": "TUN",
+          "xgboost": {
+            "win_a": 0.5632,
+            "draw": 0.2797,
+            "win_b": 0.157
+          },
+          "logistic_regression": {
+            "win_a": 0.4299,
+            "draw": 0.2747,
+            "win_b": 0.2954
+          },
+          "lightgbm": {
+            "win_a": 0.5834,
+            "draw": 0.1452,
+            "win_b": 0.2714
+          },
+          "random_forest": {
+            "win_a": 0.431,
+            "draw": 0.2901,
+            "win_b": 0.2789
+          },
+          "ensemble_avg": {
+            "win_a": 0.5019,
+            "draw": 0.2474,
+            "win_b": 0.2507
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.4814,
+            "draw": 0.2367,
+            "win_b": 0.2819
+          }
+        }
+      ]
+    },
+    "G": {
+      "teams": [
+        "BEL",
+        "EGY",
+        "IRN",
+        "NZL"
+      ],
+      "matches": [
+        {
+          "team_a": "BEL",
+          "team_b": "EGY",
+          "xgboost": {
+            "win_a": 0.7023,
+            "draw": 0.1919,
+            "win_b": 0.1058
+          },
+          "logistic_regression": {
+            "win_a": 0.5681,
+            "draw": 0.2457,
+            "win_b": 0.1862
+          },
+          "lightgbm": {
+            "win_a": 0.6811,
+            "draw": 0.0991,
+            "win_b": 0.2199
+          },
+          "random_forest": {
+            "win_a": 0.4783,
+            "draw": 0.2788,
+            "win_b": 0.2429
+          },
+          "ensemble_avg": {
+            "win_a": 0.6075,
+            "draw": 0.2039,
+            "win_b": 0.1887
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5758,
+            "draw": 0.2079,
+            "win_b": 0.2163
+          }
+        },
+        {
+          "team_a": "BEL",
+          "team_b": "IRN",
+          "xgboost": {
+            "win_a": 0.6758,
+            "draw": 0.2255,
+            "win_b": 0.0988
+          },
+          "logistic_regression": {
+            "win_a": 0.5912,
+            "draw": 0.2397,
+            "win_b": 0.1691
+          },
+          "lightgbm": {
+            "win_a": 0.6169,
+            "draw": 0.1212,
+            "win_b": 0.262
+          },
+          "random_forest": {
+            "win_a": 0.4637,
+            "draw": 0.2895,
+            "win_b": 0.2468
+          },
+          "ensemble_avg": {
+            "win_a": 0.5869,
+            "draw": 0.219,
+            "win_b": 0.1942
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5573,
+            "draw": 0.2168,
+            "win_b": 0.226
+          }
+        },
+        {
+          "team_a": "BEL",
+          "team_b": "NZL",
+          "xgboost": {
+            "win_a": 0.6798,
+            "draw": 0.1997,
+            "win_b": 0.1205
+          },
+          "logistic_regression": {
+            "win_a": 0.6415,
+            "draw": 0.2338,
+            "win_b": 0.1246
+          },
+          "lightgbm": {
+            "win_a": 0.6931,
+            "draw": 0.09,
+            "win_b": 0.2169
+          },
+          "random_forest": {
+            "win_a": 0.494,
+            "draw": 0.2773,
+            "win_b": 0.2287
+          },
+          "ensemble_avg": {
+            "win_a": 0.6271,
+            "draw": 0.2002,
+            "win_b": 0.1727
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6095,
+            "draw": 0.2004,
+            "win_b": 0.1901
+          }
+        },
+        {
+          "team_a": "EGY",
+          "team_b": "IRN",
+          "xgboost": {
+            "win_a": 0.2402,
+            "draw": 0.2862,
+            "win_b": 0.4737
+          },
+          "logistic_regression": {
+            "win_a": 0.4128,
+            "draw": 0.2391,
+            "win_b": 0.3481
+          },
+          "lightgbm": {
+            "win_a": 0.3415,
+            "draw": 0.1028,
+            "win_b": 0.5557
+          },
+          "random_forest": {
+            "win_a": 0.3244,
+            "draw": 0.2777,
+            "win_b": 0.398
+          },
+          "ensemble_avg": {
+            "win_a": 0.3297,
+            "draw": 0.2264,
+            "win_b": 0.4438
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.3596,
+            "draw": 0.2065,
+            "win_b": 0.4339
+          }
+        },
+        {
+          "team_a": "EGY",
+          "team_b": "NZL",
+          "xgboost": {
+            "win_a": 0.6181,
+            "draw": 0.2233,
+            "win_b": 0.1586
+          },
+          "logistic_regression": {
+            "win_a": 0.458,
+            "draw": 0.2644,
+            "win_b": 0.2777
+          },
+          "lightgbm": {
+            "win_a": 0.6156,
+            "draw": 0.0859,
+            "win_b": 0.2985
+          },
+          "random_forest": {
+            "win_a": 0.4494,
+            "draw": 0.2631,
+            "win_b": 0.2876
+          },
+          "ensemble_avg": {
+            "win_a": 0.5352,
+            "draw": 0.2092,
+            "win_b": 0.2556
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5077,
+            "draw": 0.2045,
+            "win_b": 0.2879
+          }
+        },
+        {
+          "team_a": "IRN",
+          "team_b": "NZL",
+          "xgboost": {
+            "win_a": 0.614,
+            "draw": 0.219,
+            "win_b": 0.167
+          },
+          "logistic_regression": {
+            "win_a": 0.4031,
+            "draw": 0.2616,
+            "win_b": 0.3353
+          },
+          "lightgbm": {
+            "win_a": 0.6136,
+            "draw": 0.1104,
+            "win_b": 0.276
+          },
+          "random_forest": {
+            "win_a": 0.4314,
+            "draw": 0.2985,
+            "win_b": 0.2702
+          },
+          "ensemble_avg": {
+            "win_a": 0.5155,
+            "draw": 0.2224,
+            "win_b": 0.2621
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.4827,
+            "draw": 0.2235,
+            "win_b": 0.2938
+          }
+        }
+      ]
+    },
+    "H": {
+      "teams": [
+        "ESP",
+        "URU",
+        "KSA",
+        "CPV"
+      ],
+      "matches": [
+        {
+          "team_a": "ESP",
+          "team_b": "URU",
+          "xgboost": {
+            "win_a": 0.6346,
+            "draw": 0.2274,
+            "win_b": 0.138
+          },
+          "logistic_regression": {
+            "win_a": 0.541,
+            "draw": 0.2235,
+            "win_b": 0.2355
+          },
+          "lightgbm": {
+            "win_a": 0.7913,
+            "draw": 0.0707,
+            "win_b": 0.138
+          },
+          "random_forest": {
+            "win_a": 0.43,
+            "draw": 0.3087,
+            "win_b": 0.2613
+          },
+          "ensemble_avg": {
+            "win_a": 0.5992,
+            "draw": 0.2076,
+            "win_b": 0.1932
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5874,
+            "draw": 0.201,
+            "win_b": 0.2116
+          }
+        },
+        {
+          "team_a": "ESP",
+          "team_b": "KSA",
+          "xgboost": {
+            "win_a": 0.6957,
+            "draw": 0.2051,
+            "win_b": 0.0991
+          },
+          "logistic_regression": {
+            "win_a": 0.7216,
+            "draw": 0.2227,
+            "win_b": 0.0557
+          },
+          "lightgbm": {
+            "win_a": 0.7498,
+            "draw": 0.0948,
+            "win_b": 0.1554
+          },
+          "random_forest": {
+            "win_a": 0.5122,
+            "draw": 0.2797,
+            "win_b": 0.2081
+          },
+          "ensemble_avg": {
+            "win_a": 0.6698,
+            "draw": 0.2006,
+            "win_b": 0.1296
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6612,
+            "draw": 0.1991,
+            "win_b": 0.1397
+          }
+        },
+        {
+          "team_a": "ESP",
+          "team_b": "CPV",
+          "xgboost": {
+            "win_a": 0.7129,
+            "draw": 0.1904,
+            "win_b": 0.0967
+          },
+          "logistic_regression": {
+            "win_a": 0.7067,
+            "draw": 0.2379,
+            "win_b": 0.0554
+          },
+          "lightgbm": {
+            "win_a": 0.7781,
+            "draw": 0.0813,
+            "win_b": 0.1406
+          },
+          "random_forest": {
+            "win_a": 0.5155,
+            "draw": 0.2726,
+            "win_b": 0.2119
+          },
+          "ensemble_avg": {
+            "win_a": 0.6783,
+            "draw": 0.1956,
+            "win_b": 0.1261
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6668,
+            "draw": 0.1973,
+            "win_b": 0.136
+          }
+        },
+        {
+          "team_a": "URU",
+          "team_b": "KSA",
+          "xgboost": {
+            "win_a": 0.69,
+            "draw": 0.2178,
+            "win_b": 0.0922
+          },
+          "logistic_regression": {
+            "win_a": 0.6503,
+            "draw": 0.2415,
+            "win_b": 0.1082
+          },
+          "lightgbm": {
+            "win_a": 0.6317,
+            "draw": 0.0909,
+            "win_b": 0.2774
+          },
+          "random_forest": {
+            "win_a": 0.4817,
+            "draw": 0.2943,
+            "win_b": 0.224
+          },
+          "ensemble_avg": {
+            "win_a": 0.6134,
+            "draw": 0.2111,
+            "win_b": 0.1755
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5879,
+            "draw": 0.2089,
+            "win_b": 0.2032
+          }
+        },
+        {
+          "team_a": "URU",
+          "team_b": "CPV",
+          "xgboost": {
+            "win_a": 0.6668,
+            "draw": 0.2314,
+            "win_b": 0.1019
+          },
+          "logistic_regression": {
+            "win_a": 0.6688,
+            "draw": 0.2132,
+            "win_b": 0.118
+          },
+          "lightgbm": {
+            "win_a": 0.6777,
+            "draw": 0.1065,
+            "win_b": 0.2157
+          },
+          "random_forest": {
+            "win_a": 0.505,
+            "draw": 0.2738,
+            "win_b": 0.2211
+          },
+          "ensemble_avg": {
+            "win_a": 0.6296,
+            "draw": 0.2062,
+            "win_b": 0.1642
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6172,
+            "draw": 0.1978,
+            "win_b": 0.1849
+          }
+        },
+        {
+          "team_a": "KSA",
+          "team_b": "CPV",
+          "xgboost": {
+            "win_a": 0.504,
+            "draw": 0.2779,
+            "win_b": 0.2182
+          },
+          "logistic_regression": {
+            "win_a": 0.3794,
+            "draw": 0.2189,
+            "win_b": 0.4017
+          },
+          "lightgbm": {
+            "win_a": 0.5408,
+            "draw": 0.1245,
+            "win_b": 0.3348
+          },
+          "random_forest": {
+            "win_a": 0.3974,
+            "draw": 0.2892,
+            "win_b": 0.3134
+          },
+          "ensemble_avg": {
+            "win_a": 0.4554,
+            "draw": 0.2276,
+            "win_b": 0.317
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.4392,
+            "draw": 0.2109,
+            "win_b": 0.35
+          }
+        }
+      ]
+    },
+    "I": {
+      "teams": [
+        "FRA",
+        "NOR",
+        "SEN",
+        "IRQ"
+      ],
+      "matches": [
+        {
+          "team_a": "FRA",
+          "team_b": "NOR",
+          "xgboost": {
+            "win_a": 0.6485,
+            "draw": 0.193,
+            "win_b": 0.1585
+          },
+          "logistic_regression": {
+            "win_a": 0.5348,
+            "draw": 0.2526,
+            "win_b": 0.2125
+          },
+          "lightgbm": {
+            "win_a": 0.7635,
+            "draw": 0.0807,
+            "win_b": 0.1559
+          },
+          "random_forest": {
+            "win_a": 0.468,
+            "draw": 0.3077,
+            "win_b": 0.2243
+          },
+          "ensemble_avg": {
+            "win_a": 0.6037,
+            "draw": 0.2085,
+            "win_b": 0.1878
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5888,
+            "draw": 0.2137,
+            "win_b": 0.1976
+          }
+        },
+        {
+          "team_a": "FRA",
+          "team_b": "SEN",
+          "xgboost": {
+            "win_a": 0.6066,
+            "draw": 0.268,
+            "win_b": 0.1254
+          },
+          "logistic_regression": {
+            "win_a": 0.5738,
+            "draw": 0.2386,
+            "win_b": 0.1876
+          },
+          "lightgbm": {
+            "win_a": 0.7495,
+            "draw": 0.0885,
+            "win_b": 0.162
+          },
+          "random_forest": {
+            "win_a": 0.4399,
+            "draw": 0.3121,
+            "win_b": 0.248
+          },
+          "ensemble_avg": {
+            "win_a": 0.5925,
+            "draw": 0.2268,
+            "win_b": 0.1808
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5877,
+            "draw": 0.2131,
+            "win_b": 0.1992
+          }
+        },
+        {
+          "team_a": "FRA",
+          "team_b": "IRQ",
+          "xgboost": {
+            "win_a": 0.7231,
+            "draw": 0.1887,
+            "win_b": 0.0882
+          },
+          "logistic_regression": {
+            "win_a": 0.7233,
+            "draw": 0.2234,
+            "win_b": 0.0533
+          },
+          "lightgbm": {
+            "win_a": 0.7474,
+            "draw": 0.1028,
+            "win_b": 0.1498
+          },
+          "random_forest": {
+            "win_a": 0.4997,
+            "draw": 0.289,
+            "win_b": 0.2113
+          },
+          "ensemble_avg": {
+            "win_a": 0.6734,
+            "draw": 0.201,
+            "win_b": 0.1256
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6568,
+            "draw": 0.2051,
+            "win_b": 0.1381
+          }
+        },
+        {
+          "team_a": "NOR",
+          "team_b": "SEN",
+          "xgboost": {
+            "win_a": 0.2371,
+            "draw": 0.2333,
+            "win_b": 0.5296
+          },
+          "logistic_regression": {
+            "win_a": 0.4526,
+            "draw": 0.2405,
+            "win_b": 0.3069
+          },
+          "lightgbm": {
+            "win_a": 0.1847,
+            "draw": 0.146,
+            "win_b": 0.6693
+          },
+          "random_forest": {
+            "win_a": 0.2773,
+            "draw": 0.2949,
+            "win_b": 0.4278
+          },
+          "ensemble_avg": {
+            "win_a": 0.2879,
+            "draw": 0.2287,
+            "win_b": 0.4834
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.3049,
+            "draw": 0.2271,
+            "win_b": 0.468
+          }
+        },
+        {
+          "team_a": "NOR",
+          "team_b": "IRQ",
+          "xgboost": {
+            "win_a": 0.6575,
+            "draw": 0.2476,
+            "win_b": 0.0949
+          },
+          "logistic_regression": {
+            "win_a": 0.6794,
+            "draw": 0.2192,
+            "win_b": 0.1014
+          },
+          "lightgbm": {
+            "win_a": 0.6638,
+            "draw": 0.1167,
+            "win_b": 0.2195
+          },
+          "random_forest": {
+            "win_a": 0.4625,
+            "draw": 0.2942,
+            "win_b": 0.2433
+          },
+          "ensemble_avg": {
+            "win_a": 0.6158,
+            "draw": 0.2194,
+            "win_b": 0.1648
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6019,
+            "draw": 0.21,
+            "win_b": 0.1881
+          }
+        },
+        {
+          "team_a": "SEN",
+          "team_b": "IRQ",
+          "xgboost": {
+            "win_a": 0.6755,
+            "draw": 0.2196,
+            "win_b": 0.1049
+          },
+          "logistic_regression": {
+            "win_a": 0.6386,
+            "draw": 0.2299,
+            "win_b": 0.1316
+          },
+          "lightgbm": {
+            "win_a": 0.7663,
+            "draw": 0.0653,
+            "win_b": 0.1684
+          },
+          "random_forest": {
+            "win_a": 0.5309,
+            "draw": 0.2484,
+            "win_b": 0.2207
+          },
+          "ensemble_avg": {
+            "win_a": 0.6528,
+            "draw": 0.1908,
+            "win_b": 0.1564
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6453,
+            "draw": 0.1812,
+            "win_b": 0.1736
+          }
+        }
+      ]
+    },
+    "J": {
+      "teams": [
+        "ARG",
+        "AUT",
+        "ALG",
+        "JOR"
+      ],
+      "matches": [
+        {
+          "team_a": "ARG",
+          "team_b": "AUT",
+          "xgboost": {
+            "win_a": 0.7224,
+            "draw": 0.1738,
+            "win_b": 0.1038
+          },
+          "logistic_regression": {
+            "win_a": 0.5685,
+            "draw": 0.2424,
+            "win_b": 0.1891
+          },
+          "lightgbm": {
+            "win_a": 0.7455,
+            "draw": 0.0919,
+            "win_b": 0.1625
+          },
+          "random_forest": {
+            "win_a": 0.4664,
+            "draw": 0.2967,
+            "win_b": 0.2369
+          },
+          "ensemble_avg": {
+            "win_a": 0.6257,
+            "draw": 0.2012,
+            "win_b": 0.1731
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5935,
+            "draw": 0.2103,
+            "win_b": 0.1962
+          }
+        },
+        {
+          "team_a": "ARG",
+          "team_b": "ALG",
+          "xgboost": {
+            "win_a": 0.7281,
+            "draw": 0.1761,
+            "win_b": 0.0958
+          },
+          "logistic_regression": {
+            "win_a": 0.6108,
+            "draw": 0.2412,
+            "win_b": 0.1481
+          },
+          "lightgbm": {
+            "win_a": 0.7454,
+            "draw": 0.1145,
+            "win_b": 0.1401
+          },
+          "random_forest": {
+            "win_a": 0.4793,
+            "draw": 0.314,
+            "win_b": 0.2067
+          },
+          "ensemble_avg": {
+            "win_a": 0.6409,
+            "draw": 0.2115,
+            "win_b": 0.1477
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6118,
+            "draw": 0.2232,
+            "win_b": 0.165
+          }
+        },
+        {
+          "team_a": "ARG",
+          "team_b": "JOR",
+          "xgboost": {
+            "win_a": 0.6779,
+            "draw": 0.2116,
+            "win_b": 0.1105
+          },
+          "logistic_regression": {
+            "win_a": 0.7202,
+            "draw": 0.2277,
+            "win_b": 0.0521
+          },
+          "lightgbm": {
+            "win_a": 0.7415,
+            "draw": 0.0797,
+            "win_b": 0.1788
+          },
+          "random_forest": {
+            "win_a": 0.508,
+            "draw": 0.2831,
+            "win_b": 0.2089
+          },
+          "ensemble_avg": {
+            "win_a": 0.6619,
+            "draw": 0.2005,
+            "win_b": 0.1376
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6566,
+            "draw": 0.1968,
+            "win_b": 0.1466
+          }
+        },
+        {
+          "team_a": "AUT",
+          "team_b": "ALG",
+          "xgboost": {
+            "win_a": 0.4883,
+            "draw": 0.3025,
+            "win_b": 0.2092
+          },
+          "logistic_regression": {
+            "win_a": 0.4336,
+            "draw": 0.2402,
+            "win_b": 0.3262
+          },
+          "lightgbm": {
+            "win_a": 0.5805,
+            "draw": 0.1502,
+            "win_b": 0.2693
+          },
+          "random_forest": {
+            "win_a": 0.4004,
+            "draw": 0.3044,
+            "win_b": 0.2952
+          },
+          "ensemble_avg": {
+            "win_a": 0.4757,
+            "draw": 0.2493,
+            "win_b": 0.275
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.4715,
+            "draw": 0.2316,
+            "win_b": 0.2969
+          }
+        },
+        {
+          "team_a": "AUT",
+          "team_b": "JOR",
+          "xgboost": {
+            "win_a": 0.6145,
+            "draw": 0.2623,
+            "win_b": 0.1232
+          },
+          "logistic_regression": {
+            "win_a": 0.6378,
+            "draw": 0.2341,
+            "win_b": 0.1281
+          },
+          "lightgbm": {
+            "win_a": 0.6844,
+            "draw": 0.1005,
+            "win_b": 0.2151
+          },
+          "random_forest": {
+            "win_a": 0.4828,
+            "draw": 0.2829,
+            "win_b": 0.2343
+          },
+          "ensemble_avg": {
+            "win_a": 0.6049,
+            "draw": 0.2199,
+            "win_b": 0.1752
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6017,
+            "draw": 0.2058,
+            "win_b": 0.1925
+          }
+        },
+        {
+          "team_a": "ALG",
+          "team_b": "JOR",
+          "xgboost": {
+            "win_a": 0.6086,
+            "draw": 0.2612,
+            "win_b": 0.1302
+          },
+          "logistic_regression": {
+            "win_a": 0.5906,
+            "draw": 0.2451,
+            "win_b": 0.1643
+          },
+          "lightgbm": {
+            "win_a": 0.672,
+            "draw": 0.1035,
+            "win_b": 0.2245
+          },
+          "random_forest": {
+            "win_a": 0.4841,
+            "draw": 0.2601,
+            "win_b": 0.2559
+          },
+          "ensemble_avg": {
+            "win_a": 0.5888,
+            "draw": 0.2175,
+            "win_b": 0.1937
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5822,
+            "draw": 0.2029,
+            "win_b": 0.2149
+          }
+        }
+      ]
+    },
+    "K": {
+      "teams": [
+        "POR",
+        "COL",
+        "COD",
+        "UZB"
+      ],
+      "matches": [
+        {
+          "team_a": "POR",
+          "team_b": "COL",
+          "xgboost": {
+            "win_a": 0.583,
+            "draw": 0.2623,
+            "win_b": 0.1547
+          },
+          "logistic_regression": {
+            "win_a": 0.5116,
+            "draw": 0.2264,
+            "win_b": 0.262
+          },
+          "lightgbm": {
+            "win_a": 0.7185,
+            "draw": 0.1055,
+            "win_b": 0.176
+          },
+          "random_forest": {
+            "win_a": 0.4191,
+            "draw": 0.3002,
+            "win_b": 0.2807
+          },
+          "ensemble_avg": {
+            "win_a": 0.5581,
+            "draw": 0.2236,
+            "win_b": 0.2184
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5497,
+            "draw": 0.2107,
+            "win_b": 0.2396
+          }
+        },
+        {
+          "team_a": "POR",
+          "team_b": "COD",
+          "xgboost": {
+            "win_a": 0.7162,
+            "draw": 0.1816,
+            "win_b": 0.1022
+          },
+          "logistic_regression": {
+            "win_a": 0.6956,
+            "draw": 0.2322,
+            "win_b": 0.0721
+          },
+          "lightgbm": {
+            "win_a": 0.7834,
+            "draw": 0.0883,
+            "win_b": 0.1282
+          },
+          "random_forest": {
+            "win_a": 0.5185,
+            "draw": 0.2641,
+            "win_b": 0.2175
+          },
+          "ensemble_avg": {
+            "win_a": 0.6784,
+            "draw": 0.1916,
+            "win_b": 0.13
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6658,
+            "draw": 0.1949,
+            "win_b": 0.1393
+          }
+        },
+        {
+          "team_a": "POR",
+          "team_b": "UZB",
+          "xgboost": {
+            "win_a": 0.6792,
+            "draw": 0.2208,
+            "win_b": 0.1
+          },
+          "logistic_regression": {
+            "win_a": 0.6451,
+            "draw": 0.2355,
+            "win_b": 0.1194
+          },
+          "lightgbm": {
+            "win_a": 0.7754,
+            "draw": 0.0765,
+            "win_b": 0.1481
+          },
+          "random_forest": {
+            "win_a": 0.5081,
+            "draw": 0.2742,
+            "win_b": 0.2177
+          },
+          "ensemble_avg": {
+            "win_a": 0.6519,
+            "draw": 0.2018,
+            "win_b": 0.1463
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6429,
+            "draw": 0.1954,
+            "win_b": 0.1617
+          }
+        },
+        {
+          "team_a": "COL",
+          "team_b": "COD",
+          "xgboost": {
+            "win_a": 0.6295,
+            "draw": 0.239,
+            "win_b": 0.1314
+          },
+          "logistic_regression": {
+            "win_a": 0.6568,
+            "draw": 0.2355,
+            "win_b": 0.1077
+          },
+          "lightgbm": {
+            "win_a": 0.6489,
+            "draw": 0.1038,
+            "win_b": 0.2473
+          },
+          "random_forest": {
+            "win_a": 0.5133,
+            "draw": 0.2631,
+            "win_b": 0.2236
+          },
+          "ensemble_avg": {
+            "win_a": 0.6121,
+            "draw": 0.2104,
+            "win_b": 0.1775
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6063,
+            "draw": 0.2008,
+            "win_b": 0.1929
+          }
+        },
+        {
+          "team_a": "COL",
+          "team_b": "UZB",
+          "xgboost": {
+            "win_a": 0.6195,
+            "draw": 0.2534,
+            "win_b": 0.127
+          },
+          "logistic_regression": {
+            "win_a": 0.5719,
+            "draw": 0.2475,
+            "win_b": 0.1806
+          },
+          "lightgbm": {
+            "win_a": 0.627,
+            "draw": 0.1097,
+            "win_b": 0.2633
+          },
+          "random_forest": {
+            "win_a": 0.4946,
+            "draw": 0.2791,
+            "win_b": 0.2263
+          },
+          "ensemble_avg": {
+            "win_a": 0.5783,
+            "draw": 0.2224,
+            "win_b": 0.1993
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5645,
+            "draw": 0.2121,
+            "win_b": 0.2234
+          }
+        },
+        {
+          "team_a": "COD",
+          "team_b": "UZB",
+          "xgboost": {
+            "win_a": 0.2254,
+            "draw": 0.2704,
+            "win_b": 0.5042
+          },
+          "logistic_regression": {
+            "win_a": 0.2385,
+            "draw": 0.2483,
+            "win_b": 0.5132
+          },
+          "lightgbm": {
+            "win_a": 0.2596,
+            "draw": 0.0941,
+            "win_b": 0.6464
+          },
+          "random_forest": {
+            "win_a": 0.3179,
+            "draw": 0.2652,
+            "win_b": 0.4169
+          },
+          "ensemble_avg": {
+            "win_a": 0.2603,
+            "draw": 0.2195,
+            "win_b": 0.5202
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.272,
+            "draw": 0.2025,
+            "win_b": 0.5255
+          }
+        }
+      ]
+    },
+    "L": {
+      "teams": [
+        "ENG",
+        "CRO",
+        "GHA",
+        "PAN"
+      ],
+      "matches": [
+        {
+          "team_a": "ENG",
+          "team_b": "CRO",
+          "xgboost": {
+            "win_a": 0.5255,
+            "draw": 0.3392,
+            "win_b": 0.1352
+          },
+          "logistic_regression": {
+            "win_a": 0.5709,
+            "draw": 0.2384,
+            "win_b": 0.1908
+          },
+          "lightgbm": {
+            "win_a": 0.6353,
+            "draw": 0.1344,
+            "win_b": 0.2303
+          },
+          "random_forest": {
+            "win_a": 0.3709,
+            "draw": 0.3201,
+            "win_b": 0.3091
+          },
+          "ensemble_avg": {
+            "win_a": 0.5256,
+            "draw": 0.258,
+            "win_b": 0.2163
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5257,
+            "draw": 0.231,
+            "win_b": 0.2434
+          }
+        },
+        {
+          "team_a": "ENG",
+          "team_b": "GHA",
+          "xgboost": {
+            "win_a": 0.6446,
+            "draw": 0.248,
+            "win_b": 0.1074
+          },
+          "logistic_regression": {
+            "win_a": 0.6738,
+            "draw": 0.2212,
+            "win_b": 0.105
+          },
+          "lightgbm": {
+            "win_a": 0.7994,
+            "draw": 0.0759,
+            "win_b": 0.1248
+          },
+          "random_forest": {
+            "win_a": 0.4918,
+            "draw": 0.2833,
+            "win_b": 0.2249
+          },
+          "ensemble_avg": {
+            "win_a": 0.6524,
+            "draw": 0.2071,
+            "win_b": 0.1405
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.655,
+            "draw": 0.1935,
+            "win_b": 0.1516
+          }
+        },
+        {
+          "team_a": "ENG",
+          "team_b": "PAN",
+          "xgboost": {
+            "win_a": 0.7263,
+            "draw": 0.1883,
+            "win_b": 0.0854
+          },
+          "logistic_regression": {
+            "win_a": 0.7296,
+            "draw": 0.2164,
+            "win_b": 0.054
+          },
+          "lightgbm": {
+            "win_a": 0.7164,
+            "draw": 0.1179,
+            "win_b": 0.1657
+          },
+          "random_forest": {
+            "win_a": 0.5126,
+            "draw": 0.2838,
+            "win_b": 0.2036
+          },
+          "ensemble_avg": {
+            "win_a": 0.6712,
+            "draw": 0.2016,
+            "win_b": 0.1272
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.6529,
+            "draw": 0.206,
+            "win_b": 0.1411
+          }
+        },
+        {
+          "team_a": "CRO",
+          "team_b": "GHA",
+          "xgboost": {
+            "win_a": 0.63,
+            "draw": 0.2409,
+            "win_b": 0.1291
+          },
+          "logistic_regression": {
+            "win_a": 0.5526,
+            "draw": 0.2579,
+            "win_b": 0.1894
+          },
+          "lightgbm": {
+            "win_a": 0.7218,
+            "draw": 0.11,
+            "win_b": 0.1681
+          },
+          "random_forest": {
+            "win_a": 0.4438,
+            "draw": 0.307,
+            "win_b": 0.2492
+          },
+          "ensemble_avg": {
+            "win_a": 0.5871,
+            "draw": 0.229,
+            "win_b": 0.184
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5727,
+            "draw": 0.225,
+            "win_b": 0.2022
+          }
+        },
+        {
+          "team_a": "CRO",
+          "team_b": "PAN",
+          "xgboost": {
+            "win_a": 0.688,
+            "draw": 0.2185,
+            "win_b": 0.0935
+          },
+          "logistic_regression": {
+            "win_a": 0.6486,
+            "draw": 0.2224,
+            "win_b": 0.129
+          },
+          "lightgbm": {
+            "win_a": 0.6421,
+            "draw": 0.127,
+            "win_b": 0.2309
+          },
+          "random_forest": {
+            "win_a": 0.4629,
+            "draw": 0.3052,
+            "win_b": 0.2319
+          },
+          "ensemble_avg": {
+            "win_a": 0.6104,
+            "draw": 0.2183,
+            "win_b": 0.1713
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.5845,
+            "draw": 0.2182,
+            "win_b": 0.1973
+          }
+        },
+        {
+          "team_a": "GHA",
+          "team_b": "PAN",
+          "xgboost": {
+            "win_a": 0.2781,
+            "draw": 0.3311,
+            "win_b": 0.3908
+          },
+          "logistic_regression": {
+            "win_a": 0.5272,
+            "draw": 0.2189,
+            "win_b": 0.2539
+          },
+          "lightgbm": {
+            "win_a": 0.2547,
+            "draw": 0.1212,
+            "win_b": 0.6242
+          },
+          "random_forest": {
+            "win_a": 0.3685,
+            "draw": 0.2682,
+            "win_b": 0.3633
+          },
+          "ensemble_avg": {
+            "win_a": 0.3571,
+            "draw": 0.2348,
+            "win_b": 0.408
+          },
+          "ensemble_no_xgb": {
+            "win_a": 0.3835,
+            "draw": 0.2028,
+            "win_b": 0.4138
+          }
+        }
+      ]
+    }
+  }
+}

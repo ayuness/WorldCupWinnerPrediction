@@ -1,0 +1,1076 @@
+{
+  "description": "Predicciones de fase eliminatoria del Mundial FIFA 2026 (determinista: avanza el favorito del ensemble_no_xgb = LogReg+LightGBM+RF)",
+  "decision_criterion": "ensemble_no_xgb (promedio de LogReg + LightGBM + RF, sin XGBoost)",
+  "models": {
+    "xgboost": "XGBoost temporal-master pipeline",
+    "logistic_regression": "Logistic Regression (ElasticNet) temporal-master pipeline",
+    "lightgbm": "LightGBM walk-forward pipeline",
+    "random_forest": "Random Forest walk-forward pipeline",
+    "ensemble_avg": "Promedio de los 4 modelos",
+    "ensemble_no_xgb": "Promedio de logistic_regression + lightgbm + random_forest (sin XGBoost) — CRITERIO DE AVANCE"
+  },
+  "methodology": {
+    "best_thirds_selection": "Todos los terceros tienen 3 pts; desempate por promedio de P(win) del ensemble en fase de grupos",
+    "thirds_bracket_assignment": "Algoritmo greedy most-constrained-first según pools FIFA",
+    "knockout_winner": "argmax de ensemble_no_xgb (draw redistribuido proporcionalmente)"
+  },
+  "group_stage_results": {
+    "firsts": {
+      "A": "MEX",
+      "B": "SUI",
+      "C": "BRA",
+      "D": "USA",
+      "E": "GER",
+      "F": "NED",
+      "G": "BEL",
+      "H": "ESP",
+      "I": "FRA",
+      "J": "ARG",
+      "K": "POR",
+      "L": "ENG"
+    },
+    "seconds": {
+      "A": "KOR",
+      "B": "CAN",
+      "C": "MAR",
+      "D": "TUR",
+      "E": "ECU",
+      "F": "JPN",
+      "G": "IRN",
+      "H": "URU",
+      "I": "SEN",
+      "J": "AUT",
+      "K": "COL",
+      "L": "CRO"
+    },
+    "best_thirds": {
+      "I": "NOR",
+      "A": "CZE",
+      "G": "EGY",
+      "E": "CIV",
+      "J": "ALG",
+      "F": "SWE",
+      "D": "AUS",
+      "C": "SCO"
+    },
+    "best_thirds_ranking": [
+      {
+        "team": "NOR",
+        "group": "I",
+        "pts": 3,
+        "avg_ensemble_win_pct": 0.3638
+      },
+      {
+        "team": "CZE",
+        "group": "A",
+        "pts": 3,
+        "avg_ensemble_win_pct": 0.3598
+      },
+      {
+        "team": "EGY",
+        "group": "G",
+        "pts": 3,
+        "avg_ensemble_win_pct": 0.3512
+      },
+      {
+        "team": "CIV",
+        "group": "E",
+        "pts": 3,
+        "avg_ensemble_win_pct": 0.3447
+      },
+      {
+        "team": "ALG",
+        "group": "J",
+        "pts": 3,
+        "avg_ensemble_win_pct": 0.3372
+      },
+      {
+        "team": "SWE",
+        "group": "F",
+        "pts": 3,
+        "avg_ensemble_win_pct": 0.3215
+      },
+      {
+        "team": "AUS",
+        "group": "D",
+        "pts": 3,
+        "avg_ensemble_win_pct": 0.3179
+      },
+      {
+        "team": "SCO",
+        "group": "C",
+        "pts": 3,
+        "avg_ensemble_win_pct": 0.3147
+      }
+    ],
+    "thirds_bracket_assignment": {
+      "3_80": "CIV",
+      "3_74": "CZE",
+      "3_77": "SCO",
+      "3_79": "SWE",
+      "3_81": "NOR",
+      "3_82": "ALG",
+      "3_87": "AUS",
+      "3_85": "EGY"
+    },
+    "eliminated_thirds": [
+      [
+        "UZB",
+        "K"
+      ],
+      [
+        "KSA",
+        "H"
+      ],
+      [
+        "QAT",
+        "B"
+      ],
+      [
+        "PAN",
+        "L"
+      ]
+    ]
+  },
+  "knockout_rounds": {
+    "round_of_32": [
+      {
+        "team_a": "KOR",
+        "team_b": "CAN",
+        "xgboost": {
+          "win_a": 0.7226,
+          "win_b": 0.2775
+        },
+        "logistic_regression": {
+          "win_a": 0.6331,
+          "win_b": 0.3669
+        },
+        "lightgbm": {
+          "win_a": 0.4202,
+          "win_b": 0.5798
+        },
+        "random_forest": {
+          "win_a": 0.5545,
+          "win_b": 0.4456
+        },
+        "ensemble_avg": {
+          "win_a": 0.5761,
+          "win_b": 0.4239
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.5308,
+          "win_b": 0.4693
+        },
+        "predicted_winner": "KOR",
+        "match_id": "M73"
+      },
+      {
+        "team_a": "GER",
+        "team_b": "CZE",
+        "xgboost": {
+          "win_a": 0.8837,
+          "win_b": 0.1163
+        },
+        "logistic_regression": {
+          "win_a": 0.8479,
+          "win_b": 0.152
+        },
+        "lightgbm": {
+          "win_a": 0.7718,
+          "win_b": 0.2282
+        },
+        "random_forest": {
+          "win_a": 0.6543,
+          "win_b": 0.3457
+        },
+        "ensemble_avg": {
+          "win_a": 0.7931,
+          "win_b": 0.2069
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.7631,
+          "win_b": 0.2368
+        },
+        "predicted_winner": "GER",
+        "match_id": "M74"
+      },
+      {
+        "team_a": "NED",
+        "team_b": "MAR",
+        "xgboost": {
+          "win_a": 0.7096,
+          "win_b": 0.2904
+        },
+        "logistic_regression": {
+          "win_a": 0.661,
+          "win_b": 0.339
+        },
+        "lightgbm": {
+          "win_a": 0.5801,
+          "win_b": 0.42
+        },
+        "random_forest": {
+          "win_a": 0.5737,
+          "win_b": 0.4263
+        },
+        "ensemble_avg": {
+          "win_a": 0.6292,
+          "win_b": 0.3708
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.6041,
+          "win_b": 0.3959
+        },
+        "predicted_winner": "NED",
+        "match_id": "M75"
+      },
+      {
+        "team_a": "BRA",
+        "team_b": "JPN",
+        "xgboost": {
+          "win_a": 0.8494,
+          "win_b": 0.1506
+        },
+        "logistic_regression": {
+          "win_a": 0.737,
+          "win_b": 0.263
+        },
+        "lightgbm": {
+          "win_a": 0.8025,
+          "win_b": 0.1975
+        },
+        "random_forest": {
+          "win_a": 0.6836,
+          "win_b": 0.3163
+        },
+        "ensemble_avg": {
+          "win_a": 0.7733,
+          "win_b": 0.2268
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.7468,
+          "win_b": 0.2532
+        },
+        "predicted_winner": "BRA",
+        "match_id": "M76"
+      },
+      {
+        "team_a": "FRA",
+        "team_b": "SCO",
+        "xgboost": {
+          "win_a": 0.8696,
+          "win_b": 0.1304
+        },
+        "logistic_regression": {
+          "win_a": 0.8397,
+          "win_b": 0.1603
+        },
+        "lightgbm": {
+          "win_a": 0.7721,
+          "win_b": 0.2279
+        },
+        "random_forest": {
+          "win_a": 0.6842,
+          "win_b": 0.3158
+        },
+        "ensemble_avg": {
+          "win_a": 0.7939,
+          "win_b": 0.2061
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.7683,
+          "win_b": 0.2317
+        },
+        "predicted_winner": "FRA",
+        "match_id": "M77"
+      },
+      {
+        "team_a": "ECU",
+        "team_b": "SEN",
+        "xgboost": {
+          "win_a": 0.2735,
+          "win_b": 0.7266
+        },
+        "logistic_regression": {
+          "win_a": 0.4244,
+          "win_b": 0.5756
+        },
+        "lightgbm": {
+          "win_a": 0.2599,
+          "win_b": 0.74
+        },
+        "random_forest": {
+          "win_a": 0.388,
+          "win_b": 0.612
+        },
+        "ensemble_avg": {
+          "win_a": 0.3334,
+          "win_b": 0.6666
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.3526,
+          "win_b": 0.6473
+        },
+        "predicted_winner": "SEN",
+        "match_id": "M78"
+      },
+      {
+        "team_a": "MEX",
+        "team_b": "SWE",
+        "xgboost": {
+          "win_a": 0.6392,
+          "win_b": 0.3608
+        },
+        "logistic_regression": {
+          "win_a": 0.6261,
+          "win_b": 0.3739
+        },
+        "lightgbm": {
+          "win_a": 0.8417,
+          "win_b": 0.1583
+        },
+        "random_forest": {
+          "win_a": 0.5407,
+          "win_b": 0.4593
+        },
+        "ensemble_avg": {
+          "win_a": 0.6732,
+          "win_b": 0.3268
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.6839,
+          "win_b": 0.3162
+        },
+        "predicted_winner": "MEX",
+        "match_id": "M79"
+      },
+      {
+        "team_a": "ENG",
+        "team_b": "CIV",
+        "xgboost": {
+          "win_a": 0.8775,
+          "win_b": 0.1225
+        },
+        "logistic_regression": {
+          "win_a": 0.8231,
+          "win_b": 0.1769
+        },
+        "lightgbm": {
+          "win_a": 0.8531,
+          "win_b": 0.1469
+        },
+        "random_forest": {
+          "win_a": 0.6812,
+          "win_b": 0.3188
+        },
+        "ensemble_avg": {
+          "win_a": 0.8125,
+          "win_b": 0.1875
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.792,
+          "win_b": 0.2081
+        },
+        "predicted_winner": "ENG",
+        "match_id": "M80"
+      },
+      {
+        "team_a": "USA",
+        "team_b": "NOR",
+        "xgboost": {
+          "win_a": 0.6868,
+          "win_b": 0.3131
+        },
+        "logistic_regression": {
+          "win_a": 0.437,
+          "win_b": 0.563
+        },
+        "lightgbm": {
+          "win_a": 0.8121,
+          "win_b": 0.1878
+        },
+        "random_forest": {
+          "win_a": 0.563,
+          "win_b": 0.437
+        },
+        "ensemble_avg": {
+          "win_a": 0.6342,
+          "win_b": 0.3658
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.6175,
+          "win_b": 0.3825
+        },
+        "predicted_winner": "USA",
+        "match_id": "M81"
+      },
+      {
+        "team_a": "BEL",
+        "team_b": "ALG",
+        "xgboost": {
+          "win_a": 0.8725,
+          "win_b": 0.1274
+        },
+        "logistic_regression": {
+          "win_a": 0.7407,
+          "win_b": 0.2593
+        },
+        "lightgbm": {
+          "win_a": 0.7297,
+          "win_b": 0.2703
+        },
+        "random_forest": {
+          "win_a": 0.6516,
+          "win_b": 0.3484
+        },
+        "ensemble_avg": {
+          "win_a": 0.7509,
+          "win_b": 0.2491
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.71,
+          "win_b": 0.29
+        },
+        "predicted_winner": "BEL",
+        "match_id": "M82"
+      },
+      {
+        "team_a": "COL",
+        "team_b": "CRO",
+        "xgboost": {
+          "win_a": 0.3276,
+          "win_b": 0.6724
+        },
+        "logistic_regression": {
+          "win_a": 0.4068,
+          "win_b": 0.5932
+        },
+        "lightgbm": {
+          "win_a": 0.2959,
+          "win_b": 0.7042
+        },
+        "random_forest": {
+          "win_a": 0.4376,
+          "win_b": 0.5624
+        },
+        "ensemble_avg": {
+          "win_a": 0.3623,
+          "win_b": 0.6377
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.373,
+          "win_b": 0.627
+        },
+        "predicted_winner": "CRO",
+        "match_id": "M83"
+      },
+      {
+        "team_a": "ESP",
+        "team_b": "AUT",
+        "xgboost": {
+          "win_a": 0.8578,
+          "win_b": 0.1422
+        },
+        "logistic_regression": {
+          "win_a": 0.7792,
+          "win_b": 0.2207
+        },
+        "lightgbm": {
+          "win_a": 0.8541,
+          "win_b": 0.1459
+        },
+        "random_forest": {
+          "win_a": 0.6398,
+          "win_b": 0.3602
+        },
+        "ensemble_avg": {
+          "win_a": 0.79,
+          "win_b": 0.21
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.7677,
+          "win_b": 0.2323
+        },
+        "predicted_winner": "ESP",
+        "match_id": "M84"
+      },
+      {
+        "team_a": "SUI",
+        "team_b": "EGY",
+        "xgboost": {
+          "win_a": 0.8082,
+          "win_b": 0.1918
+        },
+        "logistic_regression": {
+          "win_a": 0.6784,
+          "win_b": 0.3216
+        },
+        "lightgbm": {
+          "win_a": 0.6974,
+          "win_b": 0.3025
+        },
+        "random_forest": {
+          "win_a": 0.6343,
+          "win_b": 0.3657
+        },
+        "ensemble_avg": {
+          "win_a": 0.7049,
+          "win_b": 0.2951
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.672,
+          "win_b": 0.328
+        },
+        "predicted_winner": "SUI",
+        "match_id": "M85"
+      },
+      {
+        "team_a": "ARG",
+        "team_b": "URU",
+        "xgboost": {
+          "win_a": 0.8268,
+          "win_b": 0.1732
+        },
+        "logistic_regression": {
+          "win_a": 0.6676,
+          "win_b": 0.3324
+        },
+        "lightgbm": {
+          "win_a": 0.8307,
+          "win_b": 0.1693
+        },
+        "random_forest": {
+          "win_a": 0.6275,
+          "win_b": 0.3725
+        },
+        "ensemble_avg": {
+          "win_a": 0.7446,
+          "win_b": 0.2554
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.7179,
+          "win_b": 0.2821
+        },
+        "predicted_winner": "ARG",
+        "match_id": "M86"
+      },
+      {
+        "team_a": "POR",
+        "team_b": "AUS",
+        "xgboost": {
+          "win_a": 0.8765,
+          "win_b": 0.1235
+        },
+        "logistic_regression": {
+          "win_a": 0.7968,
+          "win_b": 0.2032
+        },
+        "lightgbm": {
+          "win_a": 0.7982,
+          "win_b": 0.2018
+        },
+        "random_forest": {
+          "win_a": 0.688,
+          "win_b": 0.312
+        },
+        "ensemble_avg": {
+          "win_a": 0.7927,
+          "win_b": 0.2073
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.7648,
+          "win_b": 0.2352
+        },
+        "predicted_winner": "POR",
+        "match_id": "M87"
+      },
+      {
+        "team_a": "TUR",
+        "team_b": "IRN",
+        "xgboost": {
+          "win_a": 0.4397,
+          "win_b": 0.5603
+        },
+        "logistic_regression": {
+          "win_a": 0.6227,
+          "win_b": 0.3772
+        },
+        "lightgbm": {
+          "win_a": 0.4387,
+          "win_b": 0.5613
+        },
+        "random_forest": {
+          "win_a": 0.5553,
+          "win_b": 0.4448
+        },
+        "ensemble_avg": {
+          "win_a": 0.5131,
+          "win_b": 0.4869
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.5345,
+          "win_b": 0.4654
+        },
+        "predicted_winner": "TUR",
+        "match_id": "M88"
+      }
+    ],
+    "round_of_16": [
+      {
+        "team_a": "GER",
+        "team_b": "FRA",
+        "xgboost": {
+          "win_a": 0.3409,
+          "win_b": 0.6591
+        },
+        "logistic_regression": {
+          "win_a": 0.5281,
+          "win_b": 0.4719
+        },
+        "lightgbm": {
+          "win_a": 0.2442,
+          "win_b": 0.7558
+        },
+        "random_forest": {
+          "win_a": 0.4821,
+          "win_b": 0.5179
+        },
+        "ensemble_avg": {
+          "win_a": 0.3909,
+          "win_b": 0.6091
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.4064,
+          "win_b": 0.5936
+        },
+        "predicted_winner": "FRA",
+        "match_id": "M89"
+      },
+      {
+        "team_a": "KOR",
+        "team_b": "NED",
+        "xgboost": {
+          "win_a": 0.1482,
+          "win_b": 0.8519
+        },
+        "logistic_regression": {
+          "win_a": 0.2736,
+          "win_b": 0.7264
+        },
+        "lightgbm": {
+          "win_a": 0.2469,
+          "win_b": 0.753
+        },
+        "random_forest": {
+          "win_a": 0.3223,
+          "win_b": 0.6777
+        },
+        "ensemble_avg": {
+          "win_a": 0.2454,
+          "win_b": 0.7546
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.2778,
+          "win_b": 0.7222
+        },
+        "predicted_winner": "NED",
+        "match_id": "M90"
+      },
+      {
+        "team_a": "BRA",
+        "team_b": "SEN",
+        "xgboost": {
+          "win_a": 0.8075,
+          "win_b": 0.1926
+        },
+        "logistic_regression": {
+          "win_a": 0.7714,
+          "win_b": 0.2286
+        },
+        "lightgbm": {
+          "win_a": 0.7816,
+          "win_b": 0.2184
+        },
+        "random_forest": {
+          "win_a": 0.6472,
+          "win_b": 0.3528
+        },
+        "ensemble_avg": {
+          "win_a": 0.7552,
+          "win_b": 0.2448
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.7395,
+          "win_b": 0.2604
+        },
+        "predicted_winner": "BRA",
+        "match_id": "M91"
+      },
+      {
+        "team_a": "MEX",
+        "team_b": "ENG",
+        "xgboost": {
+          "win_a": 0.1362,
+          "win_b": 0.8638
+        },
+        "logistic_regression": {
+          "win_a": 0.2435,
+          "win_b": 0.7565
+        },
+        "lightgbm": {
+          "win_a": 0.2501,
+          "win_b": 0.7499
+        },
+        "random_forest": {
+          "win_a": 0.3573,
+          "win_b": 0.6426
+        },
+        "ensemble_avg": {
+          "win_a": 0.2465,
+          "win_b": 0.7535
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.2797,
+          "win_b": 0.7202
+        },
+        "predicted_winner": "ENG",
+        "match_id": "M92"
+      },
+      {
+        "team_a": "CRO",
+        "team_b": "ESP",
+        "xgboost": {
+          "win_a": 0.1848,
+          "win_b": 0.8152
+        },
+        "logistic_regression": {
+          "win_a": 0.2532,
+          "win_b": 0.7468
+        },
+        "lightgbm": {
+          "win_a": 0.2249,
+          "win_b": 0.7751
+        },
+        "random_forest": {
+          "win_a": 0.4408,
+          "win_b": 0.5592
+        },
+        "ensemble_avg": {
+          "win_a": 0.271,
+          "win_b": 0.729
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.2971,
+          "win_b": 0.7029
+        },
+        "predicted_winner": "ESP",
+        "match_id": "M93"
+      },
+      {
+        "team_a": "USA",
+        "team_b": "BEL",
+        "xgboost": {
+          "win_a": 0.2222,
+          "win_b": 0.7778
+        },
+        "logistic_regression": {
+          "win_a": 0.351,
+          "win_b": 0.649
+        },
+        "lightgbm": {
+          "win_a": 0.4083,
+          "win_b": 0.5917
+        },
+        "random_forest": {
+          "win_a": 0.4103,
+          "win_b": 0.5897
+        },
+        "ensemble_avg": {
+          "win_a": 0.3509,
+          "win_b": 0.6491
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.3908,
+          "win_b": 0.6092
+        },
+        "predicted_winner": "BEL",
+        "match_id": "M94"
+      },
+      {
+        "team_a": "ARG",
+        "team_b": "TUR",
+        "xgboost": {
+          "win_a": 0.8565,
+          "win_b": 0.1435
+        },
+        "logistic_regression": {
+          "win_a": 0.7966,
+          "win_b": 0.2034
+        },
+        "lightgbm": {
+          "win_a": 0.7954,
+          "win_b": 0.2045
+        },
+        "random_forest": {
+          "win_a": 0.612,
+          "win_b": 0.388
+        },
+        "ensemble_avg": {
+          "win_a": 0.7715,
+          "win_b": 0.2285
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.742,
+          "win_b": 0.258
+        },
+        "predicted_winner": "ARG",
+        "match_id": "M95"
+      },
+      {
+        "team_a": "SUI",
+        "team_b": "POR",
+        "xgboost": {
+          "win_a": 0.1859,
+          "win_b": 0.814
+        },
+        "logistic_regression": {
+          "win_a": 0.3543,
+          "win_b": 0.6457
+        },
+        "lightgbm": {
+          "win_a": 0.2396,
+          "win_b": 0.7604
+        },
+        "random_forest": {
+          "win_a": 0.3647,
+          "win_b": 0.6353
+        },
+        "ensemble_avg": {
+          "win_a": 0.2822,
+          "win_b": 0.7179
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.3131,
+          "win_b": 0.6869
+        },
+        "predicted_winner": "POR",
+        "match_id": "M96"
+      }
+    ],
+    "quarterfinals": [
+      {
+        "team_a": "FRA",
+        "team_b": "NED",
+        "xgboost": {
+          "win_a": 0.7052,
+          "win_b": 0.2948
+        },
+        "logistic_regression": {
+          "win_a": 0.5348,
+          "win_b": 0.4653
+        },
+        "lightgbm": {
+          "win_a": 0.7323,
+          "win_b": 0.2677
+        },
+        "random_forest": {
+          "win_a": 0.5762,
+          "win_b": 0.4238
+        },
+        "ensemble_avg": {
+          "win_a": 0.6401,
+          "win_b": 0.3599
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.6213,
+          "win_b": 0.3788
+        },
+        "predicted_winner": "FRA",
+        "match_id": "M97"
+      },
+      {
+        "team_a": "ESP",
+        "team_b": "BEL",
+        "xgboost": {
+          "win_a": 0.8042,
+          "win_b": 0.1958
+        },
+        "logistic_regression": {
+          "win_a": 0.6709,
+          "win_b": 0.3291
+        },
+        "lightgbm": {
+          "win_a": 0.8064,
+          "win_b": 0.1935
+        },
+        "random_forest": {
+          "win_a": 0.5982,
+          "win_b": 0.4018
+        },
+        "ensemble_avg": {
+          "win_a": 0.725,
+          "win_b": 0.275
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.702,
+          "win_b": 0.298
+        },
+        "predicted_winner": "ESP",
+        "match_id": "M98"
+      },
+      {
+        "team_a": "BRA",
+        "team_b": "ENG",
+        "xgboost": {
+          "win_a": 0.4828,
+          "win_b": 0.5172
+        },
+        "logistic_regression": {
+          "win_a": 0.4802,
+          "win_b": 0.5198
+        },
+        "lightgbm": {
+          "win_a": 0.4929,
+          "win_b": 0.5071
+        },
+        "random_forest": {
+          "win_a": 0.5363,
+          "win_b": 0.4637
+        },
+        "ensemble_avg": {
+          "win_a": 0.4971,
+          "win_b": 0.5029
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.5014,
+          "win_b": 0.4986
+        },
+        "predicted_winner": "BRA",
+        "match_id": "M99"
+      },
+      {
+        "team_a": "ARG",
+        "team_b": "POR",
+        "xgboost": {
+          "win_a": 0.6962,
+          "win_b": 0.3038
+        },
+        "logistic_regression": {
+          "win_a": 0.6093,
+          "win_b": 0.3906
+        },
+        "lightgbm": {
+          "win_a": 0.7452,
+          "win_b": 0.2548
+        },
+        "random_forest": {
+          "win_a": 0.5599,
+          "win_b": 0.4402
+        },
+        "ensemble_avg": {
+          "win_a": 0.658,
+          "win_b": 0.3419
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.6461,
+          "win_b": 0.3538
+        },
+        "predicted_winner": "ARG",
+        "match_id": "M100"
+      }
+    ],
+    "semifinals": [
+      {
+        "team_a": "FRA",
+        "team_b": "ESP",
+        "xgboost": {
+          "win_a": 0.3164,
+          "win_b": 0.6835
+        },
+        "logistic_regression": {
+          "win_a": 0.4677,
+          "win_b": 0.5323
+        },
+        "lightgbm": {
+          "win_a": 0.399,
+          "win_b": 0.6011
+        },
+        "random_forest": {
+          "win_a": 0.533,
+          "win_b": 0.467
+        },
+        "ensemble_avg": {
+          "win_a": 0.427,
+          "win_b": 0.5731
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.4605,
+          "win_b": 0.5395
+        },
+        "predicted_winner": "ESP",
+        "match_id": "M101"
+      },
+      {
+        "team_a": "BRA",
+        "team_b": "ARG",
+        "xgboost": {
+          "win_a": 0.5079,
+          "win_b": 0.4921
+        },
+        "logistic_regression": {
+          "win_a": 0.5397,
+          "win_b": 0.4603
+        },
+        "lightgbm": {
+          "win_a": 0.3371,
+          "win_b": 0.6629
+        },
+        "random_forest": {
+          "win_a": 0.5239,
+          "win_b": 0.4761
+        },
+        "ensemble_avg": {
+          "win_a": 0.4688,
+          "win_b": 0.5313
+        },
+        "ensemble_no_xgb": {
+          "win_a": 0.4576,
+          "win_b": 0.5424
+        },
+        "predicted_winner": "ARG",
+        "match_id": "M102"
+      }
+    ],
+    "final": {
+      "team_a": "ESP",
+      "team_b": "ARG",
+      "xgboost": {
+        "win_a": 0.5718,
+        "win_b": 0.4281
+      },
+      "logistic_regression": {
+        "win_a": 0.5717,
+        "win_b": 0.4283
+      },
+      "lightgbm": {
+        "win_a": 0.5632,
+        "win_b": 0.4368
+      },
+      "random_forest": {
+        "win_a": 0.4892,
+        "win_b": 0.5108
+      },
+      "ensemble_avg": {
+        "win_a": 0.5506,
+        "win_b": 0.4494
+      },
+      "ensemble_no_xgb": {
+        "win_a": 0.5441,
+        "win_b": 0.4558
+      },
+      "predicted_winner": "ESP",
+      "match_id": "FINAL"
+    }
+  },
+  "predicted_champion": "ESP"
+}
